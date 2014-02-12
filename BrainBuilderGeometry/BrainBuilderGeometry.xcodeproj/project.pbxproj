@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B603A37017C2C54E00DD4C89 /* Cube.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A36F17C2C54E00DD4C89 /* Cube.png */; };
+		B603A37217C2CDDA00DD4C89 /* TriangularPrisim.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A37117C2CDDA00DD4C89 /* TriangularPrisim.png */; };
+		B603A37517C2CE6A00DD4C89 /* TriangularPrism.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A37417C2CE6A00DD4C89 /* TriangularPrism.m */; };
+		B603A3C217C2E77300DD4C89 /* OctogonWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A3C117C2E77200DD4C89 /* OctogonWhite.png */; };
+		B6196ECA17CFA19D00E40702 /* GeometryBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196EC917CFA19D00E40702 /* GeometryBackGround.png */; };
+		B6196ECC17CFA39F00E40702 /* Geometry2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196ECB17CFA39F00E40702 /* Geometry2.png */; };
+		B6196ECE17CFA5FD00E40702 /* TestButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196ECD17CFA5FD00E40702 /* TestButton.png */; };
+		B6196ED017CFB09300E40702 /* Trapezoid.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196ECF17CFB09200E40702 /* Trapezoid.png */; };
+		B6196ED317CFB0B600E40702 /* Trapezoid.m in Sources */ = {isa = PBXBuildFile; fileRef = B6196ED217CFB0B600E40702 /* Trapezoid.m */; };
+		B6196ED517D0178400E40702 /* Parrallelagram.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196ED417D0178400E40702 /* Parrallelagram.png */; };
+		B6196ED817D017D000E40702 /* Parallelagram.m in Sources */ = {isa = PBXBuildFile; fileRef = B6196ED717D017D000E40702 /* Parallelagram.m */; };
+		B6196EDA17D039FE00E40702 /* BrainBuilderGeometry57.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196ED917D039FE00E40702 /* BrainBuilderGeometry57.png */; };
+		B6196EDC17D03A0E00E40702 /* BrainBuilderGeometry114.png in Resources */ = {isa = PBXBuildFile; fileRef = B6196EDB17D03A0E00E40702 /* BrainBuilderGeometry114.png */; };
+		B61D466017BA99CB0024505E /* Answers.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D465F17BA99CB0024505E /* Answers.m */; };
+		B61D466417BAA96D0024505E /* RectagularPrism.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D466317BAA96D0024505E /* RectagularPrism.m */; };
+		B61D466717BAAAB40024505E /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D466617BAAAB40024505E /* Cube.m */; };
+		B61D466917BABC280024505E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D466817BABC270024505E /* iAd.framework */; };
+		B61D466D17BAC07A0024505E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D466B17BAC0790024505E /* WebViewController.m */; };
+		B61D466E17BAC07A0024505E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61D466C17BAC0790024505E /* WebViewController.xib */; };
+		B61D467217BAC1870024505E /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D467017BAC1870024505E /* HighScoreViewController.m */; };
+		B61D467317BAC1870024505E /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61D467117BAC1870024505E /* HighScoreViewController.xib */; };
+		B61D467517BD87F00024505E /* rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D467417BD87F00024505E /* rectangle.png */; };
+		B61D467717BD87F90024505E /* Triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D467617BD87F90024505E /* Triangle.png */; };
+		B61D467A17BEB6270024505E /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D467917BEB6260024505E /* Circle.m */; };
+		B61D467C17BEB8650024505E /* CirclePic.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D467B17BEB8650024505E /* CirclePic.png */; };
+		B61D467E17BEFC0E0024505E /* IsoTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B61D467D17BEFC0D0024505E /* IsoTriangle.png */; };
+		B61D468117BEFC430024505E /* IsoTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D468017BEFC420024505E /* IsoTriangle.m */; };
+		B61D468417BEFC960024505E /* EquiTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D468317BEFC960024505E /* EquiTriangle.m */; };
+		B664FC72175BFADA0024D60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC71175BFADA0024D60E /* UIKit.framework */; };
+		B664FC74175BFADA0024D60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC73175BFADA0024D60E /* Foundation.framework */; };
+		B664FC76175BFADA0024D60E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC75175BFADA0024D60E /* CoreGraphics.framework */; };
+		B664FC7C175BFADA0024D60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B664FC7A175BFADA0024D60E /* InfoPlist.strings */; };
+		B664FC7E175BFADA0024D60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B664FC7D175BFADA0024D60E /* main.m */; };
+		B664FC82175BFADA0024D60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B664FC81175BFADA0024D60E /* AppDelegate.m */; };
+		B664FC84175BFADA0024D60E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B664FC83175BFADA0024D60E /* Default.png */; };
+		B664FC86175BFADA0024D60E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B664FC85175BFADA0024D60E /* Default@2x.png */; };
+		B664FC88175BFADA0024D60E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B664FC87175BFADA0024D60E /* Default-568h@2x.png */; };
+		B664FC90175BFADA0024D60E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC8F175BFADA0024D60E /* SenTestingKit.framework */; };
+		B664FC91175BFADA0024D60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC71175BFADA0024D60E /* UIKit.framework */; };
+		B664FC92175BFADA0024D60E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B664FC73175BFADA0024D60E /* Foundation.framework */; };
+		B664FC9A175BFADA0024D60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B664FC98175BFADA0024D60E /* InfoPlist.strings */; };
+		B664FC9D175BFADA0024D60E /* BrainBuilderGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B664FC9C175BFADA0024D60E /* BrainBuilderGeometryTests.m */; };
+		B6AD30E217D0DF4500E5513E /* RightTriangularPrisim.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30E117D0DF4500E5513E /* RightTriangularPrisim.png */; };
+		B6AD30E517D0E13D00E5513E /* RightTriangularPrisim.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30E417D0E13D00E5513E /* RightTriangularPrisim.m */; };
+		B6C33F6817B85ED50081CAB4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F6617B85ED50081CAB4 /* RootViewController.m */; };
+		B6C33F6917B85ED50081CAB4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C33F6717B85ED50081CAB4 /* RootViewController.xib */; };
+		B6C33F6D17B860870081CAB4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F6B17B860860081CAB4 /* GameViewController.m */; };
+		B6C33F6E17B860870081CAB4 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C33F6C17B860860081CAB4 /* GameViewController.xib */; };
+		B6C33F7017B862710081CAB4 /* Square.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C33F6F17B862710081CAB4 /* Square.png */; };
+		B6C33F7317B8652B0081CAB4 /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F7217B8652B0081CAB4 /* Shape.m */; };
+		B6C33F7917B866550081CAB4 /* FlatShape.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F7817B866550081CAB4 /* FlatShape.m */; };
+		B6C33F7C17B867570081CAB4 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F7B17B867570081CAB4 /* Triangle.m */; };
+		B6C33F7F17B868C10081CAB4 /* RightTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F7E17B868C10081CAB4 /* RightTriangle.m */; };
+		B6C33F8617B86C7A0081CAB4 /* Quadrilateral.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F8517B86C7A0081CAB4 /* Quadrilateral.m */; };
+		B6C33F8917B86E5C0081CAB4 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F8817B86E5C0081CAB4 /* Rectangle.m */; };
+		B6C33F8C17B86F6A0081CAB4 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C33F8B17B86F6A0081CAB4 /* Square.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B664FC93175BFADA0024D60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B664FC66175BFADA0024D60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B664FC6D175BFADA0024D60E;
+			remoteInfo = BrainBuilderGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B603A36F17C2C54E00DD4C89 /* Cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cube.png; path = ../../../Documents/Cube.png; sourceTree = "<group>"; };
+		B603A37117C2CDDA00DD4C89 /* TriangularPrisim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TriangularPrisim.png; path = ../../../Documents/TriangularPrisim.png; sourceTree = "<group>"; };
+		B603A37317C2CE6A00DD4C89 /* TriangularPrism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangularPrism.h; sourceTree = "<group>"; };
+		B603A37417C2CE6A00DD4C89 /* TriangularPrism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangularPrism.m; sourceTree = "<group>"; };
+		B603A3C117C2E77200DD4C89 /* OctogonWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OctogonWhite.png; path = ../../../Documents/OctogonWhite.png; sourceTree = "<group>"; };
+		B6196EC917CFA19D00E40702 /* GeometryBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GeometryBackGround.png; path = ../../../Documents/GeometryBackGround.png; sourceTree = "<group>"; };
+		B6196ECB17CFA39F00E40702 /* Geometry2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Geometry2.png; path = ../../../Documents/Geometry2.png; sourceTree = "<group>"; };
+		B6196ECD17CFA5FD00E40702 /* TestButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TestButton.png; path = ../../../Documents/TestButton.png; sourceTree = "<group>"; };
+		B6196ECF17CFB09200E40702 /* Trapezoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trapezoid.png; path = ../../../Documents/Trapezoid.png; sourceTree = "<group>"; };
+		B6196ED117CFB0B600E40702 /* Trapezoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoid.h; sourceTree = "<group>"; };
+		B6196ED217CFB0B600E40702 /* Trapezoid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trapezoid.m; sourceTree = "<group>"; };
+		B6196ED417D0178400E40702 /* Parrallelagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Parrallelagram.png; path = ../../../Documents/Parrallelagram.png; sourceTree = "<group>"; };
+		B6196ED617D017D000E40702 /* Parallelagram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelagram.h; sourceTree = "<group>"; };
+		B6196ED717D017D000E40702 /* Parallelagram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parallelagram.m; sourceTree = "<group>"; };
+		B6196ED917D039FE00E40702 /* BrainBuilderGeometry57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrainBuilderGeometry57.png; sourceTree = "<group>"; };
+		B6196EDB17D03A0E00E40702 /* BrainBuilderGeometry114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrainBuilderGeometry114.png; sourceTree = "<group>"; };
+		B61D465E17BA99CB0024505E /* Answers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answers.h; sourceTree = "<group>"; };
+		B61D465F17BA99CB0024505E /* Answers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answers.m; sourceTree = "<group>"; };
+		B61D466217BAA96D0024505E /* RectagularPrism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectagularPrism.h; sourceTree = "<group>"; };
+		B61D466317BAA96D0024505E /* RectagularPrism.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectagularPrism.m; sourceTree = "<group>"; };
+		B61D466517BAAAB40024505E /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		B61D466617BAAAB40024505E /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		B61D466817BABC270024505E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B61D466A17BAC0790024505E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B61D466B17BAC0790024505E /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B61D466C17BAC0790024505E /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		B61D466F17BAC1860024505E /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		B61D467017BAC1870024505E /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		B61D467117BAC1870024505E /* HighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
+		B61D467417BD87F00024505E /* rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle.png; path = ../../../Documents/rectangle.png; sourceTree = "<group>"; };
+		B61D467617BD87F90024505E /* Triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Triangle.png; path = ../../../Documents/Triangle.png; sourceTree = "<group>"; };
+		B61D467817BEB6250024505E /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		B61D467917BEB6260024505E /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		B61D467B17BEB8650024505E /* CirclePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CirclePic.png; path = ../../../Documents/CirclePic.png; sourceTree = "<group>"; };
+		B61D467D17BEFC0D0024505E /* IsoTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IsoTriangle.png; path = ../../../Documents/IsoTriangle.png; sourceTree = "<group>"; };
+		B61D467F17BEFC420024505E /* IsoTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsoTriangle.h; sourceTree = "<group>"; };
+		B61D468017BEFC420024505E /* IsoTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsoTriangle.m; sourceTree = "<group>"; };
+		B61D468217BEFC950024505E /* EquiTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiTriangle.h; sourceTree = "<group>"; };
+		B61D468317BEFC960024505E /* EquiTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiTriangle.m; sourceTree = "<group>"; };
+		B664FC6E175BFADA0024D60E /* BrainBuilderGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBuilderGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B664FC71175BFADA0024D60E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B664FC73175BFADA0024D60E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B664FC75175BFADA0024D60E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B664FC79175BFADA0024D60E /* BrainBuilderGeometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderGeometry-Info.plist"; sourceTree = "<group>"; };
+		B664FC7B175BFADA0024D60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B664FC7D175BFADA0024D60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B664FC7F175BFADA0024D60E /* BrainBuilderGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainBuilderGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		B664FC80175BFADA0024D60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B664FC81175BFADA0024D60E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B664FC83175BFADA0024D60E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B664FC85175BFADA0024D60E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B664FC87175BFADA0024D60E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B664FC8E175BFADA0024D60E /* BrainBuilderGeometryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBuilderGeometryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B664FC8F175BFADA0024D60E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B664FC97175BFADA0024D60E /* BrainBuilderGeometryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderGeometryTests-Info.plist"; sourceTree = "<group>"; };
+		B664FC99175BFADA0024D60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B664FC9B175BFADA0024D60E /* BrainBuilderGeometryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrainBuilderGeometryTests.h; sourceTree = "<group>"; };
+		B664FC9C175BFADA0024D60E /* BrainBuilderGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainBuilderGeometryTests.m; sourceTree = "<group>"; };
+		B6AD30E117D0DF4500E5513E /* RightTriangularPrisim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightTriangularPrisim.png; path = ../../../Documents/RightTriangularPrisim.png; sourceTree = "<group>"; };
+		B6AD30E317D0E13D00E5513E /* RightTriangularPrisim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTriangularPrisim.h; sourceTree = "<group>"; };
+		B6AD30E417D0E13D00E5513E /* RightTriangularPrisim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTriangularPrisim.m; sourceTree = "<group>"; };
+		B6C33F6517B85ED50081CAB4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B6C33F6617B85ED50081CAB4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B6C33F6717B85ED50081CAB4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B6C33F6A17B860860081CAB4 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B6C33F6B17B860860081CAB4 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B6C33F6C17B860860081CAB4 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		B6C33F6F17B862710081CAB4 /* Square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Square.png; path = ../../../Documents/Square.png; sourceTree = "<group>"; };
+		B6C33F7117B8652B0081CAB4 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		B6C33F7217B8652B0081CAB4 /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
+		B6C33F7717B866550081CAB4 /* FlatShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatShape.h; sourceTree = "<group>"; };
+		B6C33F7817B866550081CAB4 /* FlatShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatShape.m; sourceTree = "<group>"; };
+		B6C33F7A17B867570081CAB4 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		B6C33F7B17B867570081CAB4 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+		B6C33F7D17B868C10081CAB4 /* RightTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightTriangle.h; sourceTree = "<group>"; };
+		B6C33F7E17B868C10081CAB4 /* RightTriangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightTriangle.m; sourceTree = "<group>"; };
+		B6C33F8417B86C7A0081CAB4 /* Quadrilateral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadrilateral.h; sourceTree = "<group>"; };
+		B6C33F8517B86C7A0081CAB4 /* Quadrilateral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quadrilateral.m; sourceTree = "<group>"; };
+		B6C33F8717B86E5C0081CAB4 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		B6C33F8817B86E5C0081CAB4 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		B6C33F8A17B86F6A0081CAB4 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		B6C33F8B17B86F6A0081CAB4 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B664FC6B175BFADA0024D60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D466917BABC280024505E /* iAd.framework in Frameworks */,
+				B664FC72175BFADA0024D60E /* UIKit.framework in Frameworks */,
+				B664FC74175BFADA0024D60E /* Foundation.framework in Frameworks */,
+				B664FC76175BFADA0024D60E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664FC8A175BFADA0024D60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664FC90175BFADA0024D60E /* SenTestingKit.framework in Frameworks */,
+				B664FC91175BFADA0024D60E /* UIKit.framework in Frameworks */,
+				B664FC92175BFADA0024D60E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B61D466117BAA94F0024505E /* 3D shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B61D466217BAA96D0024505E /* RectagularPrism.h */,
+				B61D466317BAA96D0024505E /* RectagularPrism.m */,
+				B61D466517BAAAB40024505E /* Cube.h */,
+				B61D466617BAAAB40024505E /* Cube.m */,
+				B603A37317C2CE6A00DD4C89 /* TriangularPrism.h */,
+				B603A37417C2CE6A00DD4C89 /* TriangularPrism.m */,
+				B6AD30E317D0E13D00E5513E /* RightTriangularPrisim.h */,
+				B6AD30E417D0E13D00E5513E /* RightTriangularPrisim.m */,
+			);
+			name = "3D shapes";
+			sourceTree = "<group>";
+		};
+		B664FC65175BFADA0024D60E = {
+			isa = PBXGroup;
+			children = (
+				B6AD30E117D0DF4500E5513E /* RightTriangularPrisim.png */,
+				B6196EDB17D03A0E00E40702 /* BrainBuilderGeometry114.png */,
+				B6196ED917D039FE00E40702 /* BrainBuilderGeometry57.png */,
+				B6196ED417D0178400E40702 /* Parrallelagram.png */,
+				B6196ECF17CFB09200E40702 /* Trapezoid.png */,
+				B6196ECD17CFA5FD00E40702 /* TestButton.png */,
+				B6196ECB17CFA39F00E40702 /* Geometry2.png */,
+				B6196EC917CFA19D00E40702 /* GeometryBackGround.png */,
+				B603A3C117C2E77200DD4C89 /* OctogonWhite.png */,
+				B603A37117C2CDDA00DD4C89 /* TriangularPrisim.png */,
+				B603A36F17C2C54E00DD4C89 /* Cube.png */,
+				B61D467D17BEFC0D0024505E /* IsoTriangle.png */,
+				B61D467B17BEB8650024505E /* CirclePic.png */,
+				B61D467617BD87F90024505E /* Triangle.png */,
+				B61D467417BD87F00024505E /* rectangle.png */,
+				B6C33F6F17B862710081CAB4 /* Square.png */,
+				B664FC77175BFADA0024D60E /* BrainBuilderGeometry */,
+				B664FC95175BFADA0024D60E /* BrainBuilderGeometryTests */,
+				B664FC70175BFADA0024D60E /* Frameworks */,
+				B664FC6F175BFADA0024D60E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B664FC6F175BFADA0024D60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B664FC6E175BFADA0024D60E /* BrainBuilderGeometry.app */,
+				B664FC8E175BFADA0024D60E /* BrainBuilderGeometryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B664FC70175BFADA0024D60E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61D466817BABC270024505E /* iAd.framework */,
+				B664FC71175BFADA0024D60E /* UIKit.framework */,
+				B664FC73175BFADA0024D60E /* Foundation.framework */,
+				B664FC75175BFADA0024D60E /* CoreGraphics.framework */,
+				B664FC8F175BFADA0024D60E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B664FC77175BFADA0024D60E /* BrainBuilderGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				B664FC80175BFADA0024D60E /* AppDelegate.h */,
+				B664FC81175BFADA0024D60E /* AppDelegate.m */,
+				B6C33F6517B85ED50081CAB4 /* RootViewController.h */,
+				B6C33F6617B85ED50081CAB4 /* RootViewController.m */,
+				B6C33F6717B85ED50081CAB4 /* RootViewController.xib */,
+				B6C33F6A17B860860081CAB4 /* GameViewController.h */,
+				B6C33F6B17B860860081CAB4 /* GameViewController.m */,
+				B6C33F6C17B860860081CAB4 /* GameViewController.xib */,
+				B61D466A17BAC0790024505E /* WebViewController.h */,
+				B61D466B17BAC0790024505E /* WebViewController.m */,
+				B61D466C17BAC0790024505E /* WebViewController.xib */,
+				B61D466F17BAC1860024505E /* HighScoreViewController.h */,
+				B61D467017BAC1870024505E /* HighScoreViewController.m */,
+				B61D467117BAC1870024505E /* HighScoreViewController.xib */,
+				B6C33F7117B8652B0081CAB4 /* Shape.h */,
+				B6C33F7217B8652B0081CAB4 /* Shape.m */,
+				B6C33F7717B866550081CAB4 /* FlatShape.h */,
+				B6C33F7817B866550081CAB4 /* FlatShape.m */,
+				B61D465E17BA99CB0024505E /* Answers.h */,
+				B61D465F17BA99CB0024505E /* Answers.m */,
+				B61D466117BAA94F0024505E /* 3D shapes */,
+				B6C33F8017B86C090081CAB4 /* 2D shapes */,
+				B664FC78175BFADA0024D60E /* Supporting Files */,
+			);
+			path = BrainBuilderGeometry;
+			sourceTree = "<group>";
+		};
+		B664FC78175BFADA0024D60E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B664FC79175BFADA0024D60E /* BrainBuilderGeometry-Info.plist */,
+				B664FC7A175BFADA0024D60E /* InfoPlist.strings */,
+				B664FC7D175BFADA0024D60E /* main.m */,
+				B664FC7F175BFADA0024D60E /* BrainBuilderGeometry-Prefix.pch */,
+				B664FC83175BFADA0024D60E /* Default.png */,
+				B664FC85175BFADA0024D60E /* Default@2x.png */,
+				B664FC87175BFADA0024D60E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B664FC95175BFADA0024D60E /* BrainBuilderGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B664FC9B175BFADA0024D60E /* BrainBuilderGeometryTests.h */,
+				B664FC9C175BFADA0024D60E /* BrainBuilderGeometryTests.m */,
+				B664FC96175BFADA0024D60E /* Supporting Files */,
+			);
+			path = BrainBuilderGeometryTests;
+			sourceTree = "<group>";
+		};
+		B664FC96175BFADA0024D60E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B664FC97175BFADA0024D60E /* BrainBuilderGeometryTests-Info.plist */,
+				B664FC98175BFADA0024D60E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6C33F8017B86C090081CAB4 /* 2D shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B6C33F7A17B867570081CAB4 /* Triangle.h */,
+				B6C33F7B17B867570081CAB4 /* Triangle.m */,
+				B6C33F7D17B868C10081CAB4 /* RightTriangle.h */,
+				B6C33F7E17B868C10081CAB4 /* RightTriangle.m */,
+				B61D467F17BEFC420024505E /* IsoTriangle.h */,
+				B61D468017BEFC420024505E /* IsoTriangle.m */,
+				B61D468217BEFC950024505E /* EquiTriangle.h */,
+				B61D468317BEFC960024505E /* EquiTriangle.m */,
+				B6C33F8417B86C7A0081CAB4 /* Quadrilateral.h */,
+				B6C33F8517B86C7A0081CAB4 /* Quadrilateral.m */,
+				B6196ED617D017D000E40702 /* Parallelagram.h */,
+				B6196ED717D017D000E40702 /* Parallelagram.m */,
+				B6196ED117CFB0B600E40702 /* Trapezoid.h */,
+				B6196ED217CFB0B600E40702 /* Trapezoid.m */,
+				B6C33F8717B86E5C0081CAB4 /* Rectangle.h */,
+				B6C33F8817B86E5C0081CAB4 /* Rectangle.m */,
+				B6C33F8A17B86F6A0081CAB4 /* Square.h */,
+				B6C33F8B17B86F6A0081CAB4 /* Square.m */,
+				B61D467817BEB6250024505E /* Circle.h */,
+				B61D467917BEB6260024505E /* Circle.m */,
+			);
+			name = "2D shapes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B664FC6D175BFADA0024D60E /* BrainBuilderGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B664FCA0175BFADA0024D60E /* Build configuration list for PBXNativeTarget "BrainBuilderGeometry" */;
+			buildPhases = (
+				B664FC6A175BFADA0024D60E /* Sources */,
+				B664FC6B175BFADA0024D60E /* Frameworks */,
+				B664FC6C175BFADA0024D60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBuilderGeometry;
+			productName = BrainBuilderGeometry;
+			productReference = B664FC6E175BFADA0024D60E /* BrainBuilderGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B664FC8D175BFADA0024D60E /* BrainBuilderGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B664FCA3175BFADA0024D60E /* Build configuration list for PBXNativeTarget "BrainBuilderGeometryTests" */;
+			buildPhases = (
+				B664FC89175BFADA0024D60E /* Sources */,
+				B664FC8A175BFADA0024D60E /* Frameworks */,
+				B664FC8B175BFADA0024D60E /* Resources */,
+				B664FC8C175BFADA0024D60E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B664FC94175BFADA0024D60E /* PBXTargetDependency */,
+			);
+			name = BrainBuilderGeometryTests;
+			productName = BrainBuilderGeometryTests;
+			productReference = B664FC8E175BFADA0024D60E /* BrainBuilderGeometryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B664FC66175BFADA0024D60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fred Kneeland";
+			};
+			buildConfigurationList = B664FC69175BFADA0024D60E /* Build configuration list for PBXProject "BrainBuilderGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B664FC65175BFADA0024D60E;
+			productRefGroup = B664FC6F175BFADA0024D60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B664FC6D175BFADA0024D60E /* BrainBuilderGeometry */,
+				B664FC8D175BFADA0024D60E /* BrainBuilderGeometryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B664FC6C175BFADA0024D60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664FC7C175BFADA0024D60E /* InfoPlist.strings in Resources */,
+				B664FC84175BFADA0024D60E /* Default.png in Resources */,
+				B664FC86175BFADA0024D60E /* Default@2x.png in Resources */,
+				B664FC88175BFADA0024D60E /* Default-568h@2x.png in Resources */,
+				B6C33F6917B85ED50081CAB4 /* RootViewController.xib in Resources */,
+				B6C33F6E17B860870081CAB4 /* GameViewController.xib in Resources */,
+				B6C33F7017B862710081CAB4 /* Square.png in Resources */,
+				B61D466E17BAC07A0024505E /* WebViewController.xib in Resources */,
+				B61D467317BAC1870024505E /* HighScoreViewController.xib in Resources */,
+				B61D467517BD87F00024505E /* rectangle.png in Resources */,
+				B61D467717BD87F90024505E /* Triangle.png in Resources */,
+				B61D467C17BEB8650024505E /* CirclePic.png in Resources */,
+				B61D467E17BEFC0E0024505E /* IsoTriangle.png in Resources */,
+				B603A37017C2C54E00DD4C89 /* Cube.png in Resources */,
+				B603A37217C2CDDA00DD4C89 /* TriangularPrisim.png in Resources */,
+				B603A3C217C2E77300DD4C89 /* OctogonWhite.png in Resources */,
+				B6196ECA17CFA19D00E40702 /* GeometryBackGround.png in Resources */,
+				B6196ECC17CFA39F00E40702 /* Geometry2.png in Resources */,
+				B6196ECE17CFA5FD00E40702 /* TestButton.png in Resources */,
+				B6196ED017CFB09300E40702 /* Trapezoid.png in Resources */,
+				B6196ED517D0178400E40702 /* Parrallelagram.png in Resources */,
+				B6196EDA17D039FE00E40702 /* BrainBuilderGeometry57.png in Resources */,
+				B6196EDC17D03A0E00E40702 /* BrainBuilderGeometry114.png in Resources */,
+				B6AD30E217D0DF4500E5513E /* RightTriangularPrisim.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664FC8B175BFADA0024D60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664FC9A175BFADA0024D60E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B664FC8C175BFADA0024D60E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B664FC6A175BFADA0024D60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664FC7E175BFADA0024D60E /* main.m in Sources */,
+				B664FC82175BFADA0024D60E /* AppDelegate.m in Sources */,
+				B6C33F6817B85ED50081CAB4 /* RootViewController.m in Sources */,
+				B6C33F6D17B860870081CAB4 /* GameViewController.m in Sources */,
+				B6C33F7317B8652B0081CAB4 /* Shape.m in Sources */,
+				B6C33F7917B866550081CAB4 /* FlatShape.m in Sources */,
+				B6C33F7C17B867570081CAB4 /* Triangle.m in Sources */,
+				B6C33F7F17B868C10081CAB4 /* RightTriangle.m in Sources */,
+				B6C33F8617B86C7A0081CAB4 /* Quadrilateral.m in Sources */,
+				B6C33F8917B86E5C0081CAB4 /* Rectangle.m in Sources */,
+				B6C33F8C17B86F6A0081CAB4 /* Square.m in Sources */,
+				B61D466017BA99CB0024505E /* Answers.m in Sources */,
+				B61D466417BAA96D0024505E /* RectagularPrism.m in Sources */,
+				B61D466717BAAAB40024505E /* Cube.m in Sources */,
+				B61D466D17BAC07A0024505E /* WebViewController.m in Sources */,
+				B61D467217BAC1870024505E /* HighScoreViewController.m in Sources */,
+				B61D467A17BEB6270024505E /* Circle.m in Sources */,
+				B61D468117BEFC430024505E /* IsoTriangle.m in Sources */,
+				B61D468417BEFC960024505E /* EquiTriangle.m in Sources */,
+				B603A37517C2CE6A00DD4C89 /* TriangularPrism.m in Sources */,
+				B6196ED317CFB0B600E40702 /* Trapezoid.m in Sources */,
+				B6196ED817D017D000E40702 /* Parallelagram.m in Sources */,
+				B6AD30E517D0E13D00E5513E /* RightTriangularPrisim.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B664FC89175BFADA0024D60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B664FC9D175BFADA0024D60E /* BrainBuilderGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B664FC94175BFADA0024D60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B664FC6D175BFADA0024D60E /* BrainBuilderGeometry */;
+			targetProxy = B664FC93175BFADA0024D60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B664FC7A175BFADA0024D60E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B664FC7B175BFADA0024D60E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B664FC98175BFADA0024D60E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B664FC99175BFADA0024D60E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B664FC9E175BFADA0024D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B664FC9F175BFADA0024D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B664FCA1175BFADA0024D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderGeometry/BrainBuilderGeometry-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderGeometry/BrainBuilderGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B664FCA2175BFADA0024D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderGeometry/BrainBuilderGeometry-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderGeometry/BrainBuilderGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B664FCA4175BFADA0024D60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderGeometry.app/BrainBuilderGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderGeometry/BrainBuilderGeometry-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderGeometryTests/BrainBuilderGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B664FCA5175BFADA0024D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderGeometry.app/BrainBuilderGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderGeometry/BrainBuilderGeometry-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderGeometryTests/BrainBuilderGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B664FC69175BFADA0024D60E /* Build configuration list for PBXProject "BrainBuilderGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664FC9E175BFADA0024D60E /* Debug */,
+				B664FC9F175BFADA0024D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B664FCA0175BFADA0024D60E /* Build configuration list for PBXNativeTarget "BrainBuilderGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664FCA1175BFADA0024D60E /* Debug */,
+				B664FCA2175BFADA0024D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B664FCA3175BFADA0024D60E /* Build configuration list for PBXNativeTarget "BrainBuilderGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B664FCA4175BFADA0024D60E /* Debug */,
+				B664FCA5175BFADA0024D60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B664FC66175BFADA0024D60E /* Project object */;
+}

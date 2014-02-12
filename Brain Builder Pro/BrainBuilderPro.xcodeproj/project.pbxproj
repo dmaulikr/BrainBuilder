@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FinaleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FinaleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B627FD6E15EFCBCA002D594B /* BrainProStartUp.png in Resources */ = {isa = PBXBuildFile; fileRef = B627FD6D15EFCBCA002D594B /* BrainProStartUp.png */; };
+		B627FD7215EFCBF3002D594B /* BrainProSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = B627FD7115EFCBF3002D594B /* BrainProSimple.png */; };
+		B627FD7415EFCC01002D594B /* BrainProBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = B627FD7315EFCC01002D594B /* BrainProBackGround.png */; };
+		B627FD7615EFCC0A002D594B /* BrainProSimple57.png in Resources */ = {isa = PBXBuildFile; fileRef = B627FD7515EFCC0A002D594B /* BrainProSimple57.png */; };
+		B63CD848156B01E200B2EC69 /* WebBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B63CD846156B01E100B2EC69 /* WebBrowser.m */; };
+		B63CD849156B01E200B2EC69 /* WebBrowser.xib in Resources */ = {isa = PBXBuildFile; fileRef = B63CD847156B01E200B2EC69 /* WebBrowser.xib */; };
+		B6415CDE1779E33000B51BB4 /* GamePage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6415CDC1779E33000B51BB4 /* GamePage.m */; };
+		B6415CDF1779E33000B51BB4 /* GamePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6415CDD1779E33000B51BB4 /* GamePage.xib */; };
+		B6569D8317EE4F0C009EDCDB /* BrainBuilderMathBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = B6569D8217EE4F0C009EDCDB /* BrainBuilderMathBackGround.png */; };
+		B6569D8517EE5013009EDCDB /* BrainBuilderPro.png in Resources */ = {isa = PBXBuildFile; fileRef = B6569D8417EE5013009EDCDB /* BrainBuilderPro.png */; };
+		B6569D8717EE5278009EDCDB /* BrainBuilderTrig.png in Resources */ = {isa = PBXBuildFile; fileRef = B6569D8617EE5278009EDCDB /* BrainBuilderTrig.png */; };
+		B6569D8917EE5494009EDCDB /* BrainBuilderClac.png in Resources */ = {isa = PBXBuildFile; fileRef = B6569D8817EE5494009EDCDB /* BrainBuilderClac.png */; };
+		B685E8C71400679700D31DD0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B685E8C61400679700D31DD0 /* iAd.framework */; };
+		B685EA481400A71C00D31DD0 /* HighScoreCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = B685EA461400A71C00D31DD0 /* HighScoreCustom.m */; };
+		B685EA491400A71C00D31DD0 /* HighScoreCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B685EA471400A71C00D31DD0 /* HighScoreCustom.xib */; };
+		B68AEB1F17568DC200B02D81 /* BrainProStartUp-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B68AEB1E17568DC200B02D81 /* BrainProStartUp-568h@2x.png */; };
+		B694CF9C175694B400263CB3 /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B694CF9A175694B400263CB3 /* CalcViewController.m */; };
+		B694CF9D175694B400263CB3 /* CalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B694CF9B175694B400263CB3 /* CalcViewController.xib */; };
+		B6A0EFA813F4E913009276B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0EFA613F4E913009276B3 /* RootViewController.m */; };
+		B6A0EFA913F4E913009276B3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A0EFA713F4E913009276B3 /* RootViewController.xib */; };
+		B6A0EFE413F4ECCF009276B3 /* CustomGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0EFE213F4ECCF009276B3 /* CustomGame.m */; };
+		B6A0EFE513F4ECCF009276B3 /* CustomGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A0EFE313F4ECCF009276B3 /* CustomGame.xib */; };
+		B6A0F03413F4EF2C009276B3 /* QuickGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0F03213F4EF2C009276B3 /* QuickGame.m */; };
+		B6A0F03513F4EF2C009276B3 /* QuickGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A0F03313F4EF2C009276B3 /* QuickGame.xib */; };
+		B6A0F07413F4F458009276B3 /* CustomPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0F07213F4F458009276B3 /* CustomPlay.m */; };
+		B6A0F07513F4F458009276B3 /* CustomPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A0F07313F4F458009276B3 /* CustomPlay.xib */; };
+		B6A18A4413F5A1EE003331C5 /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A18A4213F5A1EE003331C5 /* Testing.m */; };
+		B6A18A4513F5A1EE003331C5 /* Testing.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A18A4313F5A1EE003331C5 /* Testing.xib */; };
+		B6A18AB913F5A7A3003331C5 /* Instructions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A18AB713F5A7A3003331C5 /* Instructions.m */; };
+		B6A18ABA13F5A7A3003331C5 /* Instructions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A18AB813F5A7A3003331C5 /* Instructions.xib */; };
+		B6A18ACF13F5A961003331C5 /* HighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A18ACD13F5A961003331C5 /* HighScore.m */; };
+		B6A18AD013F5A961003331C5 /* HighScore.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6A18ACE13F5A961003331C5 /* HighScore.xib */; };
+		B6B958A9177E9B4B004294AA /* LimitsHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958A8177E9B4B004294AA /* LimitsHolder.m */; };
+		B6B958AC177E9B5E004294AA /* FirstDervHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958AB177E9B5E004294AA /* FirstDervHolder.m */; };
+		B6B958AF177E9B6E004294AA /* SecondDervHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958AE177E9B6E004294AA /* SecondDervHolder.m */; };
+		B6B958B2177E9B84004294AA /* IndefiniteIntegralHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958B1177E9B83004294AA /* IndefiniteIntegralHolder.m */; };
+		B6B958B5177E9B92004294AA /* DefiniteIntegralHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958B4177E9B92004294AA /* DefiniteIntegralHolder.m */; };
+		B6B958B917813407004294AA /* CalcHighScores.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B958B717813406004294AA /* CalcHighScores.m */; };
+		B6B958BA17813407004294AA /* CalcHighScores.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B958B817813407004294AA /* CalcHighScores.xib */; };
+		B6BD4D081513A8A200B543B7 /* NewRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D061513A8A200B543B7 /* NewRootViewController.m */; };
+		B6BD4D091513A8A200B543B7 /* NewRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D071513A8A200B543B7 /* NewRootViewController.xib */; };
+		B6BD4D0E1513A99B00B543B7 /* TrigRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D0C1513A99B00B543B7 /* TrigRootViewController.m */; };
+		B6BD4D0F1513A99B00B543B7 /* TrigRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D0D1513A99B00B543B7 /* TrigRootViewController.xib */; };
+		B6BD4D131513AABF00B543B7 /* TrigQuickGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D111513AABF00B543B7 /* TrigQuickGame.m */; };
+		B6BD4D141513AABF00B543B7 /* TrigQuickGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D121513AABF00B543B7 /* TrigQuickGame.xib */; };
+		B6BD4D1D1513AAF700B543B7 /* TrigCustomSetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D1B1513AAF700B543B7 /* TrigCustomSetUp.m */; };
+		B6BD4D1E1513AAF700B543B7 /* TrigCustomSetUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D1C1513AAF700B543B7 /* TrigCustomSetUp.xib */; };
+		B6BD4D221513AB1900B543B7 /* TrigHighScoreQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D201513AB1900B543B7 /* TrigHighScoreQuick.m */; };
+		B6BD4D231513AB1900B543B7 /* TrigHighScoreQuick.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D211513AB1900B543B7 /* TrigHighScoreQuick.xib */; };
+		B6BD4D271513AB5D00B543B7 /* TrigHighScoreCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D251513AB5D00B543B7 /* TrigHighScoreCustom.m */; };
+		B6BD4D281513AB5D00B543B7 /* TrigHighScoreCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D261513AB5D00B543B7 /* TrigHighScoreCustom.xib */; };
+		B6BD4D2C1513AB7300B543B7 /* TrigInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D2A1513AB7300B543B7 /* TrigInstructions.m */; };
+		B6BD4D2D1513AB7300B543B7 /* TrigInstructions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D2B1513AB7300B543B7 /* TrigInstructions.xib */; };
+		B6BD4D311513AB8B00B543B7 /* TrigCustomGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D2F1513AB8A00B543B7 /* TrigCustomGame.m */; };
+		B6BD4D321513AB8B00B543B7 /* TrigCustomGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D301513AB8B00B543B7 /* TrigCustomGame.xib */; };
+		B6BD4D361513AFB400B543B7 /* TrigCustomLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D341513AFB400B543B7 /* TrigCustomLog.m */; };
+		B6BD4D371513AFB400B543B7 /* TrigCustomLog.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D351513AFB400B543B7 /* TrigCustomLog.xib */; };
+		B6BD4D3B1513BF9200B543B7 /* TrigLogSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD4D391513BF9100B543B7 /* TrigLogSettings.m */; };
+		B6BD4D3C1513BF9200B543B7 /* TrigLogSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BD4D3A1513BF9100B543B7 /* TrigLogSettings.xib */; };
+		B6D673041401CA9400CC6CF0 /* TrueFalseCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D673021401CA9400CC6CF0 /* TrueFalseCustom.m */; };
+		B6D673051401CA9400CC6CF0 /* TrueFalseCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D673031401CA9400CC6CF0 /* TrueFalseCustom.xib */; };
+		B6D6730B1401CAB500CC6CF0 /* KeyboardCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D673091401CAB500CC6CF0 /* KeyboardCustom.m */; };
+		B6D6730C1401CAB500CC6CF0 /* KeyboardCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D6730A1401CAB500CC6CF0 /* KeyboardCustom.xib */; };
+		B6D725D917CD804200A8563B /* BrainBuilderPro114.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D725D817CD804100A8563B /* BrainBuilderPro114.png */; };
+		B6D725DB17CD815000A8563B /* CalcGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D725DA17CD815000A8563B /* CalcGradient.png */; };
+		B6E31A2D177AA4EA00846BBD /* NewCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E31A2B177AA4EA00846BBD /* NewCalcViewController.m */; };
+		B6E31A2E177AA4EA00846BBD /* NewCalcViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E31A2C177AA4EA00846BBD /* NewCalcViewController.xib */; };
+		B6E68EA817EF80E300EF5BDA /* WrongAnswerGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E68EA717EF80E300EF5BDA /* WrongAnswerGenerator.m */; };
+		B6FDB33717F3DB9400171B1D /* TrigBack.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB33617F3DB9400171B1D /* TrigBack.png */; };
+		B6FDB33917F3DD8F00171B1D /* QuickGameButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB33817F3DD8F00171B1D /* QuickGameButton.png */; };
+		B6FDB33B17F3DE5300171B1D /* QuickGameTrig.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB33A17F3DE5200171B1D /* QuickGameTrig.png */; };
+		B6FDB33D17F3E69000171B1D /* Test.png in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB33C17F3E68F00171B1D /* Test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FinaleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinaleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FinaleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinaleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BrainBuilderPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBuilderPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BrainBuilderPro_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrainBuilderPro_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BrainBuilderPro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BrainBuilderPro-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B627FD6D15EFCBCA002D594B /* BrainProStartUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainProStartUp.png; path = ../../Folders/Pictures/BrainProStartUp.png; sourceTree = "<group>"; };
+		B627FD7115EFCBF3002D594B /* BrainProSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainProSimple.png; path = ../../Folders/Pictures/BrainProSimple.png; sourceTree = "<group>"; };
+		B627FD7315EFCC01002D594B /* BrainProBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainProBackGround.png; path = ../../Folders/Pictures/BrainProBackGround.png; sourceTree = "<group>"; };
+		B627FD7515EFCC0A002D594B /* BrainProSimple57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainProSimple57.png; path = ../../Folders/Pictures/BrainProSimple57.png; sourceTree = "<group>"; };
+		B63CD845156B01E100B2EC69 /* WebBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowser.h; sourceTree = "<group>"; };
+		B63CD846156B01E100B2EC69 /* WebBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowser.m; sourceTree = "<group>"; };
+		B63CD847156B01E200B2EC69 /* WebBrowser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebBrowser.xib; sourceTree = "<group>"; };
+		B6415CDB1779E33000B51BB4 /* GamePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePage.h; sourceTree = "<group>"; };
+		B6415CDC1779E33000B51BB4 /* GamePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePage.m; sourceTree = "<group>"; };
+		B6415CDD1779E33000B51BB4 /* GamePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GamePage.xib; sourceTree = "<group>"; };
+		B6569D8217EE4F0C009EDCDB /* BrainBuilderMathBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainBuilderMathBackGround.png; path = ../../../Documents/BrainBuilderMathBackGround.png; sourceTree = "<group>"; };
+		B6569D8417EE5013009EDCDB /* BrainBuilderPro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainBuilderPro.png; path = ../../../Documents/BrainBuilderPro.png; sourceTree = "<group>"; };
+		B6569D8617EE5278009EDCDB /* BrainBuilderTrig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainBuilderTrig.png; path = ../../../Documents/BrainBuilderTrig.png; sourceTree = "<group>"; };
+		B6569D8817EE5494009EDCDB /* BrainBuilderClac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BrainBuilderClac.png; path = ../../../Documents/BrainBuilderClac.png; sourceTree = "<group>"; };
+		B685E8C61400679700D31DD0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B685EA451400A71C00D31DD0 /* HighScoreCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreCustom.h; sourceTree = "<group>"; };
+		B685EA461400A71C00D31DD0 /* HighScoreCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreCustom.m; sourceTree = "<group>"; };
+		B685EA471400A71C00D31DD0 /* HighScoreCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScoreCustom.xib; sourceTree = "<group>"; };
+		B68AEB1E17568DC200B02D81 /* BrainProStartUp-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BrainProStartUp-568h@2x.png"; sourceTree = "<group>"; };
+		B694CF99175694B400263CB3 /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		B694CF9A175694B400263CB3 /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		B694CF9B175694B400263CB3 /* CalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcViewController.xib; sourceTree = "<group>"; };
+		B6A0EFA513F4E913009276B3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		B6A0EFA613F4E913009276B3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		B6A0EFA713F4E913009276B3 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B6A0EFE113F4ECCF009276B3 /* CustomGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGame.h; sourceTree = "<group>"; };
+		B6A0EFE213F4ECCF009276B3 /* CustomGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGame.m; sourceTree = "<group>"; };
+		B6A0EFE313F4ECCF009276B3 /* CustomGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomGame.xib; sourceTree = "<group>"; };
+		B6A0F03113F4EF2C009276B3 /* QuickGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickGame.h; sourceTree = "<group>"; };
+		B6A0F03213F4EF2C009276B3 /* QuickGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickGame.m; sourceTree = "<group>"; };
+		B6A0F03313F4EF2C009276B3 /* QuickGame.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickGame.xib; sourceTree = "<group>"; };
+		B6A0F07113F4F458009276B3 /* CustomPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPlay.h; sourceTree = "<group>"; };
+		B6A0F07213F4F458009276B3 /* CustomPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPlay.m; sourceTree = "<group>"; };
+		B6A0F07313F4F458009276B3 /* CustomPlay.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomPlay.xib; sourceTree = "<group>"; };
+		B6A18A4113F5A1EE003331C5 /* Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
+		B6A18A4213F5A1EE003331C5 /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
+		B6A18A4313F5A1EE003331C5 /* Testing.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Testing.xib; sourceTree = "<group>"; };
+		B6A18AB613F5A7A3003331C5 /* Instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instructions.h; sourceTree = "<group>"; };
+		B6A18AB713F5A7A3003331C5 /* Instructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instructions.m; sourceTree = "<group>"; };
+		B6A18AB813F5A7A3003331C5 /* Instructions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Instructions.xib; sourceTree = "<group>"; };
+		B6A18ACC13F5A961003331C5 /* HighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScore.h; sourceTree = "<group>"; };
+		B6A18ACD13F5A961003331C5 /* HighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScore.m; sourceTree = "<group>"; };
+		B6A18ACE13F5A961003331C5 /* HighScore.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighScore.xib; sourceTree = "<group>"; };
+		B6B958A7177E9B4B004294AA /* LimitsHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitsHolder.h; sourceTree = "<group>"; };
+		B6B958A8177E9B4B004294AA /* LimitsHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitsHolder.m; sourceTree = "<group>"; };
+		B6B958AA177E9B5E004294AA /* FirstDervHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDervHolder.h; sourceTree = "<group>"; };
+		B6B958AB177E9B5E004294AA /* FirstDervHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDervHolder.m; sourceTree = "<group>"; };
+		B6B958AD177E9B6E004294AA /* SecondDervHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDervHolder.h; sourceTree = "<group>"; };
+		B6B958AE177E9B6E004294AA /* SecondDervHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDervHolder.m; sourceTree = "<group>"; };
+		B6B958B0177E9B83004294AA /* IndefiniteIntegralHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndefiniteIntegralHolder.h; sourceTree = "<group>"; };
+		B6B958B1177E9B83004294AA /* IndefiniteIntegralHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndefiniteIntegralHolder.m; sourceTree = "<group>"; };
+		B6B958B3177E9B92004294AA /* DefiniteIntegralHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefiniteIntegralHolder.h; sourceTree = "<group>"; };
+		B6B958B4177E9B92004294AA /* DefiniteIntegralHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefiniteIntegralHolder.m; sourceTree = "<group>"; };
+		B6B958B617813406004294AA /* CalcHighScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcHighScores.h; sourceTree = "<group>"; };
+		B6B958B717813406004294AA /* CalcHighScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcHighScores.m; sourceTree = "<group>"; };
+		B6B958B817813407004294AA /* CalcHighScores.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalcHighScores.xib; sourceTree = "<group>"; };
+		B6BD4D051513A8A200B543B7 /* NewRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRootViewController.h; sourceTree = "<group>"; };
+		B6BD4D061513A8A200B543B7 /* NewRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRootViewController.m; sourceTree = "<group>"; };
+		B6BD4D071513A8A200B543B7 /* NewRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewRootViewController.xib; sourceTree = "<group>"; };
+		B6BD4D0B1513A99B00B543B7 /* TrigRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigRootViewController.h; sourceTree = "<group>"; };
+		B6BD4D0C1513A99B00B543B7 /* TrigRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigRootViewController.m; sourceTree = "<group>"; };
+		B6BD4D0D1513A99B00B543B7 /* TrigRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigRootViewController.xib; sourceTree = "<group>"; };
+		B6BD4D101513AABF00B543B7 /* TrigQuickGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigQuickGame.h; sourceTree = "<group>"; };
+		B6BD4D111513AABF00B543B7 /* TrigQuickGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigQuickGame.m; sourceTree = "<group>"; };
+		B6BD4D121513AABF00B543B7 /* TrigQuickGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigQuickGame.xib; sourceTree = "<group>"; };
+		B6BD4D1A1513AAF700B543B7 /* TrigCustomSetUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigCustomSetUp.h; sourceTree = "<group>"; };
+		B6BD4D1B1513AAF700B543B7 /* TrigCustomSetUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigCustomSetUp.m; sourceTree = "<group>"; };
+		B6BD4D1C1513AAF700B543B7 /* TrigCustomSetUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigCustomSetUp.xib; sourceTree = "<group>"; };
+		B6BD4D1F1513AB1900B543B7 /* TrigHighScoreQuick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigHighScoreQuick.h; sourceTree = "<group>"; };
+		B6BD4D201513AB1900B543B7 /* TrigHighScoreQuick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigHighScoreQuick.m; sourceTree = "<group>"; };
+		B6BD4D211513AB1900B543B7 /* TrigHighScoreQuick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigHighScoreQuick.xib; sourceTree = "<group>"; };
+		B6BD4D241513AB5D00B543B7 /* TrigHighScoreCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigHighScoreCustom.h; sourceTree = "<group>"; };
+		B6BD4D251513AB5D00B543B7 /* TrigHighScoreCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigHighScoreCustom.m; sourceTree = "<group>"; };
+		B6BD4D261513AB5D00B543B7 /* TrigHighScoreCustom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigHighScoreCustom.xib; sourceTree = "<group>"; };
+		B6BD4D291513AB7300B543B7 /* TrigInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigInstructions.h; sourceTree = "<group>"; };
+		B6BD4D2A1513AB7300B543B7 /* TrigInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigInstructions.m; sourceTree = "<group>"; };
+		B6BD4D2B1513AB7300B543B7 /* TrigInstructions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigInstructions.xib; sourceTree = "<group>"; };
+		B6BD4D2E1513AB8A00B543B7 /* TrigCustomGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigCustomGame.h; sourceTree = "<group>"; };
+		B6BD4D2F1513AB8A00B543B7 /* TrigCustomGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigCustomGame.m; sourceTree = "<group>"; };
+		B6BD4D301513AB8B00B543B7 /* TrigCustomGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigCustomGame.xib; sourceTree = "<group>"; };
+		B6BD4D331513AFB400B543B7 /* TrigCustomLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigCustomLog.h; sourceTree = "<group>"; };
+		B6BD4D341513AFB400B543B7 /* TrigCustomLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigCustomLog.m; sourceTree = "<group>"; };
+		B6BD4D351513AFB400B543B7 /* TrigCustomLog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigCustomLog.xib; sourceTree = "<group>"; };
+		B6BD4D381513BF9000B543B7 /* TrigLogSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrigLogSettings.h; sourceTree = "<group>"; };
+		B6BD4D391513BF9100B543B7 /* TrigLogSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrigLogSettings.m; sourceTree = "<group>"; };
+		B6BD4D3A1513BF9100B543B7 /* TrigLogSettings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrigLogSettings.xib; sourceTree = "<group>"; };
+		B6D673011401CA9400CC6CF0 /* TrueFalseCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueFalseCustom.h; sourceTree = "<group>"; };
+		B6D673021401CA9400CC6CF0 /* TrueFalseCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueFalseCustom.m; sourceTree = "<group>"; };
+		B6D673031401CA9400CC6CF0 /* TrueFalseCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrueFalseCustom.xib; sourceTree = "<group>"; };
+		B6D673081401CAB500CC6CF0 /* KeyboardCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardCustom.h; sourceTree = "<group>"; };
+		B6D673091401CAB500CC6CF0 /* KeyboardCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardCustom.m; sourceTree = "<group>"; };
+		B6D6730A1401CAB500CC6CF0 /* KeyboardCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardCustom.xib; sourceTree = "<group>"; };
+		B6D725D817CD804100A8563B /* BrainBuilderPro114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrainBuilderPro114.png; sourceTree = "<group>"; };
+		B6D725DA17CD815000A8563B /* CalcGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CalcGradient.png; path = ../../../Documents/CalcGradient.png; sourceTree = "<group>"; };
+		B6E31A2A177AA4EA00846BBD /* NewCalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCalcViewController.h; sourceTree = "<group>"; };
+		B6E31A2B177AA4EA00846BBD /* NewCalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCalcViewController.m; sourceTree = "<group>"; };
+		B6E31A2C177AA4EA00846BBD /* NewCalcViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCalcViewController.xib; sourceTree = "<group>"; };
+		B6E68EA617EF80E300EF5BDA /* WrongAnswerGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrongAnswerGenerator.h; sourceTree = "<group>"; };
+		B6E68EA717EF80E300EF5BDA /* WrongAnswerGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrongAnswerGenerator.m; sourceTree = "<group>"; };
+		B6FDB33617F3DB9400171B1D /* TrigBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrigBack.png; path = ../../../Documents/TrigBack.png; sourceTree = "<group>"; };
+		B6FDB33817F3DD8F00171B1D /* QuickGameButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuickGameButton.png; path = ../../../Documents/QuickGameButton.png; sourceTree = "<group>"; };
+		B6FDB33A17F3DE5200171B1D /* QuickGameTrig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = QuickGameTrig.png; path = ../../../Documents/QuickGameTrig.png; sourceTree = "<group>"; };
+		B6FDB33C17F3E68F00171B1D /* Test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Test.png; path = ../../../Documents/Test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B685E8C71400679700D31DD0 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0EFA513F4E913009276B3 /* RootViewController.h */,
+				B6A0EFA613F4E913009276B3 /* RootViewController.m */,
+				B6BD4D051513A8A200B543B7 /* NewRootViewController.h */,
+				B6BD4D061513A8A200B543B7 /* NewRootViewController.m */,
+				B6BD4D071513A8A200B543B7 /* NewRootViewController.xib */,
+				1D3623240D0F684500981E51 /* FinaleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FinaleAppDelegate.m */,
+				B6A0EFE113F4ECCF009276B3 /* CustomGame.h */,
+				B6A0EFE213F4ECCF009276B3 /* CustomGame.m */,
+				B6A0EFE313F4ECCF009276B3 /* CustomGame.xib */,
+				B6A0F03113F4EF2C009276B3 /* QuickGame.h */,
+				B6A0F03213F4EF2C009276B3 /* QuickGame.m */,
+				B6A0F03313F4EF2C009276B3 /* QuickGame.xib */,
+				B6A0F07113F4F458009276B3 /* CustomPlay.h */,
+				B6A0F07213F4F458009276B3 /* CustomPlay.m */,
+				B6A0F07313F4F458009276B3 /* CustomPlay.xib */,
+				B6A18A4113F5A1EE003331C5 /* Testing.h */,
+				B6A18A4213F5A1EE003331C5 /* Testing.m */,
+				B6A18A4313F5A1EE003331C5 /* Testing.xib */,
+				B6A18AB613F5A7A3003331C5 /* Instructions.h */,
+				B6A18AB713F5A7A3003331C5 /* Instructions.m */,
+				B6A18AB813F5A7A3003331C5 /* Instructions.xib */,
+				B6A18ACC13F5A961003331C5 /* HighScore.h */,
+				B6A18ACD13F5A961003331C5 /* HighScore.m */,
+				B6A18ACE13F5A961003331C5 /* HighScore.xib */,
+				B685EA451400A71C00D31DD0 /* HighScoreCustom.h */,
+				B685EA461400A71C00D31DD0 /* HighScoreCustom.m */,
+				B685EA471400A71C00D31DD0 /* HighScoreCustom.xib */,
+				B6D673011401CA9400CC6CF0 /* TrueFalseCustom.h */,
+				B6D673021401CA9400CC6CF0 /* TrueFalseCustom.m */,
+				B6D673031401CA9400CC6CF0 /* TrueFalseCustom.xib */,
+				B6D673081401CAB500CC6CF0 /* KeyboardCustom.h */,
+				B6D673091401CAB500CC6CF0 /* KeyboardCustom.m */,
+				B6D6730A1401CAB500CC6CF0 /* KeyboardCustom.xib */,
+				B6E68EA617EF80E300EF5BDA /* WrongAnswerGenerator.h */,
+				B6E68EA717EF80E300EF5BDA /* WrongAnswerGenerator.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BrainBuilderPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB33C17F3E68F00171B1D /* Test.png */,
+				B6FDB33A17F3DE5200171B1D /* QuickGameTrig.png */,
+				B6FDB33817F3DD8F00171B1D /* QuickGameButton.png */,
+				B6FDB33617F3DB9400171B1D /* TrigBack.png */,
+				B6569D8817EE5494009EDCDB /* BrainBuilderClac.png */,
+				B6569D8617EE5278009EDCDB /* BrainBuilderTrig.png */,
+				B6569D8217EE4F0C009EDCDB /* BrainBuilderMathBackGround.png */,
+				B6D725DA17CD815000A8563B /* CalcGradient.png */,
+				B6D725D817CD804100A8563B /* BrainBuilderPro114.png */,
+				B68AEB1E17568DC200B02D81 /* BrainProStartUp-568h@2x.png */,
+				B627FD6D15EFCBCA002D594B /* BrainProStartUp.png */,
+				B627FD7515EFCC0A002D594B /* BrainProSimple57.png */,
+				B627FD7315EFCC01002D594B /* BrainProBackGround.png */,
+				B627FD7115EFCBF3002D594B /* BrainProSimple.png */,
+				B6569D8417EE5013009EDCDB /* BrainBuilderPro.png */,
+				B68AEAF717567ED800B02D81 /* Calc Files */,
+				B6BD4D0A1513A97A00B543B7 /* Trig files */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BrainBuilderPro_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B6A0EFA713F4E913009276B3 /* RootViewController.xib */,
+				8D1107310486CEB800E47090 /* BrainBuilderPro-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B685E8C61400679700D31DD0 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68AEAF717567ED800B02D81 /* Calc Files */ = {
+			isa = PBXGroup;
+			children = (
+				B694CF99175694B400263CB3 /* CalcViewController.h */,
+				B694CF9A175694B400263CB3 /* CalcViewController.m */,
+				B694CF9B175694B400263CB3 /* CalcViewController.xib */,
+				B6E31A2A177AA4EA00846BBD /* NewCalcViewController.h */,
+				B6E31A2B177AA4EA00846BBD /* NewCalcViewController.m */,
+				B6E31A2C177AA4EA00846BBD /* NewCalcViewController.xib */,
+				B6415CDB1779E33000B51BB4 /* GamePage.h */,
+				B6415CDC1779E33000B51BB4 /* GamePage.m */,
+				B6415CDD1779E33000B51BB4 /* GamePage.xib */,
+				B6B958B617813406004294AA /* CalcHighScores.h */,
+				B6B958B717813406004294AA /* CalcHighScores.m */,
+				B6B958B817813407004294AA /* CalcHighScores.xib */,
+				B6B958A7177E9B4B004294AA /* LimitsHolder.h */,
+				B6B958A8177E9B4B004294AA /* LimitsHolder.m */,
+				B6B958AA177E9B5E004294AA /* FirstDervHolder.h */,
+				B6B958AB177E9B5E004294AA /* FirstDervHolder.m */,
+				B6B958AD177E9B6E004294AA /* SecondDervHolder.h */,
+				B6B958AE177E9B6E004294AA /* SecondDervHolder.m */,
+				B6B958B0177E9B83004294AA /* IndefiniteIntegralHolder.h */,
+				B6B958B1177E9B83004294AA /* IndefiniteIntegralHolder.m */,
+				B6B958B3177E9B92004294AA /* DefiniteIntegralHolder.h */,
+				B6B958B4177E9B92004294AA /* DefiniteIntegralHolder.m */,
+			);
+			name = "Calc Files";
+			sourceTree = "<group>";
+		};
+		B6BD4D0A1513A97A00B543B7 /* Trig files */ = {
+			isa = PBXGroup;
+			children = (
+				B6BD4D0B1513A99B00B543B7 /* TrigRootViewController.h */,
+				B6BD4D0C1513A99B00B543B7 /* TrigRootViewController.m */,
+				B6BD4D0D1513A99B00B543B7 /* TrigRootViewController.xib */,
+				B6BD4D101513AABF00B543B7 /* TrigQuickGame.h */,
+				B6BD4D111513AABF00B543B7 /* TrigQuickGame.m */,
+				B6BD4D121513AABF00B543B7 /* TrigQuickGame.xib */,
+				B6BD4D1A1513AAF700B543B7 /* TrigCustomSetUp.h */,
+				B6BD4D1B1513AAF700B543B7 /* TrigCustomSetUp.m */,
+				B6BD4D1C1513AAF700B543B7 /* TrigCustomSetUp.xib */,
+				B6BD4D1F1513AB1900B543B7 /* TrigHighScoreQuick.h */,
+				B6BD4D201513AB1900B543B7 /* TrigHighScoreQuick.m */,
+				B6BD4D211513AB1900B543B7 /* TrigHighScoreQuick.xib */,
+				B6BD4D241513AB5D00B543B7 /* TrigHighScoreCustom.h */,
+				B6BD4D251513AB5D00B543B7 /* TrigHighScoreCustom.m */,
+				B6BD4D261513AB5D00B543B7 /* TrigHighScoreCustom.xib */,
+				B6BD4D291513AB7300B543B7 /* TrigInstructions.h */,
+				B6BD4D2A1513AB7300B543B7 /* TrigInstructions.m */,
+				B6BD4D2B1513AB7300B543B7 /* TrigInstructions.xib */,
+				B6BD4D2E1513AB8A00B543B7 /* TrigCustomGame.h */,
+				B6BD4D2F1513AB8A00B543B7 /* TrigCustomGame.m */,
+				B6BD4D301513AB8B00B543B7 /* TrigCustomGame.xib */,
+				B6BD4D331513AFB400B543B7 /* TrigCustomLog.h */,
+				B6BD4D341513AFB400B543B7 /* TrigCustomLog.m */,
+				B6BD4D351513AFB400B543B7 /* TrigCustomLog.xib */,
+				B6BD4D381513BF9000B543B7 /* TrigLogSettings.h */,
+				B6BD4D391513BF9100B543B7 /* TrigLogSettings.m */,
+				B6BD4D3A1513BF9100B543B7 /* TrigLogSettings.xib */,
+				B63CD845156B01E100B2EC69 /* WebBrowser.h */,
+				B63CD846156B01E100B2EC69 /* WebBrowser.m */,
+				B63CD847156B01E200B2EC69 /* WebBrowser.xib */,
+			);
+			name = "Trig files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BrainBuilderPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BrainBuilderPro" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBuilderPro;
+			productName = Finale;
+			productReference = 1D6058910D05DD3D006BFB54 /* BrainBuilderPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "BLADE Enterprises LLC";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BrainBuilderPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BrainBuilderPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B6A0EFA913F4E913009276B3 /* RootViewController.xib in Resources */,
+				B6A0EFE513F4ECCF009276B3 /* CustomGame.xib in Resources */,
+				B6A0F03513F4EF2C009276B3 /* QuickGame.xib in Resources */,
+				B6A0F07513F4F458009276B3 /* CustomPlay.xib in Resources */,
+				B6A18A4513F5A1EE003331C5 /* Testing.xib in Resources */,
+				B6A18ABA13F5A7A3003331C5 /* Instructions.xib in Resources */,
+				B6A18AD013F5A961003331C5 /* HighScore.xib in Resources */,
+				B685EA491400A71C00D31DD0 /* HighScoreCustom.xib in Resources */,
+				B6D673051401CA9400CC6CF0 /* TrueFalseCustom.xib in Resources */,
+				B6D6730C1401CAB500CC6CF0 /* KeyboardCustom.xib in Resources */,
+				B6BD4D091513A8A200B543B7 /* NewRootViewController.xib in Resources */,
+				B6BD4D0F1513A99B00B543B7 /* TrigRootViewController.xib in Resources */,
+				B6BD4D141513AABF00B543B7 /* TrigQuickGame.xib in Resources */,
+				B6BD4D1E1513AAF700B543B7 /* TrigCustomSetUp.xib in Resources */,
+				B6BD4D231513AB1900B543B7 /* TrigHighScoreQuick.xib in Resources */,
+				B6BD4D281513AB5D00B543B7 /* TrigHighScoreCustom.xib in Resources */,
+				B6BD4D2D1513AB7300B543B7 /* TrigInstructions.xib in Resources */,
+				B6BD4D321513AB8B00B543B7 /* TrigCustomGame.xib in Resources */,
+				B6BD4D371513AFB400B543B7 /* TrigCustomLog.xib in Resources */,
+				B6BD4D3C1513BF9200B543B7 /* TrigLogSettings.xib in Resources */,
+				B63CD849156B01E200B2EC69 /* WebBrowser.xib in Resources */,
+				B627FD6E15EFCBCA002D594B /* BrainProStartUp.png in Resources */,
+				B627FD7215EFCBF3002D594B /* BrainProSimple.png in Resources */,
+				B627FD7415EFCC01002D594B /* BrainProBackGround.png in Resources */,
+				B627FD7615EFCC0A002D594B /* BrainProSimple57.png in Resources */,
+				B68AEB1F17568DC200B02D81 /* BrainProStartUp-568h@2x.png in Resources */,
+				B694CF9D175694B400263CB3 /* CalcViewController.xib in Resources */,
+				B6415CDF1779E33000B51BB4 /* GamePage.xib in Resources */,
+				B6E31A2E177AA4EA00846BBD /* NewCalcViewController.xib in Resources */,
+				B6B958BA17813407004294AA /* CalcHighScores.xib in Resources */,
+				B6D725D917CD804200A8563B /* BrainBuilderPro114.png in Resources */,
+				B6D725DB17CD815000A8563B /* CalcGradient.png in Resources */,
+				B6569D8317EE4F0C009EDCDB /* BrainBuilderMathBackGround.png in Resources */,
+				B6569D8517EE5013009EDCDB /* BrainBuilderPro.png in Resources */,
+				B6569D8717EE5278009EDCDB /* BrainBuilderTrig.png in Resources */,
+				B6569D8917EE5494009EDCDB /* BrainBuilderClac.png in Resources */,
+				B6FDB33717F3DB9400171B1D /* TrigBack.png in Resources */,
+				B6FDB33917F3DD8F00171B1D /* QuickGameButton.png in Resources */,
+				B6FDB33B17F3DE5300171B1D /* QuickGameTrig.png in Resources */,
+				B6FDB33D17F3E69000171B1D /* Test.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FinaleAppDelegate.m in Sources */,
+				B6A0EFA813F4E913009276B3 /* RootViewController.m in Sources */,
+				B6A0EFE413F4ECCF009276B3 /* CustomGame.m in Sources */,
+				B6A0F03413F4EF2C009276B3 /* QuickGame.m in Sources */,
+				B6A0F07413F4F458009276B3 /* CustomPlay.m in Sources */,
+				B6A18A4413F5A1EE003331C5 /* Testing.m in Sources */,
+				B6A18AB913F5A7A3003331C5 /* Instructions.m in Sources */,
+				B6A18ACF13F5A961003331C5 /* HighScore.m in Sources */,
+				B685EA481400A71C00D31DD0 /* HighScoreCustom.m in Sources */,
+				B6D673041401CA9400CC6CF0 /* TrueFalseCustom.m in Sources */,
+				B6D6730B1401CAB500CC6CF0 /* KeyboardCustom.m in Sources */,
+				B6BD4D081513A8A200B543B7 /* NewRootViewController.m in Sources */,
+				B6BD4D0E1513A99B00B543B7 /* TrigRootViewController.m in Sources */,
+				B6BD4D131513AABF00B543B7 /* TrigQuickGame.m in Sources */,
+				B6BD4D1D1513AAF700B543B7 /* TrigCustomSetUp.m in Sources */,
+				B6BD4D221513AB1900B543B7 /* TrigHighScoreQuick.m in Sources */,
+				B6BD4D271513AB5D00B543B7 /* TrigHighScoreCustom.m in Sources */,
+				B6BD4D2C1513AB7300B543B7 /* TrigInstructions.m in Sources */,
+				B6BD4D311513AB8B00B543B7 /* TrigCustomGame.m in Sources */,
+				B6BD4D361513AFB400B543B7 /* TrigCustomLog.m in Sources */,
+				B6BD4D3B1513BF9200B543B7 /* TrigLogSettings.m in Sources */,
+				B63CD848156B01E200B2EC69 /* WebBrowser.m in Sources */,
+				B694CF9C175694B400263CB3 /* CalcViewController.m in Sources */,
+				B6415CDE1779E33000B51BB4 /* GamePage.m in Sources */,
+				B6E31A2D177AA4EA00846BBD /* NewCalcViewController.m in Sources */,
+				B6B958A9177E9B4B004294AA /* LimitsHolder.m in Sources */,
+				B6B958AC177E9B5E004294AA /* FirstDervHolder.m in Sources */,
+				B6B958AF177E9B6E004294AA /* SecondDervHolder.m in Sources */,
+				B6B958B2177E9B84004294AA /* IndefiniteIntegralHolder.m in Sources */,
+				B6B958B5177E9B92004294AA /* DefiniteIntegralHolder.m in Sources */,
+				B6B958B917813407004294AA /* CalcHighScores.m in Sources */,
+				B6E68EA817EF80E300EF5BDA /* WrongAnswerGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BrainBuilderPro_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "BrainBuilderPro-Info.plist";
+				PRODUCT_NAME = BrainBuilderPro;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BrainBuilderPro_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "BrainBuilderPro-Info.plist";
+				PRODUCT_NAME = BrainBuilderPro;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=*]" = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"ARCHS[sdk=*]" = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BrainBuilderPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BrainBuilderPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

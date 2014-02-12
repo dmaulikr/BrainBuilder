@@ -1,0 +1,617 @@
+TBrain Builder
+v7
+r0
+t335491893.520433
+cCheck dependencies
+cProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Info.plist" "Brain Builder-Info.plist"
+cCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+cCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
+cProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/main.o" /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder" normal i386
+cGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder"
+cTouch "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C7F01900000000000000132
+t1283391888
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch
+c000000004E44B0B500000000000000B5
+t1313124533
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/../RootViewController.m
+c000000004E4D64DA0000000000000ADF
+t1313694938
+s2783
+i"RootViewController.h"
+i"QuickGame.h"
+i"CustomGame.h"
+i"Instructions.h"
+i"HighScore.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.h
+c000000004E4D71C50000000000000688
+t1313698245
+s1672
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.m
+c000000004E4D90C80000000000001E77
+t1313706184
+s7799
+i"CustomGame.h"
+i"CustomPlay.h"
+i"Testing.h"
+i"RootViewController.h"
+i"HighScore.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.xib
+c000000004E4D8F0400000000000140AD
+t1313705732
+s82093
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.h
+c000000004E4D95B600000000000012EB
+t1313707446
+s4843
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.m
+c000000004E4D9BA2000000000000448C
+t1313708962
+s17548
+i"CustomPlay.h"
+i"CustomGame.h"
+i"HighScore.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+c000000004E4D95ED000000000001C37D
+t1313707501
+s115581
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.h
+c000000004E44B0F200000000000001C9
+t1313124594
+s457
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+c000000004E44B11C0000000000000A0F
+t1313124636
+s2575
+i"FinaleAppDelegate.h"
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.h
+c000000004E4575AE000000000000187C
+t1313174958
+s6268
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.m
+c000000004E4D66310000000000006388
+t1313695281
+s25480
+i"HighScore.h"
+i"QuickGame.h"
+i"Testing.h"
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.xib
+c000000004E4D66FB000000000002264C
+t1313695483
+s140876
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.h
+c000000004E45703D0000000000000262
+t1313173565
+s610
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.m
+c000000004E4D67B000000000000006D8
+t1313695664
+s1752
+i"Instructions.h"
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.xib
+c000000004E4AD87400000000000065F7
+t1313527924
+s26103
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.h
+c000000004E4D93BF000000000000122E
+t1313706943
+s4654
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.m
+c000000004E4D9C620000000000003828
+t1313709154
+s14376
+i"QuickGame.h"
+i"HighScore.h"
+i"RootViewController.h"
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.xib
+c000000004E4D9534000000000001CCF7
+t1313707316
+s118007
+
+N/Users/fred/Desktop/Finale/Classes/Testing.h
+c000000004E457535000000000000013D
+t1313174837
+s317
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/Testing.m
+c000000004E45755400000000000005E2
+t1313174868
+s1506
+i"Testing.h"
+i"CustomPlay.h"
+
+N/Users/fred/Desktop/Finale/Classes/Testing.xib
+c000000004E4AD905000000000000D50C
+t1313528069
+s54540
+
+N/Users/fred/Desktop/Finale/MainWindow.xib
+c000000004E4ADA36000000000000F771
+t1313528374
+s63345
+
+N/Users/fred/Desktop/Finale/RootViewController.h
+c000000004E4D64430000000000000220
+t1313694787
+s544
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/RootViewController.xib
+c000000004E4D64CB0000000000010EA7
+t1313694923
+s69287
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Brain Builder.LinkFileList
+c000000004E4EFBAF0000000000000486
+t1313799087
+s1158
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomGame.o
+t1313799092
+s88196
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomPlay.o
+t1313799092
+s142512
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/FinaleAppDelegate.o
+t1313799092
+s49236
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/HighScore.o
+t1313799092
+s155156
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Instructions.o
+t1313799092
+s37476
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/QuickGame.o
+t1313799092
+s124244
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/RootViewController.o
+t1313799092
+s55832
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Testing.o
+t1313799092
+s42752
+
+N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/main.o
+t1313799092
+s6280
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app
+t1313799093
+s442
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app.dSYM
+t1313799093
+s102
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder
+t1313799093
+s187276
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/CustomGame.nib
+t1313799088
+s3707
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/CustomPlay.nib
+t1313799089
+s6707
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/HighScore.nib
+t1313799090
+s8705
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Info.plist
+t1313799087
+s611
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Instructions.nib
+t1313799090
+s3014
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/MainWindow.nib
+t1313799088
+s1631
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/PkgInfo
+t1313799087
+s8
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/QuickGame.nib
+t1313799088
+s7013
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/RootViewController.nib
+t1313799088
+s2250
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Testing.nib
+t1313799089
+s963
+
+N/Users/fred/Desktop/Finale/main.m
+c000000004E44B0B50000000000000169
+t1313124533
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch.gch
+t1313799091
+s15232016
+
+NBrain Builder-Info.plist
+c000000004E4ADDFB0000000000000389
+t1313529339
+s905
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335491887#335491887#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.137439
+e335491892.306068
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomGame.o
+x/Users/fred/Desktop/Finale/Classes/CustomGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomGame.m335491892#335491892#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomGame.m8608377344#1925"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomGame.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.306172
+e335491892.638063
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomPlay.o
+x/Users/fred/Desktop/Finale/Classes/CustomPlay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomPlay.m335491892#335491892#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomPlay.m8608224928#1925"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomPlay.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/CustomPlay.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491891.986378
+e335491892.137334
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/FinaleAppDelegate.o
+x/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m335491891#335491892#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m8602950112#1939"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/FinaleAppDelegate.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.638166
+e335491892.985360
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/HighScore.o
+x/Users/fred/Desktop/Finale/Classes/HighScore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found
+lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/HighScore.m335491892#335491892#0(822"/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found6(22@128"Property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation335491892#0#190#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@135"Property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation335491892#190#197#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@46"Incomplete implementation of class 'HighScore'335491892#387#108#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-clearView' not found335491892#495#106#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@54"Method definition for '-newHighScorePerson:' not found335491892#601#116#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@43"Method definition for '-newName:' not found335491892#717#105#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/HighScore.m8604996960#1923"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/HighScore.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/HighScore.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.597538
+e335491892.682249
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Instructions.o
+x/Users/fred/Desktop/Finale/Classes/Instructions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/fred/Desktop/Finale/Classes/Instructions.m335491892#335491892#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/Instructions.m5057384530557236224#1929"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Instructions.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Instructions.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.202784
+e335491892.483058
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/QuickGame.o
+x/Users/fred/Desktop/Finale/Classes/QuickGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found
+lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/QuickGame.m335491892#335491892#0(528"/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found5(22@46"Incomplete implementation of class 'QuickGame'335491892#0#108#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-AnswerD:' not found335491892#108#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerC:' not found335491892#213#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerB:' not found335491892#318#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerA:' not found335491892#423#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/QuickGame.m8608057152#1923"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/QuickGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/QuickGame.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.097764
+e335491892.202682
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/RootViewController.o
+x/Users/fred/Desktop/Finale/Classes/../RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/fred/Desktop/Finale/Classes/../RootViewController.m335491892#335491892#0(0"0(0#0#58"/Users/fred/Desktop/Finale/Classes/../RootViewController.m8606565280#1944"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/../RootViewController.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491892.483158
+e335491892.597432
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Testing.o
+x/Users/fred/Desktop/Finale/Classes/Testing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/fred/Desktop/Finale/Classes/Testing.m335491892#335491892#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Classes/Testing.m8608268448#1919"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Testing.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Testing.o"0#
+
+CCompileC "build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/main.o" /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491891.984844
+e335491892.097575
+r1
+xCompileC
+xbuild/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/main.o
+x/Users/fred/Desktop/Finale/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/fred/Desktop/Finale/main.m335491891#335491892#0(0"0(0#0#33"/Users/fred/Desktop/Finale/main.m8606279328#1905"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/main.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
+s335491888.105994
+e335491889.011834
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/CustomGame.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@33"CompileXIB Classes/CustomGame.xib335491888#335491889#0(2520"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.335491889#18446744073709551615#0#0(6@49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib335398532#34#0#34#0#0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib8608473216#550"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/CustomGame.nib" /Users/fred/Desktop/Finale/Classes/CustomGame.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+s335491889.011978
+e335491889.692166
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB Classes/CustomPlay.xib335491889#335491889#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomPlay.xib8608473408#550"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/CustomPlay.nib" /Users/fred/Desktop/Finale/Classes/CustomPlay.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
+s335491889.692258
+e335491890.523662
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/HighScore.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@32"CompileXIB Classes/HighScore.xib335491889#335491890#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/fred/Desktop/Finale/Classes/HighScore.xib8608283968#548"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/HighScore.nib" /Users/fred/Desktop/Finale/Classes/HighScore.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
+s335491889.578957
+e335491890.381148
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/Instructions.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB Classes/Instructions.xib335491889#335491890#0(1008"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#51"/Users/fred/Desktop/Finale/Classes/Instructions.xib8608453632#554"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Instructions.nib" /Users/fred/Desktop/Finale/Classes/Instructions.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
+s335491888.182532
+e335491889.177304
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/QuickGame.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@32"CompileXIB Classes/QuickGame.xib335491888#335491889#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#48"/Users/fred/Desktop/Finale/Classes/QuickGame.xib8608115616#548"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/QuickGame.nib" /Users/fred/Desktop/Finale/Classes/QuickGame.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
+s335491889.177391
+e335491889.578872
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/Testing.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@30"CompileXIB Classes/Testing.xib335491889#335491889#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#46"/Users/fred/Desktop/Finale/Classes/Testing.xib8605586176#544"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Testing.nib" /Users/fred/Desktop/Finale/Classes/Testing.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+s335491887.442301
+e335491888.105907
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib335491887#335491888#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#41"/Users/fred/Desktop/Finale/MainWindow.xib8607875296#542"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/MainWindow.nib" /Users/fred/Desktop/Finale/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
+s335491887.443130
+e335491888.182444
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/RootViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB RootViewController.xib335491887#335491888#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/fred/Desktop/Finale/RootViewController.xib8607831648#558"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/RootViewController.nib" /Users/fred/Desktop/Finale/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder"
+s335491893.391908
+e335491893.507132
+r1
+xGenerateDSYMFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app.dSYM
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder
+lSLF07#2@131"GenerateDSYMFile "build/Debug-iphonesimulator/Brain Builder.app.dSYM" "build/Debug-iphonesimulator/Brain Builder.app/Brain Builder"335491893#335491893#0(0"0(0#0#86"/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder8605832928#369"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder" -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app.dSYM"0#
+
+CLd "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder" normal i386
+s335491892.985463
+e335491893.391772
+r1
+xLd
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder
+xnormal
+xi386
+lSLF07#2@91"Link /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder335491892#335491893#0(0"0(0#0#0"8608406752#874"    cd /Users/fred/Desktop/Finale    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -filelist "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Objects-normal/i386/Brain Builder.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Brain Builder"0#
+
+CProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Info.plist" "Brain Builder-Info.plist"
+s335491887.405762
+e335491887.442219
+r1
+xProcessInfoPlistFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Info.plist
+xBrain Builder-Info.plist
+lSLF07#2@32"Process Brain Builder-Info.plist335491887#335491887#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Brain Builder-Info.plist8461535219242921984#467"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Brain Builder-Info.plist" -genpkginfo "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app/Info.plist"0#
+
+CProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335491890.523910
+e335491891.984554
+r1
+xProcessPCH
+x/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch.gch
+xBrain Builder_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Brain Builder_Prefix.pch335491890#335491891#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch8606605632#1803"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphonesimulator/Brain Builder.build/DerivedSources" -c "/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch" -o "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-cpaaovxikmgridbavggoqngokrmc/Brain Builder_Prefix.pch.gch"0#
+
+CTouch "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app"
+s335491893.507355
+e335491893.520383
+r1
+xTouch
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app
+lSLF07#2@78"Touch /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app335491893#335491893#0(0"0(0#0#0"8603334048#262"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Brain Builder.app"0#
+

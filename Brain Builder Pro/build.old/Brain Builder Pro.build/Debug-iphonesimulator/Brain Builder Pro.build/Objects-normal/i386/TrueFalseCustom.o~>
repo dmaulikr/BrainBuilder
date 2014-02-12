@@ -1,0 +1,2 @@
+/Users/fred/Desktop/Brain Builder Pro/Classes/TrueFalseCustom.m:1087: warning: property 'result3' requires method '-result3' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/fred/Desktop/Brain Builder Pro/Classes/TrueFalseCustom.m:1087: warning: property 'result3' requires the method 'setResult3:' to be defined - use @synthesize, @dynamic or provide a method implementation
