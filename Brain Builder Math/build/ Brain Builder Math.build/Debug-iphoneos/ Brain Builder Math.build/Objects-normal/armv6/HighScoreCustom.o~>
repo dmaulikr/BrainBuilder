@@ -1,2 +1,0 @@
-/Users/fred/Desktop/Finale/Classes/HighScoreCustom.m:73: warning: property 'theScroller' requires method '-theScroller' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/fred/Desktop/Finale/Classes/HighScoreCustom.m:73: warning: property 'theScroller' requires the method 'setTheScroller:' to be defined - use @synthesize, @dynamic or provide a method implementation

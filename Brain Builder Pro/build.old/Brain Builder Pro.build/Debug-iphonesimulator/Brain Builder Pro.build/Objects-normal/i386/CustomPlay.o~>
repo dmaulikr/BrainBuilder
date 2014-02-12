@@ -1,4 +1,0 @@
-/Users/fred/Desktop/Brain Builder Pro/Classes/CustomPlay.m:1142: warning: property 'equals' requires method '-equals' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/fred/Desktop/Brain Builder Pro/Classes/CustomPlay.m:1142: warning: property 'equals' requires the method 'setEquals:' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/fred/Desktop/Brain Builder Pro/Classes/CustomPlay.m:1142: warning: property 'equals2' requires method '-equals2' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/fred/Desktop/Brain Builder Pro/Classes/CustomPlay.m:1142: warning: property 'equals2' requires the method 'setEquals2:' to be defined - use @synthesize, @dynamic or provide a method implementation

@@ -1,902 +1,0 @@
-TBrain Builder
-v7
-r0
-t335563154.803548
-cCheck dependencies
-cCpResource "build/Debug-iphoneos/Brain Builder.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Info.plist" "Brain Builder-Info.plist"
-cCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
-cCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
-cCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
-cCopyPNGFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png" ../BrainBuilder.png
-cCopyPNGFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png" ../BrainBuilderMath.png
-cProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/main.o" /Users/fred/Desktop/Finale/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder" normal armv6
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/main.o" /Users/fred/Desktop/Finale/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder" normal armv7
-cCreateUniversalBinary "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder" normal "armv6 armv7"
-cGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder"
-cProcessProductPackaging "/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision" "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision"
-cTouch "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent"
-cCodeSign "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C5B59520000000000000110
-t1281055058
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C5B401F00000000000001A7
-t1281048607
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C5B401F00000000000001E5
-t1281048607
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/fred/Desktop/Finale/../BrainBuilder.png
-c000000004E4F04AA000000000000029C
-t1313801386
-s668
-
-N/Users/fred/Desktop/Finale/../BrainBuilderMath.png
-c000000004E5011460000000000000D2C
-t1313870150
-s3372
-
-N/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch
-c000000004E44B0B500000000000000B5
-t1313124533
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/../RootViewController.m
-c000000004E4D64DA0000000000000ADF
-t1313694938
-s2783
-i"RootViewController.h"
-i"QuickGame.h"
-i"CustomGame.h"
-i"Instructions.h"
-i"HighScore.h"
-
-N/Users/fred/Desktop/Finale/Classes/CustomGame.h
-c000000004E4D71C50000000000000688
-t1313698245
-s1672
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/CustomGame.m
-c000000004E4D90C80000000000001E77
-t1313706184
-s7799
-i"CustomGame.h"
-i"CustomPlay.h"
-i"Testing.h"
-i"RootViewController.h"
-i"HighScore.h"
-
-N/Users/fred/Desktop/Finale/Classes/CustomGame.xib
-c000000004E4D8F0400000000000140AD
-t1313705732
-s82093
-
-N/Users/fred/Desktop/Finale/Classes/CustomPlay.h
-c000000004E4D95B600000000000012EB
-t1313707446
-s4843
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/CustomPlay.m
-c000000004E4D9BA2000000000000448C
-t1313708962
-s17548
-i"CustomPlay.h"
-i"CustomGame.h"
-i"HighScore.h"
-
-N/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
-c000000004E4D95ED000000000001C37D
-t1313707501
-s115581
-
-N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.h
-c000000004E44B0F200000000000001C9
-t1313124594
-s457
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
-c000000004E44B11C0000000000000A0F
-t1313124636
-s2575
-i"FinaleAppDelegate.h"
-
-N/Users/fred/Desktop/Finale/Classes/HighScore.h
-c000000004E4575AE000000000000187C
-t1313174958
-s6268
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/HighScore.m
-c000000004E4D66310000000000006388
-t1313695281
-s25480
-i"HighScore.h"
-i"QuickGame.h"
-i"Testing.h"
-
-N/Users/fred/Desktop/Finale/Classes/HighScore.xib
-c000000004E4D66FB000000000002264C
-t1313695483
-s140876
-
-N/Users/fred/Desktop/Finale/Classes/Instructions.h
-c000000004E45703D0000000000000262
-t1313173565
-s610
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/Instructions.m
-c000000004E4D67B000000000000006D8
-t1313695664
-s1752
-i"Instructions.h"
-
-N/Users/fred/Desktop/Finale/Classes/Instructions.xib
-c000000004E4AD87400000000000065F7
-t1313527924
-s26103
-
-N/Users/fred/Desktop/Finale/Classes/QuickGame.h
-c000000004E4D93BF000000000000122E
-t1313706943
-s4654
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/QuickGame.m
-c000000004E4D9C620000000000003828
-t1313709154
-s14376
-i"QuickGame.h"
-i"HighScore.h"
-i"RootViewController.h"
-
-N/Users/fred/Desktop/Finale/Classes/QuickGame.xib
-c000000004E4D9534000000000001CCF7
-t1313707316
-s118007
-
-N/Users/fred/Desktop/Finale/Classes/Testing.h
-c000000004E457535000000000000013D
-t1313174837
-s317
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/Classes/Testing.m
-c000000004E45755400000000000005E2
-t1313174868
-s1506
-i"Testing.h"
-i"CustomPlay.h"
-
-N/Users/fred/Desktop/Finale/Classes/Testing.xib
-c000000004E4AD905000000000000D50C
-t1313528069
-s54540
-
-N/Users/fred/Desktop/Finale/MainWindow.xib
-c000000004E4ADA36000000000000F771
-t1313528374
-s63345
-
-N/Users/fred/Desktop/Finale/RootViewController.h
-c000000004E4D64430000000000000220
-t1313694787
-s544
-i<UIKit/UIKit.h>
-
-N/Users/fred/Desktop/Finale/RootViewController.xib
-c000000004E4D64CB0000000000010EA7
-t1313694923
-s69287
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent
-t1313870354
-s424
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder
-t1313799233
-s178428
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder.LinkFileList
-c000000004E4EFC3B0000000000000450
-t1313799227
-s1104
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomGame.o
-t1313799231
-s86336
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomPlay.o
-t1313799232
-s137748
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/FinaleAppDelegate.o
-t1313799231
-s48628
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/HighScore.o
-t1313799232
-s149188
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Instructions.o
-t1313799232
-s37008
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/QuickGame.o
-t1313799232
-s119540
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/RootViewController.o
-t1313799231
-s54824
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Testing.o
-t1313799232
-s42416
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/main.o
-t1313799231
-s6416
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder
-t1313799233
-s177568
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder.LinkFileList
-c000000004E4EFC3B0000000000000450
-t1313799227
-s1104
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomGame.o
-t1313799232
-s84100
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomPlay.o
-t1313799233
-s136312
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/FinaleAppDelegate.o
-t1313799232
-s48552
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/HighScore.o
-t1313799233
-s147060
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Instructions.o
-t1313799233
-s36916
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/QuickGame.o
-t1313799232
-s118252
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/RootViewController.o
-t1313799232
-s54708
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Testing.o
-t1313799233
-s42352
-
-N/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/main.o
-t1313799232
-s6400
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app
-t1313870354
-s646
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app.dSYM
-t1313799233
-s102
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder
-t1313799233
-s376768
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png
-t1313801491
-s661
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png
-t1313870288
-s3278
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/CustomGame.nib
-t1313799228
-s3704
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/CustomPlay.nib
-t1313799229
-s6691
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/HighScore.nib
-t1313799230
-s8706
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Info.plist
-t1313870354
-s794
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Instructions.nib
-t1313799230
-s3014
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/MainWindow.nib
-t1313799228
-s1631
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/PkgInfo
-t1313870354
-s8
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/QuickGame.nib
-t1313799228
-s7009
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/ResourceRules.plist
-t1313799227
-s485
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/RootViewController.nib
-t1313799228
-s2246
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Testing.nib
-t1313799229
-s963
-
-N/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision
-t1313799233
-s7253
-
-N/Users/fred/Desktop/Finale/main.m
-c000000004E44B0B50000000000000169
-t1313124533
-s361
-i<UIKit/UIKit.h>
-
-N/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision
-c000000004E18EAFA0000000000001C55
-t1310255866
-s7253
-
-N/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch.gch
-t1313799231
-s9831984
-
-N/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch.gch
-t1313799231
-s10290736
-
-NBrain Builder-Info.plist
-c000000004E50120E000000000000039D
-t1313870350
-s925
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies335563154#335563154#0(0"0(0#1#0"8623407296#0"0#
-
-CCodeSign "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"
-s335563154.612286
-e335563154.803509
-r1
-xCodeSign
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app
-o/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app: replacing existing signature
-lSLF07#2@49"CodeSign "build/Debug-iphoneos/Brain Builder.app"335563154#335563154#0(96"/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app: replacing existing signature0(0#0#65"/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app8623539328#637"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Fred Kneeland (6L5J3S5BLD)" "--resource-rules=/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/ResourceRules.plist" --entitlements "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent" "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.683516
-e335492031.890368
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomGame.o
-x/Users/fred/Desktop/Finale/Classes/CustomGame.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomGame.m335492031#335492031#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomGame.m8605357472#1748"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomGame.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.890466
-e335492032.260806
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomPlay.o
-x/Users/fred/Desktop/Finale/Classes/CustomPlay.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomPlay.m335492031#335492032#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomPlay.m8609202464#1748"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomPlay.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/CustomPlay.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.561947
-e335492031.683407
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/FinaleAppDelegate.o
-x/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m335492031#335492031#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m8608479200#1762"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/FinaleAppDelegate.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492032.176610
-e335492032.620600
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/HighScore.o
-x/Users/fred/Desktop/Finale/Classes/HighScore.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found
-lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/HighScore.m335492032#335492032#0(822"/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found6(22@128"Property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation335492032#0#190#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@135"Property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation335492032#190#197#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@46"Incomplete implementation of class 'HighScore'335492032#387#108#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-clearView' not found335492032#495#106#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@54"Method definition for '-newHighScorePerson:' not found335492032#601#116#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@43"Method definition for '-newName:' not found335492032#717#105#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/HighScore.m8608216352#1746"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/HighScore.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/HighScore.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492032.112219
-e335492032.176514
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Instructions.o
-x/Users/fred/Desktop/Finale/Classes/Instructions.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/fred/Desktop/Finale/Classes/Instructions.m335492032#335492032#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/Instructions.m8608093312#1752"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Instructions.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Instructions.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.764828
-e335492032.046777
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/QuickGame.o
-x/Users/fred/Desktop/Finale/Classes/QuickGame.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found
-lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/QuickGame.m335492031#335492032#0(528"/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found5(22@46"Incomplete implementation of class 'QuickGame'335492031#0#108#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-AnswerD:' not found335492031#108#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerC:' not found335492031#213#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerB:' not found335492031#318#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerA:' not found335492031#423#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/QuickGame.m8611037472#1746"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/QuickGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/QuickGame.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.664853
-e335492031.764726
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/RootViewController.o
-x/Users/fred/Desktop/Finale/Classes/../RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/fred/Desktop/Finale/Classes/../RootViewController.m335492031#335492031#0(0"0(0#0#58"/Users/fred/Desktop/Finale/Classes/../RootViewController.m8608520672#1767"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/../RootViewController.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/RootViewController.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492032.046882
-e335492032.112120
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Testing.o
-x/Users/fred/Desktop/Finale/Classes/Testing.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/fred/Desktop/Finale/Classes/Testing.m335492032#335492032#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Classes/Testing.m8608469920#1742"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Testing.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Testing.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/main.o" /Users/fred/Desktop/Finale/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492031.560358
-e335492031.664751
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/main.o
-x/Users/fred/Desktop/Finale/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/fred/Desktop/Finale/main.m335492031#335492031#0(0"0(0#0#33"/Users/fred/Desktop/Finale/main.m8608894048#1728"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/main.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/main.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.490947
-e335492032.675925
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomGame.o
-x/Users/fred/Desktop/Finale/Classes/CustomGame.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomGame.m335492032#335492032#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomGame.m8608510368#1748"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomGame.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.943012
-e335492033.301899
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomPlay.o
-x/Users/fred/Desktop/Finale/Classes/CustomPlay.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomPlay.m335492032#335492033#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomPlay.m8609719296#1748"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomPlay.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/CustomPlay.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.309589
-e335492032.400310
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/FinaleAppDelegate.o
-x/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@62"Compile /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m335492032#335492032#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m8609746848#1762"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/FinaleAppDelegate.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492033.191032
-e335492033.506997
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/HighScore.o
-x/Users/fred/Desktop/Finale/Classes/HighScore.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found
-o/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found
-lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/HighScore.m335492033#335492033#0(822"/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: incomplete implementation of class 'HighScore'/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-clearView' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newHighScorePerson:' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:702: warning: method definition for '-newName:' not found6(22@128"Property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation335492033#0#190#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@135"Property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation335492033#190#197#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#0"0(22@46"Incomplete implementation of class 'HighScore'335492033#387#108#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-clearView' not found335492033#495#106#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@54"Method definition for '-newHighScorePerson:' not found335492033#601#116#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(22@43"Method definition for '-newName:' not found335492033#717#105#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335388081#702#0#702#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/HighScore.m8599819680#1746"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/HighScore.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/HighScore.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492033.122789
-e335492033.190925
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Instructions.o
-x/Users/fred/Desktop/Finale/Classes/Instructions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/fred/Desktop/Finale/Classes/Instructions.m335492033#335492033#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/Instructions.m8608520928#1752"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Instructions.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Instructions.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.676056
-e335492032.942833
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/QuickGame.o
-x/Users/fred/Desktop/Finale/Classes/QuickGame.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found
-o/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found
-lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/QuickGame.m335492032#335492032#0(528"/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: incomplete implementation of class 'QuickGame'/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerD:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerC:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerB:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:689: warning: method definition for '-AnswerA:' not found5(22@46"Incomplete implementation of class 'QuickGame'335492032#0#108#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-AnswerD:' not found335492032#108#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerC:' not found335492032#213#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerB:' not found335492032#318#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerA:' not found335492032#423#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335401954#689#0#689#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/QuickGame.m8609574176#1746"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/QuickGame.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/QuickGame.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.400418
-e335492032.490845
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/RootViewController.o
-x/Users/fred/Desktop/Finale/Classes/../RootViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/fred/Desktop/Finale/Classes/../RootViewController.m335492032#335492032#0(0"0(0#0#58"/Users/fred/Desktop/Finale/Classes/../RootViewController.m8608983296#1767"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/../RootViewController.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/RootViewController.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492033.039503
-e335492033.122687
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Testing.o
-x/Users/fred/Desktop/Finale/Classes/Testing.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/fred/Desktop/Finale/Classes/Testing.m335492033#335492033#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Classes/Testing.m8609159360#1742"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Testing.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Testing.o"0#
-
-CCompileC "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/main.o" /Users/fred/Desktop/Finale/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492032.260912
-e335492032.309487
-r1
-xCompileC
-xbuild/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/main.o
-x/Users/fred/Desktop/Finale/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@41"Compile /Users/fred/Desktop/Finale/main.m335492032#335492032#0(0"0(0#0#33"/Users/fred/Desktop/Finale/main.m8611111968#1728"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch" -c /Users/fred/Desktop/Finale/main.m -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/main.o"0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
-s335492028.280427
-e335492029.006267
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/CustomGame.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.
-lSLF07#2@33"CompileXIB Classes/CustomGame.xib335492028#335492029#0(168"/* com.apple.ibtool.document.warnings *//Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.335492028#18446744073709551615#0#0(6@49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib335398532#34#0#34#0#0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib8608942080#522"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/CustomGame.nib" /Users/fred/Desktop/Finale/Classes/CustomGame.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
-s335492029.006353
-e335492029.751505
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
-lSLF07#2@33"CompileXIB Classes/CustomPlay.xib335492029#335492029#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomPlay.xib8605138592#522"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/CustomPlay.nib" /Users/fred/Desktop/Finale/Classes/CustomPlay.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
-s335492029.751600
-e335492030.583309
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/HighScore.xib
-lSLF07#2@32"CompileXIB Classes/HighScore.xib335492029#335492030#0(0"0(0#0#48"/Users/fred/Desktop/Finale/Classes/HighScore.xib8609157024#520"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/HighScore.nib" /Users/fred/Desktop/Finale/Classes/HighScore.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
-s335492029.583695
-e335492030.087497
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/Instructions.xib
-lSLF07#2@35"CompileXIB Classes/Instructions.xib335492029#335492030#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Classes/Instructions.xib8609647488#526"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Instructions.nib" /Users/fred/Desktop/Finale/Classes/Instructions.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
-s335492028.317350
-e335492029.161226
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/QuickGame.xib
-lSLF07#2@32"CompileXIB Classes/QuickGame.xib335492028#335492029#0(0"0(0#0#48"/Users/fred/Desktop/Finale/Classes/QuickGame.xib8608648288#520"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/QuickGame.nib" /Users/fred/Desktop/Finale/Classes/QuickGame.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
-s335492029.161309
-e335492029.583559
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/Classes/Testing.xib
-lSLF07#2@30"CompileXIB Classes/Testing.xib335492029#335492029#0(0"0(0#0#46"/Users/fred/Desktop/Finale/Classes/Testing.xib8611530400#516"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Testing.nib" /Users/fred/Desktop/Finale/Classes/Testing.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
-s335492027.814670
-e335492028.280335
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib335492027#335492028#0(0"0(0#0#41"/Users/fred/Desktop/Finale/MainWindow.xib8609713920#514"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/MainWindow.nib" /Users/fred/Desktop/Finale/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
-s335492027.816008
-e335492028.317240
-r1
-xCompileXIB
-x/Users/fred/Desktop/Finale/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib335492027#335492028#0(0"0(0#0#49"/Users/fred/Desktop/Finale/RootViewController.xib8609650400#530"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/RootViewController.nib" /Users/fred/Desktop/Finale/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCopyPNGFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png" ../BrainBuilder.png
-s335494291.252068
-e335494291.281215
-r1
-xCopyPNGFile
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png
-x../BrainBuilder.png
-lSLF07#2@89"CopyPNGFile "build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png" ../BrainBuilder.png335494291#335494291#0(0"0(0#0#46"/Users/fred/Desktop/Finale/../BrainBuilder.png8612201696#547"    cd /Users/fred/Desktop/Finale    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/fred/Desktop/Finale/../BrainBuilder.png "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilder.png"0#
-
-CCopyPNGFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png" ../BrainBuilderMath.png
-s335563088.785756
-e335563088.815357
-r1
-xCopyPNGFile
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png
-x../BrainBuilderMath.png
-lSLF07#2@97"CopyPNGFile "build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png" ../BrainBuilderMath.png335563088#335563088#0(0"0(0#0#50"/Users/fred/Desktop/Finale/../BrainBuilderMath.png8622402112#555"    cd /Users/fred/Desktop/Finale    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/fred/Desktop/Finale/../BrainBuilderMath.png "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/BrainBuilderMath.png"0#
-
-CCpResource "build/Debug-iphoneos/Brain Builder.app/ResourceRules.plist" /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s335492027.766406
-e335492027.814458
-r1
-xCpResource
-xbuild/Debug-iphoneos/Brain Builder.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist335492027#335492027#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8609646976#464"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"0#
-
-CCreateUniversalBinary "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder" normal "armv6 armv7"
-s335492033.729065
-e335492033.787943
-r1
-xCreateUniversalBinary
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder
-xnormal
-xarmv6 armv7
-lSLF07#2@97"CreateUniversalBinary "build/Debug-iphoneos/Brain Builder.app/Brain Builder" normal "armv6 armv7"335492033#335492033#0(0"0(0#0#38"/Users/fred/Desktop/Finale/armv6 armv78609824128#524"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder" "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder" -output "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder"0#
-
-CGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder"
-s335492033.788068
-e335492033.893716
-r1
-xGenerateDSYMFile
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app.dSYM
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder
-lSLF07#2@117"GenerateDSYMFile "build/Debug-iphoneos/Brain Builder.app.dSYM" "build/Debug-iphoneos/Brain Builder.app/Brain Builder"335492033#335492033#0(0"0(0#0#79"/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder8609288448#348"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Brain Builder" -o "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app.dSYM"0#
-
-CLd "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder" normal armv6
-s335492032.620698
-e335492033.039399
-r1
-xLd
-x/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder
-xnormal
-xarmv6
-lSLF07#2@127"Link /Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder335492032#335492033#0(0"0(0#0#0"8609834368#839"    cd /Users/fred/Desktop/Finale    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/fred/Desktop/Finale/build/Debug-iphoneos -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -filelist "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv6/Brain Builder"0#
-
-CLd "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder" normal armv7
-s335492033.507093
-e335492033.728966
-r1
-xLd
-x/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder
-xnormal
-xarmv7
-lSLF07#2@127"Link /Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder335492033#335492033#0(0"0(0#0#0"8611123136#839"    cd /Users/fred/Desktop/Finale    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/fred/Desktop/Finale/build/Debug-iphoneos -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -filelist "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Objects-normal/armv7/Brain Builder"0#
-
-CProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Info.plist" "Brain Builder-Info.plist"
-s335563154.582885
-e335563154.586758
-r1
-xProcessInfoPlistFile
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Info.plist
-xBrain Builder-Info.plist
-lSLF07#2@32"Process Brain Builder-Info.plist335563154#335563154#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Brain Builder-Info.plist8622573568#546"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Brain Builder-Info.plist" -genpkginfo "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/ResourceRules.plist" -o "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/Info.plist"0#
-
-CProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s335492030.583441
-e335492031.439606
-r1
-xProcessPCH
-x/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch.gch
-xBrain Builder_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile Brain Builder_Prefix.pch335492030#335492031#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch8611057056#1632"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv6" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -c "/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch" -o "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-ftqpxphsnfuedxeqlijamvxbgiof/Brain Builder_Prefix.pch.gch"0#
-
-CProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch.gch" "Brain Builder_Prefix.pch" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s335492030.584390
-e335492031.560077
-r1
-xProcessPCH
-x/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch.gch
-xBrain Builder_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile Brain Builder_Prefix.pch335492030#335492031#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch8609743488#1632"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphoneos -I/Users/fred/Desktop/Finale/build/Debug-iphoneos/include "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources/armv7" "-I/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/DerivedSources" -c "/Users/fred/Desktop/Finale/Brain Builder_Prefix.pch" -o "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Brain Builder_Prefix-gxhrarsdzzwrbefrorkdrbwgvmrs/Brain Builder_Prefix.pch.gch"0#
-
-CProcessProductPackaging "/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision" "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision"
-s335492033.893813
-e335492033.895180
-r1
-xProcessProductPackaging
-x/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision
-lSLF07#2@199"ProcessProductPackaging "/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision" "build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision"335492033#335492033#0(0"0(0#0#90"/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision8611363680#406"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/fred/Library/MobileDevice/Provisioning Profiles/0F4F5090-068C-4BED-A846-9E09C8422D47.mobileprovision" -o "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app/embedded.mobileprovision"0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent"
-s335563154.593638
-e335563154.612188
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent
-lSLF07#2@195"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent"335563154#335563154#0(0"0(0#0#107"/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent8618699904#428"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/fred/Desktop/Finale/build/Brain Builder.build/Debug-iphoneos/Brain Builder.build/Brain Builder.xcent"0#
-
-CTouch "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"
-s335563154.590139
-e335563154.593542
-r1
-xTouch
-x/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app
-lSLF07#2@71"Touch /Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app335563154#335563154#0(0"0(0#0#0"8619412800#248"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/fred/Desktop/Finale/build/Debug-iphoneos/Brain Builder.app"0#
-
