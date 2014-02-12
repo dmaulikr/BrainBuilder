@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60D479017D81B8D0037A956 /* BrainBuilderAttention114.png in Resources */ = {isa = PBXBuildFile; fileRef = B60D478F17D81B8D0037A956 /* BrainBuilderAttention114.png */; };
+		B60D479217D81B980037A956 /* BrainBuilderAttention57.png in Resources */ = {isa = PBXBuildFile; fileRef = B60D479117D81B980037A956 /* BrainBuilderAttention57.png */; };
+		B66E16B517D2D2D600934286 /* rightOrangeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B66E16B417D2D2D600934286 /* rightOrangeArrow.png */; };
+		B66E16B717D2D2E400934286 /* LeftOrangeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B66E16B617D2D2E400934286 /* LeftOrangeArrow.png */; };
+		B66E16B917D2D2F300934286 /* upOrangeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B66E16B817D2D2F300934286 /* upOrangeArrow.png */; };
+		B66E16BB17D2D2FE00934286 /* downOrangeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B66E16BA17D2D2FE00934286 /* downOrangeArrow.png */; };
+		B670328917D9599900E5BFA0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B670328717D9599900E5BFA0 /* SettingsViewController.m */; };
+		B670328A17D9599900E5BFA0 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B670328817D9599900E5BFA0 /* SettingsViewController.xib */; };
+		B6AD30A017D045CC00E5513E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD309F17D045CC00E5513E /* UIKit.framework */; };
+		B6AD30A217D045CC00E5513E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD30A117D045CC00E5513E /* Foundation.framework */; };
+		B6AD30A417D045CC00E5513E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD30A317D045CC00E5513E /* CoreGraphics.framework */; };
+		B6AD30AA17D045CC00E5513E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30A817D045CC00E5513E /* InfoPlist.strings */; };
+		B6AD30AC17D045CC00E5513E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30AB17D045CC00E5513E /* main.m */; };
+		B6AD30B017D045CC00E5513E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30AF17D045CC00E5513E /* AppDelegate.m */; };
+		B6AD30B217D045CC00E5513E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30B117D045CC00E5513E /* Default.png */; };
+		B6AD30B417D045CC00E5513E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30B317D045CC00E5513E /* Default@2x.png */; };
+		B6AD30B617D045CC00E5513E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30B517D045CC00E5513E /* Default-568h@2x.png */; };
+		B6AD30BE17D045CC00E5513E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD30BD17D045CC00E5513E /* SenTestingKit.framework */; };
+		B6AD30BF17D045CC00E5513E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD309F17D045CC00E5513E /* UIKit.framework */; };
+		B6AD30C017D045CC00E5513E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AD30A117D045CC00E5513E /* Foundation.framework */; };
+		B6AD30C817D045CD00E5513E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30C617D045CD00E5513E /* InfoPlist.strings */; };
+		B6AD30CB17D045CD00E5513E /* BrainBuilderAttentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30CA17D045CD00E5513E /* BrainBuilderAttentionTests.m */; };
+		B6AD30DA17D0460700E5513E /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30D817D0460700E5513E /* AttentionViewController.m */; };
+		B6AD30DB17D0460700E5513E /* AttentionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30D917D0460700E5513E /* AttentionViewController.xib */; };
+		B6AD30DF17D046A700E5513E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AD30DD17D046A700E5513E /* GameViewController.m */; };
+		B6AD30E017D046A700E5513E /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30DE17D046A700E5513E /* GameViewController.xib */; };
+		B6AD30E717D0EC6200E5513E /* RightBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30E617D0EC6200E5513E /* RightBlueArrow.png */; };
+		B6AD30E917D0EC7500E5513E /* LeftBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30E817D0EC7500E5513E /* LeftBlueArrow.png */; };
+		B6AD30EB17D0EC9900E5513E /* UpBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30EA17D0EC9800E5513E /* UpBlueArrow.png */; };
+		B6AD30ED17D0ECAC00E5513E /* DownBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30EC17D0ECAC00E5513E /* DownBlueArrow.png */; };
+		B6AD30EF17D0F70600E5513E /* Empty2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6AD30EE17D0F70600E5513E /* Empty2.png */; };
+		B6EB8FC017D3D2010094FBDC /* GreenCheckMark.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FBF17D3D2010094FBDC /* GreenCheckMark.png */; };
+		B6EB8FC217D3D20E0094FBDC /* redX.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FC117D3D20E0094FBDC /* redX.png */; };
+		B6EB8FC417D3D3EF0094FBDC /* AttentionBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FC317D3D3EF0094FBDC /* AttentionBackGround.png */; };
+		B6EB8FC817D401130094FBDC /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FC617D401130094FBDC /* HighScoreViewController.m */; };
+		B6EB8FC917D401130094FBDC /* HighScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FC617D401130094FBDC /* HighScoreViewController.m */; };
+		B6EB8FCA17D401130094FBDC /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FC717D401130094FBDC /* HighScoreViewController.xib */; };
+		B6EB8FCB17D401130094FBDC /* HighScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FC717D401130094FBDC /* HighScoreViewController.xib */; };
+		B6EB8FCD17D402B00094FBDC /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EB8FCC17D402B00094FBDC /* iAd.framework */; };
+		B6EB8FDD17D518E90094FBDC /* TurnedLeftBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FDC17D518E90094FBDC /* TurnedLeftBlueArrow.png */; };
+		B6EB8FDE17D518E90094FBDC /* TurnedLeftBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FDC17D518E90094FBDC /* TurnedLeftBlueArrow.png */; };
+		B6EB8FE017D518F70094FBDC /* TurnedDownBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FDF17D518F70094FBDC /* TurnedDownBlueArrow.png */; };
+		B6EB8FE117D518F70094FBDC /* TurnedDownBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FDF17D518F70094FBDC /* TurnedDownBlueArrow.png */; };
+		B6EB8FE317D519030094FBDC /* TurnedRightBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FE217D519030094FBDC /* TurnedRightBlueArrow.png */; };
+		B6EB8FE417D519030094FBDC /* TurnedRightBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FE217D519030094FBDC /* TurnedRightBlueArrow.png */; };
+		B6EB8FE617D5190E0094FBDC /* TurnedUpBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FE517D5190E0094FBDC /* TurnedUpBlueArrow.png */; };
+		B6EB8FE717D5190E0094FBDC /* TurnedUpBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FE517D5190E0094FBDC /* TurnedUpBlueArrow.png */; };
+		B6EB8FEB17D524880094FBDC /* ThirdInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FE917D524870094FBDC /* ThirdInstructionViewController.m */; };
+		B6EB8FEC17D524880094FBDC /* ThirdInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FE917D524870094FBDC /* ThirdInstructionViewController.m */; };
+		B6EB8FED17D524880094FBDC /* ThirdInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FEA17D524870094FBDC /* ThirdInstructionViewController.xib */; };
+		B6EB8FEE17D524880094FBDC /* ThirdInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FEA17D524870094FBDC /* ThirdInstructionViewController.xib */; };
+		B6EB8FF217D525210094FBDC /* SpecificInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FF017D525210094FBDC /* SpecificInstructionViewController.m */; };
+		B6EB8FF317D525210094FBDC /* SpecificInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB8FF017D525210094FBDC /* SpecificInstructionViewController.m */; };
+		B6EB8FF417D525210094FBDC /* SpecificInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FF117D525210094FBDC /* SpecificInstructionViewController.xib */; };
+		B6EB8FF517D525210094FBDC /* SpecificInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FF117D525210094FBDC /* SpecificInstructionViewController.xib */; };
+		B6EB8FF817D52D590094FBDC /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FF617D52D590094FBDC /* content_iPhone.plist */; };
+		B6EB8FF917D52D590094FBDC /* content_iPhone.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FF617D52D590094FBDC /* content_iPhone.plist */; };
+		B6EB8FFB17D569350094FBDC /* NEBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FFA17D569350094FBDC /* NEBlueArrow.png */; };
+		B6EB8FFC17D569350094FBDC /* NEBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FFA17D569350094FBDC /* NEBlueArrow.png */; };
+		B6EB8FFE17D569470094FBDC /* SEBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FFD17D569470094FBDC /* SEBlueArrow.png */; };
+		B6EB8FFF17D569470094FBDC /* SEBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB8FFD17D569470094FBDC /* SEBlueArrow.png */; };
+		B6EB900117D569530094FBDC /* NWBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900017D569520094FBDC /* NWBlueArrow.png */; };
+		B6EB900217D569530094FBDC /* NWBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900017D569520094FBDC /* NWBlueArrow.png */; };
+		B6EB900417D5695F0094FBDC /* SWBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900317D5695F0094FBDC /* SWBlueArrow.png */; };
+		B6EB900517D5695F0094FBDC /* SWBlueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900317D5695F0094FBDC /* SWBlueArrow.png */; };
+		B6EB900717D578EA0094FBDC /* upBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900617D578EA0094FBDC /* upBrownArrow.png */; };
+		B6EB900817D578EA0094FBDC /* upBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900617D578EA0094FBDC /* upBrownArrow.png */; };
+		B6EB900A17D578F70094FBDC /* leftBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900917D578F70094FBDC /* leftBrownArrow.png */; };
+		B6EB900B17D578F70094FBDC /* leftBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900917D578F70094FBDC /* leftBrownArrow.png */; };
+		B6EB900D17D579050094FBDC /* rightBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900C17D579050094FBDC /* rightBrownArrow.png */; };
+		B6EB900E17D579050094FBDC /* rightBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900C17D579050094FBDC /* rightBrownArrow.png */; };
+		B6EB901017D579130094FBDC /* downBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900F17D579130094FBDC /* downBrownArrow.png */; };
+		B6EB901117D579130094FBDC /* downBrownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB900F17D579130094FBDC /* downBrownArrow.png */; };
+		B6EB901417D579C00094FBDC /* rightGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901317D579C00094FBDC /* rightGreenArrow.png */; };
+		B6EB901517D579C00094FBDC /* rightGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901317D579C00094FBDC /* rightGreenArrow.png */; };
+		B6EB901717D579C80094FBDC /* downGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901617D579C80094FBDC /* downGreenArrow.png */; };
+		B6EB901817D579C80094FBDC /* downGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901617D579C80094FBDC /* downGreenArrow.png */; };
+		B6EB901A17D579D50094FBDC /* LeftGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901917D579D50094FBDC /* LeftGreenArrow.png */; };
+		B6EB901B17D579D50094FBDC /* LeftGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901917D579D50094FBDC /* LeftGreenArrow.png */; };
+		B6EB901D17D579E10094FBDC /* upGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901C17D579E10094FBDC /* upGreenArrow.png */; };
+		B6EB901E17D579E10094FBDC /* upGreenArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901C17D579E10094FBDC /* upGreenArrow.png */; };
+		B6EB902017D57A5A0094FBDC /* rightWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901F17D57A5A0094FBDC /* rightWhiteArrow.png */; };
+		B6EB902117D57A5A0094FBDC /* rightWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB901F17D57A5A0094FBDC /* rightWhiteArrow.png */; };
+		B6EB902317D57A660094FBDC /* downWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902217D57A660094FBDC /* downWhiteArrow.png */; };
+		B6EB902417D57A660094FBDC /* downWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902217D57A660094FBDC /* downWhiteArrow.png */; };
+		B6EB902617D57A770094FBDC /* leftWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902517D57A770094FBDC /* leftWhiteArrow.png */; };
+		B6EB902717D57A770094FBDC /* leftWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902517D57A770094FBDC /* leftWhiteArrow.png */; };
+		B6EB902917D57A820094FBDC /* upWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902817D57A820094FBDC /* upWhiteArrow.png */; };
+		B6EB902A17D57A820094FBDC /* upWhiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902817D57A820094FBDC /* upWhiteArrow.png */; };
+		B6EB902C17D581640094FBDC /* rightPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902B17D581640094FBDC /* rightPinkArrow.png */; };
+		B6EB902D17D581640094FBDC /* rightPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902B17D581640094FBDC /* rightPinkArrow.png */; };
+		B6EB902F17D581700094FBDC /* downPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902E17D581700094FBDC /* downPinkArrow.png */; };
+		B6EB903017D581700094FBDC /* downPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB902E17D581700094FBDC /* downPinkArrow.png */; };
+		B6EB903217D581870094FBDC /* leftPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB903117D581870094FBDC /* leftPinkArrow.png */; };
+		B6EB903317D581870094FBDC /* leftPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB903117D581870094FBDC /* leftPinkArrow.png */; };
+		B6EB903517D5819B0094FBDC /* upPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB903417D5819B0094FBDC /* upPinkArrow.png */; };
+		B6EB903617D5819B0094FBDC /* upPinkArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EB903417D5819B0094FBDC /* upPinkArrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AD30C117D045CC00E5513E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AD309417D045CC00E5513E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AD309B17D045CC00E5513E;
+			remoteInfo = BrainBuilderAttention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60D478F17D81B8D0037A956 /* BrainBuilderAttention114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrainBuilderAttention114.png; sourceTree = "<group>"; };
+		B60D479117D81B980037A956 /* BrainBuilderAttention57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrainBuilderAttention57.png; sourceTree = "<group>"; };
+		B66E16B417D2D2D600934286 /* rightOrangeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightOrangeArrow.png; path = ../../../Documents/rightOrangeArrow.png; sourceTree = "<group>"; };
+		B66E16B617D2D2E400934286 /* LeftOrangeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftOrangeArrow.png; path = ../../../Documents/LeftOrangeArrow.png; sourceTree = "<group>"; };
+		B66E16B817D2D2F300934286 /* upOrangeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upOrangeArrow.png; path = ../../../Documents/upOrangeArrow.png; sourceTree = "<group>"; };
+		B66E16BA17D2D2FE00934286 /* downOrangeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downOrangeArrow.png; path = ../../../Documents/downOrangeArrow.png; sourceTree = "<group>"; };
+		B670328617D9599900E5BFA0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		B670328717D9599900E5BFA0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		B670328817D9599900E5BFA0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		B6AD309C17D045CC00E5513E /* BrainBuilderAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBuilderAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD309F17D045CC00E5513E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6AD30A117D045CC00E5513E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6AD30A317D045CC00E5513E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6AD30A717D045CC00E5513E /* BrainBuilderAttention-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderAttention-Info.plist"; sourceTree = "<group>"; };
+		B6AD30A917D045CC00E5513E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6AD30AB17D045CC00E5513E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6AD30AD17D045CC00E5513E /* BrainBuilderAttention-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainBuilderAttention-Prefix.pch"; sourceTree = "<group>"; };
+		B6AD30AE17D045CC00E5513E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6AD30AF17D045CC00E5513E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6AD30B117D045CC00E5513E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B6AD30B317D045CC00E5513E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B6AD30B517D045CC00E5513E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6AD30BC17D045CC00E5513E /* BrainBuilderAttentionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBuilderAttentionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD30BD17D045CC00E5513E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6AD30C517D045CD00E5513E /* BrainBuilderAttentionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderAttentionTests-Info.plist"; sourceTree = "<group>"; };
+		B6AD30C717D045CD00E5513E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6AD30C917D045CD00E5513E /* BrainBuilderAttentionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrainBuilderAttentionTests.h; sourceTree = "<group>"; };
+		B6AD30CA17D045CD00E5513E /* BrainBuilderAttentionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainBuilderAttentionTests.m; sourceTree = "<group>"; };
+		B6AD30D717D0460700E5513E /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttentionViewController.h; path = ../AttentionViewController.h; sourceTree = "<group>"; };
+		B6AD30D817D0460700E5513E /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttentionViewController.m; path = ../AttentionViewController.m; sourceTree = "<group>"; };
+		B6AD30D917D0460700E5513E /* AttentionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AttentionViewController.xib; path = ../AttentionViewController.xib; sourceTree = "<group>"; };
+		B6AD30DC17D046A700E5513E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B6AD30DD17D046A700E5513E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B6AD30DE17D046A700E5513E /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		B6AD30E617D0EC6200E5513E /* RightBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RightBlueArrow.png; path = ../../../Documents/RightBlueArrow.png; sourceTree = "<group>"; };
+		B6AD30E817D0EC7500E5513E /* LeftBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftBlueArrow.png; path = ../../../Documents/LeftBlueArrow.png; sourceTree = "<group>"; };
+		B6AD30EA17D0EC9800E5513E /* UpBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UpBlueArrow.png; path = ../../../Documents/UpBlueArrow.png; sourceTree = "<group>"; };
+		B6AD30EC17D0ECAC00E5513E /* DownBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DownBlueArrow.png; path = ../../../Documents/DownBlueArrow.png; sourceTree = "<group>"; };
+		B6AD30EE17D0F70600E5513E /* Empty2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Empty2.png; path = ../../../Documents/Empty2.png; sourceTree = "<group>"; };
+		B6EB8FBF17D3D2010094FBDC /* GreenCheckMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GreenCheckMark.png; path = ../../../Documents/GreenCheckMark.png; sourceTree = "<group>"; };
+		B6EB8FC117D3D20E0094FBDC /* redX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redX.png; path = ../../../Documents/redX.png; sourceTree = "<group>"; };
+		B6EB8FC317D3D3EF0094FBDC /* AttentionBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AttentionBackGround.png; path = ../../../Documents/AttentionBackGround.png; sourceTree = "<group>"; };
+		B6EB8FC517D401130094FBDC /* HighScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreViewController.h; sourceTree = "<group>"; };
+		B6EB8FC617D401130094FBDC /* HighScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreViewController.m; sourceTree = "<group>"; };
+		B6EB8FC717D401130094FBDC /* HighScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreViewController.xib; sourceTree = "<group>"; };
+		B6EB8FCC17D402B00094FBDC /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B6EB8FDC17D518E90094FBDC /* TurnedLeftBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TurnedLeftBlueArrow.png; path = ../../../Documents/TurnedLeftBlueArrow.png; sourceTree = "<group>"; };
+		B6EB8FDF17D518F70094FBDC /* TurnedDownBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TurnedDownBlueArrow.png; path = ../../../Documents/TurnedDownBlueArrow.png; sourceTree = "<group>"; };
+		B6EB8FE217D519030094FBDC /* TurnedRightBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TurnedRightBlueArrow.png; path = ../../../Documents/TurnedRightBlueArrow.png; sourceTree = "<group>"; };
+		B6EB8FE517D5190E0094FBDC /* TurnedUpBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TurnedUpBlueArrow.png; path = ../../../Documents/TurnedUpBlueArrow.png; sourceTree = "<group>"; };
+		B6EB8FE817D524870094FBDC /* ThirdInstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInstructionViewController.h; sourceTree = "<group>"; };
+		B6EB8FE917D524870094FBDC /* ThirdInstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInstructionViewController.m; sourceTree = "<group>"; };
+		B6EB8FEA17D524870094FBDC /* ThirdInstructionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdInstructionViewController.xib; sourceTree = "<group>"; };
+		B6EB8FEF17D525210094FBDC /* SpecificInstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificInstructionViewController.h; sourceTree = "<group>"; };
+		B6EB8FF017D525210094FBDC /* SpecificInstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificInstructionViewController.m; sourceTree = "<group>"; };
+		B6EB8FF117D525210094FBDC /* SpecificInstructionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecificInstructionViewController.xib; sourceTree = "<group>"; };
+		B6EB8FF717D52D590094FBDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = ../../../../Downloads/PageControl/en.lproj/content_iPhone.plist; sourceTree = "<group>"; };
+		B6EB8FFA17D569350094FBDC /* NEBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NEBlueArrow.png; path = ../../../Documents/NEBlueArrow.png; sourceTree = "<group>"; };
+		B6EB8FFD17D569470094FBDC /* SEBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SEBlueArrow.png; path = ../../../Documents/SEBlueArrow.png; sourceTree = "<group>"; };
+		B6EB900017D569520094FBDC /* NWBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NWBlueArrow.png; path = ../../../Documents/NWBlueArrow.png; sourceTree = "<group>"; };
+		B6EB900317D5695F0094FBDC /* SWBlueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SWBlueArrow.png; path = ../../../Documents/SWBlueArrow.png; sourceTree = "<group>"; };
+		B6EB900617D578EA0094FBDC /* upBrownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upBrownArrow.png; path = ../../../Documents/upBrownArrow.png; sourceTree = "<group>"; };
+		B6EB900917D578F70094FBDC /* leftBrownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftBrownArrow.png; path = ../../../Documents/leftBrownArrow.png; sourceTree = "<group>"; };
+		B6EB900C17D579050094FBDC /* rightBrownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightBrownArrow.png; path = ../../../Documents/rightBrownArrow.png; sourceTree = "<group>"; };
+		B6EB900F17D579130094FBDC /* downBrownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downBrownArrow.png; path = ../../../Documents/downBrownArrow.png; sourceTree = "<group>"; };
+		B6EB901317D579C00094FBDC /* rightGreenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightGreenArrow.png; path = ../../../Documents/rightGreenArrow.png; sourceTree = "<group>"; };
+		B6EB901617D579C80094FBDC /* downGreenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downGreenArrow.png; path = ../../../Documents/downGreenArrow.png; sourceTree = "<group>"; };
+		B6EB901917D579D50094FBDC /* LeftGreenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LeftGreenArrow.png; path = ../../../Documents/LeftGreenArrow.png; sourceTree = "<group>"; };
+		B6EB901C17D579E10094FBDC /* upGreenArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upGreenArrow.png; path = ../../../Documents/upGreenArrow.png; sourceTree = "<group>"; };
+		B6EB901F17D57A5A0094FBDC /* rightWhiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightWhiteArrow.png; path = ../../../Documents/rightWhiteArrow.png; sourceTree = "<group>"; };
+		B6EB902217D57A660094FBDC /* downWhiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downWhiteArrow.png; path = ../../../Documents/downWhiteArrow.png; sourceTree = "<group>"; };
+		B6EB902517D57A770094FBDC /* leftWhiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftWhiteArrow.png; path = ../../../Documents/leftWhiteArrow.png; sourceTree = "<group>"; };
+		B6EB902817D57A820094FBDC /* upWhiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upWhiteArrow.png; path = ../../../Documents/upWhiteArrow.png; sourceTree = "<group>"; };
+		B6EB902B17D581640094FBDC /* rightPinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightPinkArrow.png; path = ../../../Documents/rightPinkArrow.png; sourceTree = "<group>"; };
+		B6EB902E17D581700094FBDC /* downPinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = downPinkArrow.png; path = ../../../Documents/downPinkArrow.png; sourceTree = "<group>"; };
+		B6EB903117D581870094FBDC /* leftPinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftPinkArrow.png; path = ../../../Documents/leftPinkArrow.png; sourceTree = "<group>"; };
+		B6EB903417D5819B0094FBDC /* upPinkArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upPinkArrow.png; path = ../../../Documents/upPinkArrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AD309917D045CC00E5513E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EB8FCD17D402B00094FBDC /* iAd.framework in Frameworks */,
+				B6AD30A017D045CC00E5513E /* UIKit.framework in Frameworks */,
+				B6AD30A217D045CC00E5513E /* Foundation.framework in Frameworks */,
+				B6AD30A417D045CC00E5513E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD30B817D045CC00E5513E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD30BE17D045CC00E5513E /* SenTestingKit.framework in Frameworks */,
+				B6AD30BF17D045CC00E5513E /* UIKit.framework in Frameworks */,
+				B6AD30C017D045CC00E5513E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6AD309317D045CC00E5513E = {
+			isa = PBXGroup;
+			children = (
+				B60D479117D81B980037A956 /* BrainBuilderAttention57.png */,
+				B60D478F17D81B8D0037A956 /* BrainBuilderAttention114.png */,
+				B6EB901217D5791D0094FBDC /* Images */,
+				B6AD30A517D045CC00E5513E /* BrainBuilderAttention */,
+				B6AD30C317D045CC00E5513E /* BrainBuilderAttentionTests */,
+				B6AD309E17D045CC00E5513E /* Frameworks */,
+				B6AD309D17D045CC00E5513E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AD309D17D045CC00E5513E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD309C17D045CC00E5513E /* BrainBuilderAttention.app */,
+				B6AD30BC17D045CC00E5513E /* BrainBuilderAttentionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD309E17D045CC00E5513E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6EB8FCC17D402B00094FBDC /* iAd.framework */,
+				B6AD309F17D045CC00E5513E /* UIKit.framework */,
+				B6AD30A117D045CC00E5513E /* Foundation.framework */,
+				B6AD30A317D045CC00E5513E /* CoreGraphics.framework */,
+				B6AD30BD17D045CC00E5513E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AD30A517D045CC00E5513E /* BrainBuilderAttention */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD30AE17D045CC00E5513E /* AppDelegate.h */,
+				B6AD30AF17D045CC00E5513E /* AppDelegate.m */,
+				B6AD30D717D0460700E5513E /* AttentionViewController.h */,
+				B6AD30D817D0460700E5513E /* AttentionViewController.m */,
+				B6AD30D917D0460700E5513E /* AttentionViewController.xib */,
+				B6AD30DC17D046A700E5513E /* GameViewController.h */,
+				B6AD30DD17D046A700E5513E /* GameViewController.m */,
+				B6AD30DE17D046A700E5513E /* GameViewController.xib */,
+				B6EB8FC517D401130094FBDC /* HighScoreViewController.h */,
+				B6EB8FC617D401130094FBDC /* HighScoreViewController.m */,
+				B6EB8FC717D401130094FBDC /* HighScoreViewController.xib */,
+				B6EB8FE817D524870094FBDC /* ThirdInstructionViewController.h */,
+				B6EB8FE917D524870094FBDC /* ThirdInstructionViewController.m */,
+				B6EB8FEA17D524870094FBDC /* ThirdInstructionViewController.xib */,
+				B6EB8FEF17D525210094FBDC /* SpecificInstructionViewController.h */,
+				B6EB8FF017D525210094FBDC /* SpecificInstructionViewController.m */,
+				B6EB8FF117D525210094FBDC /* SpecificInstructionViewController.xib */,
+				B670328617D9599900E5BFA0 /* SettingsViewController.h */,
+				B670328717D9599900E5BFA0 /* SettingsViewController.m */,
+				B670328817D9599900E5BFA0 /* SettingsViewController.xib */,
+				B6AD30A617D045CC00E5513E /* Supporting Files */,
+			);
+			path = BrainBuilderAttention;
+			sourceTree = "<group>";
+		};
+		B6AD30A617D045CC00E5513E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD30A717D045CC00E5513E /* BrainBuilderAttention-Info.plist */,
+				B6EB8FF617D52D590094FBDC /* content_iPhone.plist */,
+				B6AD30A817D045CC00E5513E /* InfoPlist.strings */,
+				B6AD30AB17D045CC00E5513E /* main.m */,
+				B6AD30AD17D045CC00E5513E /* BrainBuilderAttention-Prefix.pch */,
+				B6AD30B117D045CC00E5513E /* Default.png */,
+				B6AD30B317D045CC00E5513E /* Default@2x.png */,
+				B6AD30B517D045CC00E5513E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6AD30C317D045CC00E5513E /* BrainBuilderAttentionTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD30C917D045CD00E5513E /* BrainBuilderAttentionTests.h */,
+				B6AD30CA17D045CD00E5513E /* BrainBuilderAttentionTests.m */,
+				B6AD30C417D045CD00E5513E /* Supporting Files */,
+			);
+			path = BrainBuilderAttentionTests;
+			sourceTree = "<group>";
+		};
+		B6AD30C417D045CD00E5513E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD30C517D045CD00E5513E /* BrainBuilderAttentionTests-Info.plist */,
+				B6AD30C617D045CD00E5513E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6EB901217D5791D0094FBDC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B6EB903417D5819B0094FBDC /* upPinkArrow.png */,
+				B6EB903117D581870094FBDC /* leftPinkArrow.png */,
+				B6EB902E17D581700094FBDC /* downPinkArrow.png */,
+				B6EB902B17D581640094FBDC /* rightPinkArrow.png */,
+				B6EB902817D57A820094FBDC /* upWhiteArrow.png */,
+				B6EB902517D57A770094FBDC /* leftWhiteArrow.png */,
+				B6EB902217D57A660094FBDC /* downWhiteArrow.png */,
+				B6EB901F17D57A5A0094FBDC /* rightWhiteArrow.png */,
+				B6EB901C17D579E10094FBDC /* upGreenArrow.png */,
+				B6EB901917D579D50094FBDC /* LeftGreenArrow.png */,
+				B6EB901617D579C80094FBDC /* downGreenArrow.png */,
+				B6EB901317D579C00094FBDC /* rightGreenArrow.png */,
+				B6EB900F17D579130094FBDC /* downBrownArrow.png */,
+				B6EB900C17D579050094FBDC /* rightBrownArrow.png */,
+				B6EB900917D578F70094FBDC /* leftBrownArrow.png */,
+				B6EB900617D578EA0094FBDC /* upBrownArrow.png */,
+				B6EB900317D5695F0094FBDC /* SWBlueArrow.png */,
+				B6EB900017D569520094FBDC /* NWBlueArrow.png */,
+				B6EB8FFD17D569470094FBDC /* SEBlueArrow.png */,
+				B6EB8FFA17D569350094FBDC /* NEBlueArrow.png */,
+				B6EB8FE517D5190E0094FBDC /* TurnedUpBlueArrow.png */,
+				B6EB8FE217D519030094FBDC /* TurnedRightBlueArrow.png */,
+				B6EB8FDF17D518F70094FBDC /* TurnedDownBlueArrow.png */,
+				B6EB8FDC17D518E90094FBDC /* TurnedLeftBlueArrow.png */,
+				B6EB8FC317D3D3EF0094FBDC /* AttentionBackGround.png */,
+				B6EB8FC117D3D20E0094FBDC /* redX.png */,
+				B6EB8FBF17D3D2010094FBDC /* GreenCheckMark.png */,
+				B66E16BA17D2D2FE00934286 /* downOrangeArrow.png */,
+				B66E16B817D2D2F300934286 /* upOrangeArrow.png */,
+				B66E16B617D2D2E400934286 /* LeftOrangeArrow.png */,
+				B66E16B417D2D2D600934286 /* rightOrangeArrow.png */,
+				B6AD30EE17D0F70600E5513E /* Empty2.png */,
+				B6AD30E817D0EC7500E5513E /* LeftBlueArrow.png */,
+				B6AD30EA17D0EC9800E5513E /* UpBlueArrow.png */,
+				B6AD30E617D0EC6200E5513E /* RightBlueArrow.png */,
+				B6AD30EC17D0ECAC00E5513E /* DownBlueArrow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AD309B17D045CC00E5513E /* BrainBuilderAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD30CE17D045CD00E5513E /* Build configuration list for PBXNativeTarget "BrainBuilderAttention" */;
+			buildPhases = (
+				B6AD309817D045CC00E5513E /* Sources */,
+				B6AD309917D045CC00E5513E /* Frameworks */,
+				B6AD309A17D045CC00E5513E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBuilderAttention;
+			productName = BrainBuilderAttention;
+			productReference = B6AD309C17D045CC00E5513E /* BrainBuilderAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6AD30BB17D045CC00E5513E /* BrainBuilderAttentionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD30D117D045CD00E5513E /* Build configuration list for PBXNativeTarget "BrainBuilderAttentionTests" */;
+			buildPhases = (
+				B6AD30B717D045CC00E5513E /* Sources */,
+				B6AD30B817D045CC00E5513E /* Frameworks */,
+				B6AD30B917D045CC00E5513E /* Resources */,
+				B6AD30BA17D045CC00E5513E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AD30C217D045CC00E5513E /* PBXTargetDependency */,
+			);
+			name = BrainBuilderAttentionTests;
+			productName = BrainBuilderAttentionTests;
+			productReference = B6AD30BC17D045CC00E5513E /* BrainBuilderAttentionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AD309417D045CC00E5513E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fred Kneeland";
+			};
+			buildConfigurationList = B6AD309717D045CC00E5513E /* Build configuration list for PBXProject "BrainBuilderAttention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6AD309317D045CC00E5513E;
+			productRefGroup = B6AD309D17D045CC00E5513E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AD309B17D045CC00E5513E /* BrainBuilderAttention */,
+				B6AD30BB17D045CC00E5513E /* BrainBuilderAttentionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AD309A17D045CC00E5513E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD30AA17D045CC00E5513E /* InfoPlist.strings in Resources */,
+				B6AD30B217D045CC00E5513E /* Default.png in Resources */,
+				B6AD30B417D045CC00E5513E /* Default@2x.png in Resources */,
+				B6AD30B617D045CC00E5513E /* Default-568h@2x.png in Resources */,
+				B6AD30DB17D0460700E5513E /* AttentionViewController.xib in Resources */,
+				B6AD30E017D046A700E5513E /* GameViewController.xib in Resources */,
+				B6AD30E717D0EC6200E5513E /* RightBlueArrow.png in Resources */,
+				B6AD30E917D0EC7500E5513E /* LeftBlueArrow.png in Resources */,
+				B6AD30EB17D0EC9900E5513E /* UpBlueArrow.png in Resources */,
+				B6AD30ED17D0ECAC00E5513E /* DownBlueArrow.png in Resources */,
+				B6AD30EF17D0F70600E5513E /* Empty2.png in Resources */,
+				B66E16B517D2D2D600934286 /* rightOrangeArrow.png in Resources */,
+				B66E16B717D2D2E400934286 /* LeftOrangeArrow.png in Resources */,
+				B66E16B917D2D2F300934286 /* upOrangeArrow.png in Resources */,
+				B66E16BB17D2D2FE00934286 /* downOrangeArrow.png in Resources */,
+				B6EB8FC017D3D2010094FBDC /* GreenCheckMark.png in Resources */,
+				B6EB8FC217D3D20E0094FBDC /* redX.png in Resources */,
+				B6EB8FC417D3D3EF0094FBDC /* AttentionBackGround.png in Resources */,
+				B6EB8FCA17D401130094FBDC /* HighScoreViewController.xib in Resources */,
+				B6EB8FDD17D518E90094FBDC /* TurnedLeftBlueArrow.png in Resources */,
+				B6EB8FE017D518F70094FBDC /* TurnedDownBlueArrow.png in Resources */,
+				B6EB8FE317D519030094FBDC /* TurnedRightBlueArrow.png in Resources */,
+				B6EB8FE617D5190E0094FBDC /* TurnedUpBlueArrow.png in Resources */,
+				B6EB8FED17D524880094FBDC /* ThirdInstructionViewController.xib in Resources */,
+				B6EB8FF417D525210094FBDC /* SpecificInstructionViewController.xib in Resources */,
+				B6EB8FF817D52D590094FBDC /* content_iPhone.plist in Resources */,
+				B6EB8FFB17D569350094FBDC /* NEBlueArrow.png in Resources */,
+				B6EB8FFE17D569470094FBDC /* SEBlueArrow.png in Resources */,
+				B6EB900117D569530094FBDC /* NWBlueArrow.png in Resources */,
+				B6EB900417D5695F0094FBDC /* SWBlueArrow.png in Resources */,
+				B6EB900717D578EA0094FBDC /* upBrownArrow.png in Resources */,
+				B6EB900A17D578F70094FBDC /* leftBrownArrow.png in Resources */,
+				B6EB900D17D579050094FBDC /* rightBrownArrow.png in Resources */,
+				B6EB901017D579130094FBDC /* downBrownArrow.png in Resources */,
+				B6EB901417D579C00094FBDC /* rightGreenArrow.png in Resources */,
+				B6EB901717D579C80094FBDC /* downGreenArrow.png in Resources */,
+				B6EB901A17D579D50094FBDC /* LeftGreenArrow.png in Resources */,
+				B6EB901D17D579E10094FBDC /* upGreenArrow.png in Resources */,
+				B6EB902017D57A5A0094FBDC /* rightWhiteArrow.png in Resources */,
+				B6EB902317D57A660094FBDC /* downWhiteArrow.png in Resources */,
+				B6EB902617D57A770094FBDC /* leftWhiteArrow.png in Resources */,
+				B6EB902917D57A820094FBDC /* upWhiteArrow.png in Resources */,
+				B6EB902C17D581640094FBDC /* rightPinkArrow.png in Resources */,
+				B6EB902F17D581700094FBDC /* downPinkArrow.png in Resources */,
+				B6EB903217D581870094FBDC /* leftPinkArrow.png in Resources */,
+				B6EB903517D5819B0094FBDC /* upPinkArrow.png in Resources */,
+				B60D479017D81B8D0037A956 /* BrainBuilderAttention114.png in Resources */,
+				B60D479217D81B980037A956 /* BrainBuilderAttention57.png in Resources */,
+				B670328A17D9599900E5BFA0 /* SettingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD30B917D045CC00E5513E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD30C817D045CD00E5513E /* InfoPlist.strings in Resources */,
+				B6EB8FCB17D401130094FBDC /* HighScoreViewController.xib in Resources */,
+				B6EB8FDE17D518E90094FBDC /* TurnedLeftBlueArrow.png in Resources */,
+				B6EB8FE117D518F70094FBDC /* TurnedDownBlueArrow.png in Resources */,
+				B6EB8FE417D519030094FBDC /* TurnedRightBlueArrow.png in Resources */,
+				B6EB8FE717D5190E0094FBDC /* TurnedUpBlueArrow.png in Resources */,
+				B6EB8FEE17D524880094FBDC /* ThirdInstructionViewController.xib in Resources */,
+				B6EB8FF517D525210094FBDC /* SpecificInstructionViewController.xib in Resources */,
+				B6EB8FF917D52D590094FBDC /* content_iPhone.plist in Resources */,
+				B6EB8FFC17D569350094FBDC /* NEBlueArrow.png in Resources */,
+				B6EB8FFF17D569470094FBDC /* SEBlueArrow.png in Resources */,
+				B6EB900217D569530094FBDC /* NWBlueArrow.png in Resources */,
+				B6EB900517D5695F0094FBDC /* SWBlueArrow.png in Resources */,
+				B6EB900817D578EA0094FBDC /* upBrownArrow.png in Resources */,
+				B6EB900B17D578F70094FBDC /* leftBrownArrow.png in Resources */,
+				B6EB900E17D579050094FBDC /* rightBrownArrow.png in Resources */,
+				B6EB901117D579130094FBDC /* downBrownArrow.png in Resources */,
+				B6EB901517D579C00094FBDC /* rightGreenArrow.png in Resources */,
+				B6EB901817D579C80094FBDC /* downGreenArrow.png in Resources */,
+				B6EB901B17D579D50094FBDC /* LeftGreenArrow.png in Resources */,
+				B6EB901E17D579E10094FBDC /* upGreenArrow.png in Resources */,
+				B6EB902117D57A5A0094FBDC /* rightWhiteArrow.png in Resources */,
+				B6EB902417D57A660094FBDC /* downWhiteArrow.png in Resources */,
+				B6EB902717D57A770094FBDC /* leftWhiteArrow.png in Resources */,
+				B6EB902A17D57A820094FBDC /* upWhiteArrow.png in Resources */,
+				B6EB902D17D581640094FBDC /* rightPinkArrow.png in Resources */,
+				B6EB903017D581700094FBDC /* downPinkArrow.png in Resources */,
+				B6EB903317D581870094FBDC /* leftPinkArrow.png in Resources */,
+				B6EB903617D5819B0094FBDC /* upPinkArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6AD30BA17D045CC00E5513E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AD309817D045CC00E5513E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD30AC17D045CC00E5513E /* main.m in Sources */,
+				B6AD30B017D045CC00E5513E /* AppDelegate.m in Sources */,
+				B6AD30DA17D0460700E5513E /* AttentionViewController.m in Sources */,
+				B6AD30DF17D046A700E5513E /* GameViewController.m in Sources */,
+				B6EB8FC817D401130094FBDC /* HighScoreViewController.m in Sources */,
+				B6EB8FEB17D524880094FBDC /* ThirdInstructionViewController.m in Sources */,
+				B6EB8FF217D525210094FBDC /* SpecificInstructionViewController.m in Sources */,
+				B670328917D9599900E5BFA0 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AD30B717D045CC00E5513E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AD30CB17D045CD00E5513E /* BrainBuilderAttentionTests.m in Sources */,
+				B6EB8FC917D401130094FBDC /* HighScoreViewController.m in Sources */,
+				B6EB8FEC17D524880094FBDC /* ThirdInstructionViewController.m in Sources */,
+				B6EB8FF317D525210094FBDC /* SpecificInstructionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6AD30C217D045CC00E5513E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AD309B17D045CC00E5513E /* BrainBuilderAttention */;
+			targetProxy = B6AD30C117D045CC00E5513E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6AD30A817D045CC00E5513E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AD30A917D045CC00E5513E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6AD30C617D045CD00E5513E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AD30C717D045CD00E5513E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6EB8FF617D52D590094FBDC /* content_iPhone.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6EB8FF717D52D590094FBDC /* en */,
+			);
+			name = content_iPhone.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AD30CC17D045CD00E5513E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6AD30CD17D045CD00E5513E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AD30CF17D045CD00E5513E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderAttention/BrainBuilderAttention-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderAttention/BrainBuilderAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6AD30D017D045CD00E5513E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderAttention/BrainBuilderAttention-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderAttention/BrainBuilderAttention-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6AD30D217D045CD00E5513E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderAttention.app/BrainBuilderAttention";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderAttention/BrainBuilderAttention-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderAttentionTests/BrainBuilderAttentionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B6AD30D317D045CD00E5513E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderAttention.app/BrainBuilderAttention";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderAttention/BrainBuilderAttention-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderAttentionTests/BrainBuilderAttentionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AD309717D045CC00E5513E /* Build configuration list for PBXProject "BrainBuilderAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD30CC17D045CD00E5513E /* Debug */,
+				B6AD30CD17D045CD00E5513E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD30CE17D045CD00E5513E /* Build configuration list for PBXNativeTarget "BrainBuilderAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD30CF17D045CD00E5513E /* Debug */,
+				B6AD30D017D045CD00E5513E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD30D117D045CD00E5513E /* Build configuration list for PBXNativeTarget "BrainBuilderAttentionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD30D217D045CD00E5513E /* Debug */,
+				B6AD30D317D045CD00E5513E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AD309417D045CC00E5513E /* Project object */;
+}

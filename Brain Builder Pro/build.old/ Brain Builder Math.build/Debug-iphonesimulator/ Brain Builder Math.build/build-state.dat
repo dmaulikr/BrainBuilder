@@ -1,0 +1,716 @@
+T Brain Builder Math
+v7
+r0
+t335661533.384458
+cCheck dependencies
+cProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Info.plist" " Brain Builder Math-Info.plist"
+cCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+cCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
+cCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
+cCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png" ../Pictures/BrainBuilderMath.png
+cCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png" ../Pictures/BrainMathStartUp.png
+cCompileXIB /Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib
+cProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch.gch" " Brain Builder Math_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/main.o" /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScoreCustom.o" /Users/fred/Desktop/Finale/Classes/HighScoreCustom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math" normal i386
+cGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math"
+cTouch "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"
+
+N Brain Builder Math-Info.plist
+c000000004E50236B0000000000000409
+t1313874795
+s1033
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C7F01900000000000000132
+t1283391888
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0473C80000000000000071
+t1275360200
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Users/fred/Desktop/Finale/ Brain Builder Math_Prefix.pch
+c000000004E44B0B500000000000000B5
+t1313124533
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/../BrainBuilder.png
+c000000004E4F04AA000000000000029C
+t1313801386
+s668
+
+N/Users/fred/Desktop/Finale/../BrainBuilderMath.png
+c000000004E5011460000000000000D2C
+t1313870150
+s3372
+
+N/Users/fred/Desktop/Finale/../BrainMathStartUp.png
+c000000004E501DAE0000000000002034
+t1313873326
+s8244
+
+N/Users/fred/Desktop/Finale/../Pictures/BrainBuilderMath.png
+c000000004E5011460000000000000D2C
+t1313870150
+s3372
+
+N/Users/fred/Desktop/Finale/../Pictures/BrainMathStartUp.png
+c000000004E506DDF0000000000002D4E
+t1313893855
+s11598
+
+N/Users/fred/Desktop/Finale/Classes/../RootViewController.m
+c000000004E51848000000000000010CC
+t1313965184
+s4300
+i"RootViewController.h"
+i"QuickGame.h"
+i"CustomGame.h"
+i"Instructions.h"
+i"HighScore.h"
+i"HighScoreCustom.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.h
+c000000004E51859B000000000000076B
+t1313965467
+s1899
+i<UIKit/UIKit.h>
+i<iAd/iAD.h>
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.m
+c000000004E51859400000000000020AF
+t1313965460
+s8367
+i"CustomGame.h"
+i"CustomPlay.h"
+i"Testing.h"
+i"RootViewController.h"
+i"HighScore.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomGame.xib
+c000000004E5178A40000000000016D4F
+t1313962148
+s93519
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.h
+c000000004E5185A00000000000001318
+t1313965472
+s4888
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.m
+c000000004E5192570000000000004769
+t1313968727
+s18281
+i"CustomPlay.h"
+i"CustomGame.h"
+i"HighScoreCustom.h"
+
+N/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+c000000004E516E82000000000001E169
+t1313959554
+s123241
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.h
+c000000004E44B0F200000000000001C9
+t1313124594
+s457
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+c000000004E44B11C0000000000000A0F
+t1313124636
+s2575
+i"FinaleAppDelegate.h"
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.h
+c000000004E4575AE000000000000187C
+t1313174958
+s6268
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.m
+c000000004E5190410000000000003CD3
+t1313968193
+s15571
+i"HighScore.h"
+i"QuickGame.h"
+i"Testing.h"
+
+N/Users/fred/Desktop/Finale/Classes/HighScore.xib
+c000000004E516B65000000000001A26C
+t1313958757
+s107116
+
+N/Users/fred/Desktop/Finale/Classes/HighScoreCustom.h
+c000000004E516C9D0000000000000E66
+t1313959069
+s3686
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/HighScoreCustom.m
+c000000004E5190A90000000000001DFE
+t1313968297
+s7678
+i"HighScoreCustom.h"
+
+N/Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib
+c000000004E508050000000000000D963
+t1313898576
+s55651
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.h
+c000000004E45703D0000000000000262
+t1313173565
+s610
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.m
+c000000004E4D67B000000000000006D8
+t1313695664
+s1752
+i"Instructions.h"
+
+N/Users/fred/Desktop/Finale/Classes/Instructions.xib
+c000000004E51912D00000000000065F7
+t1313968429
+s26103
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.h
+c000000004E518490000000000000123D
+t1313965200
+s4669
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.m
+c000000004E5191BC0000000000003B28
+t1313968572
+s15144
+i"QuickGame.h"
+i"HighScore.h"
+i"RootViewController.h"
+
+N/Users/fred/Desktop/Finale/Classes/QuickGame.xib
+c000000004E517BB5000000000001EDF9
+t1313962933
+s126457
+
+N/Users/fred/Desktop/Finale/Classes/Testing.h
+c000000004E457535000000000000013D
+t1313174837
+s317
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/Testing.m
+c000000004E45755400000000000005E2
+t1313174868
+s1506
+i"Testing.h"
+i"CustomPlay.h"
+
+N/Users/fred/Desktop/Finale/Classes/Testing.xib
+c000000004E4AD905000000000000D50C
+t1313528069
+s54540
+
+N/Users/fred/Desktop/Finale/MainWindow.xib
+c000000004E50129600000000000117F1
+t1313870486
+s71665
+
+N/Users/fred/Desktop/Finale/RootViewController.h
+c000000004E5183B900000000000003FF
+t1313964985
+s1023
+i<UIKit/UIKit.h>
+i<iAd/iAD.h>
+
+N/Users/fred/Desktop/Finale/RootViewController.xib
+c000000004E50802100000000000122F2
+t1313898529
+s74482
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/ Brain Builder Math.LinkFileList
+c000000004E5080260000000000000583
+t1313898534
+s1411
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomGame.o
+t1313965538
+s92500
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomPlay.o
+t1313968733
+s145288
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/FinaleAppDelegate.o
+t1313878333
+s49236
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScore.o
+t1313968200
+s129140
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScoreCustom.o
+t1313968302
+s83908
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Instructions.o
+t1313878333
+s37476
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/QuickGame.o
+t1313968577
+s127612
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/RootViewController.o
+t1313965538
+s60780
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Testing.o
+t1313965538
+s42764
+
+N/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/main.o
+t1313878333
+s6280
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app
+t1313968733
+s578
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM
+t1313968733
+s102
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math
+t1313968733
+s199956
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilder.png
+t1313878331
+s668
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png
+t1313898536
+s3372
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png
+t1313898536
+s11598
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/CustomGame.nib
+t1313962662
+s4140
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/CustomPlay.nib
+t1313959556
+s6943
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/HighScore.nib
+t1313958761
+s5453
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/HighScoreCustom.nib
+t1313898581
+s4768
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Info.plist
+t1313878329
+s765
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Instructions.nib
+t1313968433
+s3005
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/MainWindow.nib
+t1313878329
+s1638
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/PkgInfo
+t1313878329
+s8
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/QuickGame.nib
+t1313962956
+s7235
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/RootViewController.nib
+t1313898535
+s2723
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Testing.nib
+t1313878331
+s963
+
+N/Users/fred/Desktop/Finale/main.m
+c000000004E44B0B50000000000000169
+t1313124533
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch.gch
+t1313878332
+s15232016
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies335661532#335661533#0(0"0(0#1#0"8629932704#0"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomGame.o" /Users/fred/Desktop/Finale/Classes/CustomGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335658338.207328
+e335658338.417844
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomGame.o
+x/Users/fred/Desktop/Finale/Classes/CustomGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomGame.m335658338#335658338#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomGame.m8629283840#2045"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomGame.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomGame.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomPlay.o" /Users/fred/Desktop/Finale/Classes/CustomPlay.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335661533.001186
+e335661533.297717
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomPlay.o
+x/Users/fred/Desktop/Finale/Classes/CustomPlay.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/fred/Desktop/Finale/Classes/CustomPlay.m335661533#335661533#0(0"0(0#0#47"/Users/fred/Desktop/Finale/Classes/CustomPlay.m8631362432#2045"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/CustomPlay.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/CustomPlay.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/FinaleAppDelegate.o" /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335571133.077040
+e335571133.170397
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/FinaleAppDelegate.o
+x/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m335571133#335571133#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m8645314016#2059"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/FinaleAppDelegate.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScore.o" /Users/fred/Desktop/Finale/Classes/HighScore.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335661000.463587
+e335661000.803366
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScore.o
+x/Users/fred/Desktop/Finale/Classes/HighScore.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: incomplete implementation of class 'HighScore'
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-clearView' not found
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-newHighScorePerson:' not found
+o/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-newName:' not found
+lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/HighScore.m335661000#335661000#0(822"/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: incomplete implementation of class 'HighScore'/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-clearView' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-newHighScorePerson:' not found/Users/fred/Desktop/Finale/Classes/HighScore.m:513: warning: method definition for '-newName:' not found6(22@128"Property 'customPlay' requires method '-customPlay' to be defined - use @synthesize, @dynamic or provide a method implementation335661000#0#190#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#0"0(22@135"Property 'customPlay' requires the method 'setCustomPlay:' to be defined - use @synthesize, @dynamic or provide a method implementation335661000#190#197#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#0"0(22@46"Incomplete implementation of class 'HighScore'335661000#387#108#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#38"incomplete implementation of class '*'0(22@44"Method definition for '-clearView' not found335661000#495#106#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#35"method definition for '*' not found0(22@54"Method definition for '-newHighScorePerson:' not found335661000#601#116#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#35"method definition for '*' not found0(22@43"Method definition for '-newName:' not found335661000#717#105#0(6@46"/Users/fred/Desktop/Finale/Classes/HighScore.m335660993#513#0#513#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/HighScore.m8633340096#2043"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/HighScore.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScore.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScoreCustom.o" /Users/fred/Desktop/Finale/Classes/HighScoreCustom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335661101.813396
+e335661102.031831
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScoreCustom.o
+x/Users/fred/Desktop/Finale/Classes/HighScoreCustom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/fred/Desktop/Finale/Classes/HighScoreCustom.m335661101#335661102#0(0"0(0#0#52"/Users/fred/Desktop/Finale/Classes/HighScoreCustom.m8631394816#2055"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/HighScoreCustom.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/HighScoreCustom.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Instructions.o" /Users/fred/Desktop/Finale/Classes/Instructions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335571133.558635
+e335571133.646480
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Instructions.o
+x/Users/fred/Desktop/Finale/Classes/Instructions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/fred/Desktop/Finale/Classes/Instructions.m335571133#335571133#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/Instructions.m8646258944#2049"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Instructions.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Instructions.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/QuickGame.o" /Users/fred/Desktop/Finale/Classes/QuickGame.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335661376.706633
+e335661377.004036
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/QuickGame.o
+x/Users/fred/Desktop/Finale/Classes/QuickGame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: incomplete implementation of class 'QuickGame'
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerD:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerC:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerB:' not found
+o/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerA:' not found
+lSLF07#2@54"Compile /Users/fred/Desktop/Finale/Classes/QuickGame.m335661376#335661377#0(528"/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: incomplete implementation of class 'QuickGame'/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerD:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerC:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerB:' not found/Users/fred/Desktop/Finale/Classes/QuickGame.m:734: warning: method definition for '-AnswerA:' not found5(22@46"Incomplete implementation of class 'QuickGame'335661376#0#108#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335661372#734#0#734#0#38"incomplete implementation of class '*'0(22@43"Method definition for '-AnswerD:' not found335661376#108#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335661372#734#0#734#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerC:' not found335661376#213#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335661372#734#0#734#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerB:' not found335661376#318#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335661372#734#0#734#0#35"method definition for '*' not found0(22@43"Method definition for '-AnswerA:' not found335661376#423#105#0(6@46"/Users/fred/Desktop/Finale/Classes/QuickGame.m335661372#734#0#734#0#35"method definition for '*' not found0(0#0#46"/Users/fred/Desktop/Finale/Classes/QuickGame.m8637216864#2043"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/QuickGame.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/QuickGame.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/RootViewController.o" /Users/fred/Desktop/Finale/Classes/../RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335658338.205860
+e335658338.320317
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/RootViewController.o
+x/Users/fred/Desktop/Finale/Classes/../RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/fred/Desktop/Finale/Classes/../RootViewController.m335658338#335658338#0(0"0(0#0#58"/Users/fred/Desktop/Finale/Classes/../RootViewController.m8629608288#2064"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/../RootViewController.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Testing.o" /Users/fred/Desktop/Finale/Classes/Testing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335658338.417951
+e335658338.493609
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Testing.o
+x/Users/fred/Desktop/Finale/Classes/Testing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/fred/Desktop/Finale/Classes/Testing.m335658338#335658338#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Classes/Testing.m8629578944#2039"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/Classes/Testing.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/Testing.o"0#
+
+CCompileC "build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/main.o" /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335571133.075707
+e335571133.129784
+r1
+xCompileC
+xbuild/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/main.o
+x/Users/fred/Desktop/Finale/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/fred/Desktop/Finale/main.m335571133#335571133#0(0"0(0#0#33"/Users/fred/Desktop/Finale/main.m8647250272#2025"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -include "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch" -c /Users/fred/Desktop/Finale/main.m -o "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomGame.xib
+s335655461.538823
+e335655462.259594
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/CustomGame.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.
+lSLF07#2@33"CompileXIB Classes/CustomGame.xib335655461#335655462#0(168"/* com.apple.ibtool.document.warnings *//Users/fred/Desktop/Finale/Classes/CustomGame.xib:34: warning: Tint color is only supported with bar style segmented controls.1(22@63"Tint color is only supported with bar style segmented controls.335655462#18446744073709551615#0#0(6@49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib335654948#34#0#34#0#0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomGame.xib8629003936#556"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/CustomGame.nib" /Users/fred/Desktop/Finale/Classes/CustomGame.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+s335652356.169415
+e335652356.805581
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/CustomPlay.xib
+lSLF07#2@33"CompileXIB Classes/CustomPlay.xib335652356#335652356#0(0"0(0#0#49"/Users/fred/Desktop/Finale/Classes/CustomPlay.xib8616035872#556"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/CustomPlay.nib" /Users/fred/Desktop/Finale/Classes/CustomPlay.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/HighScore.xib
+s335651561.044915
+e335651561.705210
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/HighScore.xib
+lSLF07#2@32"CompileXIB Classes/HighScore.xib335651561#335651561#0(0"0(0#0#48"/Users/fred/Desktop/Finale/Classes/HighScore.xib8614832448#554"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/HighScore.nib" /Users/fred/Desktop/Finale/Classes/HighScore.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib
+s335591381.055312
+e335591381.719624
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib
+lSLF07#2@38"CompileXIB Classes/HighScoreCustom.xib335591381#335591381#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib8663504032#566"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/HighScoreCustom.nib" /Users/fred/Desktop/Finale/Classes/HighScoreCustom.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/Instructions.xib
+s335661233.451123
+e335661233.983444
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/Instructions.xib
+lSLF07#2@35"CompileXIB Classes/Instructions.xib335661233#335661233#0(0"0(0#0#51"/Users/fred/Desktop/Finale/Classes/Instructions.xib8627320032#560"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Instructions.nib" /Users/fred/Desktop/Finale/Classes/Instructions.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/QuickGame.xib
+s335655756.104145
+e335655756.856665
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/QuickGame.xib
+lSLF07#2@32"CompileXIB Classes/QuickGame.xib335655756#335655756#0(0"0(0#0#48"/Users/fred/Desktop/Finale/Classes/QuickGame.xib8626034368#554"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/QuickGame.nib" /Users/fred/Desktop/Finale/Classes/QuickGame.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/Classes/Testing.xib
+s335571130.905627
+e335571131.330247
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/Classes/Testing.xib
+lSLF07#2@30"CompileXIB Classes/Testing.xib335571130#335571131#0(0"0(0#0#46"/Users/fred/Desktop/Finale/Classes/Testing.xib8624458112#550"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Testing.nib" /Users/fred/Desktop/Finale/Classes/Testing.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+s335571129.298056
+e335571129.956550
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib335571129#335571129#0(0"0(0#0#41"/Users/fred/Desktop/Finale/MainWindow.xib8639395008#548"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/MainWindow.nib" /Users/fred/Desktop/Finale/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/fred/Desktop/Finale/RootViewController.xib
+s335591334.853375
+e335591335.488042
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib335591334#335591335#0(0"0(0#0#49"/Users/fred/Desktop/Finale/RootViewController.xib8663679104#564"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/RootViewController.nib" /Users/fred/Desktop/Finale/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilder.png" ../BrainBuilder.png
+s335571131.827310
+e335571131.834012
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilder.png
+x../BrainBuilder.png
+lSLF07#2@24"Copy ../BrainBuilder.png335571131#335571131#0(0"0(0#0#46"/Users/fred/Desktop/Finale/../BrainBuilder.png8634498368#441"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fred/Desktop/Finale/../BrainBuilder.png "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png" ../BrainBuilderMath.png
+s335571131.828113
+e335571131.836586
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png
+x../BrainBuilderMath.png
+lSLF07#2@28"Copy ../BrainBuilderMath.png335571131#335571131#0(0"0(0#0#50"/Users/fred/Desktop/Finale/../BrainBuilderMath.png8633251104#445"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fred/Desktop/Finale/../BrainBuilderMath.png "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png" ../Pictures/BrainBuilderMath.png
+s335591336.350474
+e335591336.357478
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ Brain Builder Math.app/BrainBuilderMath.png
+x../Pictures/BrainBuilderMath.png
+lSLF07#2@37"Copy ../Pictures/BrainBuilderMath.png335591336#335591336#0(0"0(0#0#59"/Users/fred/Desktop/Finale/../Pictures/BrainBuilderMath.png8666013632#454"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fred/Desktop/Finale/../Pictures/BrainBuilderMath.png "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png" ../BrainMathStartUp.png
+s335571131.832000
+e335571131.838390
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png
+x../BrainMathStartUp.png
+lSLF07#2@28"Copy ../BrainMathStartUp.png335571131#335571131#0(0"0(0#0#50"/Users/fred/Desktop/Finale/../BrainMathStartUp.png8624099360#445"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fred/Desktop/Finale/../BrainMathStartUp.png "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+
+CCpResource "build/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png" ../Pictures/BrainMathStartUp.png
+s335591336.352281
+e335591336.358654
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ Brain Builder Math.app/BrainMathStartUp.png
+x../Pictures/BrainMathStartUp.png
+lSLF07#2@37"Copy ../Pictures/BrainMathStartUp.png335591336#335591336#0(0"0(0#0#59"/Users/fred/Desktop/Finale/../Pictures/BrainMathStartUp.png8664294720#454"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fred/Desktop/Finale/../Pictures/BrainMathStartUp.png "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+
+CGenerateDSYMFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM" "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math"
+s335661533.341025
+e335661533.381677
+r1
+xGenerateDSYMFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math
+lSLF07#2@149"GenerateDSYMFile "build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM" "build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math"335661533#335661533#0(0"0(0#0#98"/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math8634102880#387"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math" -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app.dSYM"0#
+
+CLd "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math" normal i386
+s335661533.297810
+e335661533.340920
+r1
+xLd
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math
+xnormal
+xi386
+lSLF07#2@103"Link /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math335661533#335661533#0(0"0(0#0#0"8634178976#919"    cd /Users/fred/Desktop/Finale    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -filelist "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/Objects-normal/i386/ Brain Builder Math.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/ Brain Builder Math"0#
+
+CProcessInfoPlistFile "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Info.plist" " Brain Builder Math-Info.plist"
+s335571129.283360
+e335571129.297957
+r1
+xProcessInfoPlistFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Info.plist
+x Brain Builder Math-Info.plist
+lSLF07#2@38"Process  Brain Builder Math-Info.plist335571129#335571129#0(0"0(0#0#57"/Users/fred/Desktop/Finale/ Brain Builder Math-Info.plist8646097920#485"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility " Brain Builder Math-Info.plist" -genpkginfo "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app/Info.plist"0#
+
+CProcessPCH "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch.gch" " Brain Builder Math_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s335571132.339943
+e335571133.075507
+r1
+xProcessPCH
+x/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch.gch
+x Brain Builder Math_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile  Brain Builder Math_Prefix.pch335571132#335571133#0(0"0(0#0#57"/Users/fred/Desktop/Finale/ Brain Builder Math_Prefix.pch8625243360#1917"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-generated-files.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-own-target-headers.hmap" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-all-target-headers.hmap" -iquote "/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/ Brain Builder Math-project-headers.hmap" -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources/i386" "-I/Users/fred/Desktop/Finale/build/ Brain Builder Math.build/Debug-iphonesimulator/ Brain Builder Math.build/DerivedSources" -c "/Users/fred/Desktop/Finale/ Brain Builder Math_Prefix.pch" -o "/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ Brain Builder Math_Prefix-cpaaovxikmgridbavggoqngokrmc/ Brain Builder Math_Prefix.pch.gch"0#
+
+CTouch "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"
+s335661533.381921
+e335661533.384421
+r1
+xTouch
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app
+lSLF07#2@84"Touch /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app335661533#335661533#0(0"0(0#0#0"8633953728#268"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/ Brain Builder Math.app"0#
+

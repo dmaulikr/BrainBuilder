@@ -1,0 +1,207 @@
+TFinale
+v7
+r0
+t334817505.202624
+cCheck dependencies
+cProcessInfoPlistFile /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Info.plist Finale-Info.plist
+cCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+cProcessPCH /var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch.gch Finale_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/main.o /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/FinaleAppDelegate.o /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale normal i386
+cGenerateDSYMFile /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app.dSYM /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale
+cTouch /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C7F01900000000000000132
+t1283391888
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.h
+c000000004E44B0F200000000000001C9
+t1313124594
+s457
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+c000000004E44B11C0000000000000A0F
+t1313124636
+s2575
+i"FinaleAppDelegate.h"
+
+N/Users/fred/Desktop/Finale/Finale_Prefix.pch
+c000000004E44B0B500000000000000B5
+t1313124533
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fred/Desktop/Finale/MainWindow.xib
+c000000004E44B1470000000000005CA3
+t1313124679
+s23715
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app
+t1313124705
+s204
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app.dSYM
+t1313124705
+s102
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale
+t1313124705
+s15964
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Info.plist
+t1313124703
+s587
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/MainWindow.nib
+t1313124704
+s1493
+
+N/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/PkgInfo
+t1313124703
+s8
+
+N/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/Finale.LinkFileList
+c000000004E44B15F00000000000000E5
+t1313124703
+s229
+
+N/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/FinaleAppDelegate.o
+t1313124705
+s49236
+
+N/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/main.o
+t1313124705
+s6280
+
+N/Users/fred/Desktop/Finale/main.m
+c000000004E44B0B50000000000000169
+t1313124533
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch.gch
+t1313124704
+s15232016
+
+NFinale-Info.plist
+c000000004E44B0B5000000000000038D
+t1313124533
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies334817503#334817503#0(0"0(0#1#0"8617238144#0"0#
+
+CCompileC build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/FinaleAppDelegate.o /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334817505.070428
+e334817505.161065
+r1
+xCompileC
+xbuild/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/FinaleAppDelegate.o
+x/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m334817505#334817505#0(0"0(0#0#54"/Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m8630037856#1783"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-generated-files.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-own-target-headers.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-all-target-headers.hmap -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-project-headers.hmap -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources/i386 -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources -include /var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch -c /Users/fred/Desktop/Finale/Classes/FinaleAppDelegate.m -o /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/FinaleAppDelegate.o0#
+
+CCompileC build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/main.o /Users/fred/Desktop/Finale/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s334817505.069101
+e334817505.154857
+r1
+xCompileC
+xbuild/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/main.o
+x/Users/fred/Desktop/Finale/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/fred/Desktop/Finale/main.m334817505#334817505#0(0"0(0#0#33"/Users/fred/Desktop/Finale/main.m8619112416#1749"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-generated-files.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-own-target-headers.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-all-target-headers.hmap -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-project-headers.hmap -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources/i386 -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources -include /var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch -c /Users/fred/Desktop/Finale/main.m -o /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/fred/Desktop/Finale/MainWindow.xib
+s334817503.946682
+e334817504.330972
+r1
+xCompileXIB
+x/Users/fred/Desktop/Finale/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib334817503#334817504#0(0"0(0#0#41"/Users/fred/Desktop/Finale/MainWindow.xib8606834048#533"    cd /Users/fred/Desktop/Finale    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/MainWindow.nib /Users/fred/Desktop/Finale/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app.dSYM /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale
+s334817505.183749
+e334817505.197233
+r1
+xGenerateDSYMFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app.dSYM
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/Finale.app.dSYM build/Debug-iphonesimulator/Finale.app/Finale334817505#334817505#0(0"0(0#0#72"/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale8619219328#344"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale -o /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app.dSYM0#
+
+CLd /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale normal i386
+s334817505.161165
+e334817505.183643
+r1
+xLd
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale
+xnormal
+xi386
+lSLF07#2@77"Link /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale334817505#334817505#0(0"0(0#0#0"8619537152#835"    cd /Users/fred/Desktop/Finale    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -filelist /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Objects-normal/i386/Finale.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Finale0#
+
+CProcessInfoPlistFile /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Info.plist Finale-Info.plist
+s334817503.943544
+e334817503.946605
+r1
+xProcessInfoPlistFile
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Info.plist
+xFinale-Info.plist
+lSLF07#2@25"Process Finale-Info.plist334817503#334817503#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Finale-Info.plist8616850112#440"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Finale-Info.plist -genpkginfo /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app/Info.plist0#
+
+CProcessPCH /var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch.gch Finale_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s334817504.331092
+e334817505.069004
+r1
+xProcessPCH
+x/var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch.gch
+xFinale_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Finale_Prefix.pch334817504#334817505#0(0"0(0#0#44"/Users/fred/Desktop/Finale/Finale_Prefix.pch8619446464#1654"    cd /Users/fred/Desktop/Finale    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-generated-files.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-own-target-headers.hmap -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-all-target-headers.hmap -iquote /Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/Finale-project-headers.hmap -F/Users/fred/Desktop/Finale/build/Debug-iphonesimulator -I/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/include -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources/i386 -I/Users/fred/Desktop/Finale/build/Finale.build/Debug-iphonesimulator/Finale.build/DerivedSources -c /Users/fred/Desktop/Finale/Finale_Prefix.pch -o /var/folders/CS/CSgBeDFiHe4dkVUIU7fyTE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Finale_Prefix-cpaaovxikmgridbavggoqngokrmc/Finale_Prefix.pch.gch0#
+
+CTouch /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app
+s334817505.197316
+e334817505.202577
+r1
+xTouch
+x/Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app
+lSLF07#2@71"Touch /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app334817505#334817505#0(0"0(0#0#0"8618462112#253"    cd /Users/fred/Desktop/Finale    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/fred/Desktop/Finale/build/Debug-iphonesimulator/Finale.app0#
+

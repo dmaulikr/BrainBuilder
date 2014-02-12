@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B66BEA0115E6FB0E0015AC51 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66BEA0015E6FB0E0015AC51 /* iAd.framework */; };
+		B68D83A4157EB65E00E86E9C /* CustomSetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B68D83A2157EB65E00E86E9C /* CustomSetUp.m */; };
+		B68D83A5157EB65E00E86E9C /* CustomSetUp.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68D83A3157EB65E00E86E9C /* CustomSetUp.xib */; };
+		B68D83A9157EB66D00E86E9C /* CustomGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B68D83A7157EB66D00E86E9C /* CustomGame.m */; };
+		B68D83AA157EB66D00E86E9C /* CustomGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B68D83A8157EB66D00E86E9C /* CustomGame.xib */; };
+		B699F84B1597D1E700DF4830 /* BattlesQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = B699F84A1597D1E700DF4830 /* BattlesQuestions.m */; };
+		B699F84E1597D46D00DF4830 /* PeoplesQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = B699F84D1597D46D00DF4830 /* PeoplesQuestions.m */; };
+		B699F8521597D72B00DF4830 /* Instructions.m in Sources */ = {isa = PBXBuildFile; fileRef = B699F8501597D72B00DF4830 /* Instructions.m */; };
+		B699F8531597D72B00DF4830 /* Instructions.xib in Resources */ = {isa = PBXBuildFile; fileRef = B699F8511597D72B00DF4830 /* Instructions.xib */; };
+		B699F8571597D73A00DF4830 /* HighScoreCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = B699F8551597D73A00DF4830 /* HighScoreCustom.m */; };
+		B699F8581597D73A00DF4830 /* HighScoreCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = B699F8561597D73A00DF4830 /* HighScoreCustom.xib */; };
+		B699F85C1597D74A00DF4830 /* HighScoreQuick.m in Sources */ = {isa = PBXBuildFile; fileRef = B699F85A1597D74A00DF4830 /* HighScoreQuick.m */; };
+		B699F85D1597D74A00DF4830 /* HighScoreQuick.xib in Resources */ = {isa = PBXBuildFile; fileRef = B699F85B1597D74A00DF4830 /* HighScoreQuick.xib */; };
+		B6BE4B4C15757AA400922F16 /* PlacesQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BE4B4B15757AA300922F16 /* PlacesQuestions.m */; };
+		B6DA20A1156DD86400DA385F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20A0156DD86400DA385F /* UIKit.framework */; };
+		B6DA20A3156DD86400DA385F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20A2156DD86400DA385F /* Foundation.framework */; };
+		B6DA20A5156DD86400DA385F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20A4156DD86400DA385F /* CoreGraphics.framework */; };
+		B6DA20AB156DD86400DA385F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6DA20A9156DD86400DA385F /* InfoPlist.strings */; };
+		B6DA20AD156DD86400DA385F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA20AC156DD86400DA385F /* main.m */; };
+		B6DA20B1156DD86400DA385F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA20B0156DD86400DA385F /* AppDelegate.m */; };
+		B6DA20B4156DD86400DA385F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA20B3156DD86400DA385F /* ViewController.m */; };
+		B6DA20B7156DD86400DA385F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DA20B5156DD86400DA385F /* ViewController.xib */; };
+		B6DA20BF156DD86400DA385F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20BE156DD86400DA385F /* SenTestingKit.framework */; };
+		B6DA20C0156DD86400DA385F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20A0156DD86400DA385F /* UIKit.framework */; };
+		B6DA20C1156DD86400DA385F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA20A2156DD86400DA385F /* Foundation.framework */; };
+		B6DA20C9156DD86400DA385F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6DA20C7156DD86400DA385F /* InfoPlist.strings */; };
+		B6DA20CC156DD86400DA385F /* BrainBuilderHistoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA20CB156DD86400DA385F /* BrainBuilderHistoryTests.m */; };
+		B6DA212A156DDCE700DA385F /* QuickGame.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA2128156DDCE600DA385F /* QuickGame.m */; };
+		B6DA212B156DDCE700DA385F /* QuickGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DA2129156DDCE600DA385F /* QuickGame.xib */; };
+		B6DA212E156DDD5000DA385F /* DatesQuestions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DA212D156DDD5000DA385F /* DatesQuestions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6DA20C2156DD86400DA385F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6DA2093156DD86400DA385F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6DA209B156DD86400DA385F;
+			remoteInfo = BrainBuilderHistory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B66BEA0015E6FB0E0015AC51 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B68D83A1157EB65E00E86E9C /* CustomSetUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSetUp.h; sourceTree = "<group>"; };
+		B68D83A2157EB65E00E86E9C /* CustomSetUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSetUp.m; sourceTree = "<group>"; };
+		B68D83A3157EB65E00E86E9C /* CustomSetUp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSetUp.xib; sourceTree = "<group>"; };
+		B68D83A6157EB66D00E86E9C /* CustomGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGame.h; sourceTree = "<group>"; };
+		B68D83A7157EB66D00E86E9C /* CustomGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGame.m; sourceTree = "<group>"; };
+		B68D83A8157EB66D00E86E9C /* CustomGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomGame.xib; sourceTree = "<group>"; };
+		B699F8491597D1E700DF4830 /* BattlesQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattlesQuestions.h; sourceTree = "<group>"; };
+		B699F84A1597D1E700DF4830 /* BattlesQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattlesQuestions.m; sourceTree = "<group>"; };
+		B699F84C1597D46D00DF4830 /* PeoplesQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeoplesQuestions.h; sourceTree = "<group>"; };
+		B699F84D1597D46D00DF4830 /* PeoplesQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeoplesQuestions.m; sourceTree = "<group>"; };
+		B699F84F1597D72B00DF4830 /* Instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instructions.h; sourceTree = "<group>"; };
+		B699F8501597D72B00DF4830 /* Instructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instructions.m; sourceTree = "<group>"; };
+		B699F8511597D72B00DF4830 /* Instructions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Instructions.xib; sourceTree = "<group>"; };
+		B699F8541597D73A00DF4830 /* HighScoreCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreCustom.h; sourceTree = "<group>"; };
+		B699F8551597D73A00DF4830 /* HighScoreCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreCustom.m; sourceTree = "<group>"; };
+		B699F8561597D73A00DF4830 /* HighScoreCustom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreCustom.xib; sourceTree = "<group>"; };
+		B699F8591597D74A00DF4830 /* HighScoreQuick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreQuick.h; sourceTree = "<group>"; };
+		B699F85A1597D74A00DF4830 /* HighScoreQuick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreQuick.m; sourceTree = "<group>"; };
+		B699F85B1597D74A00DF4830 /* HighScoreQuick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoreQuick.xib; sourceTree = "<group>"; };
+		B6BE4B4A15757AA300922F16 /* PlacesQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesQuestions.h; sourceTree = "<group>"; };
+		B6BE4B4B15757AA300922F16 /* PlacesQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesQuestions.m; sourceTree = "<group>"; };
+		B6DA209C156DD86400DA385F /* BrainBuilderHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBuilderHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DA20A0156DD86400DA385F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6DA20A2156DD86400DA385F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6DA20A4156DD86400DA385F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6DA20A8156DD86400DA385F /* BrainBuilderHistory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderHistory-Info.plist"; sourceTree = "<group>"; };
+		B6DA20AA156DD86400DA385F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6DA20AC156DD86400DA385F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6DA20AE156DD86400DA385F /* BrainBuilderHistory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainBuilderHistory-Prefix.pch"; sourceTree = "<group>"; };
+		B6DA20AF156DD86400DA385F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6DA20B0156DD86400DA385F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6DA20B2156DD86400DA385F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6DA20B3156DD86400DA385F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6DA20B6156DD86400DA385F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B6DA20BD156DD86400DA385F /* BrainBuilderHistoryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBuilderHistoryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DA20BE156DD86400DA385F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6DA20C6156DD86400DA385F /* BrainBuilderHistoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderHistoryTests-Info.plist"; sourceTree = "<group>"; };
+		B6DA20C8156DD86400DA385F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6DA20CA156DD86400DA385F /* BrainBuilderHistoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrainBuilderHistoryTests.h; sourceTree = "<group>"; };
+		B6DA20CB156DD86400DA385F /* BrainBuilderHistoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainBuilderHistoryTests.m; sourceTree = "<group>"; };
+		B6DA2127156DDCE600DA385F /* QuickGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickGame.h; sourceTree = "<group>"; };
+		B6DA2128156DDCE600DA385F /* QuickGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickGame.m; sourceTree = "<group>"; };
+		B6DA2129156DDCE600DA385F /* QuickGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickGame.xib; sourceTree = "<group>"; };
+		B6DA212C156DDD5000DA385F /* DatesQuestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatesQuestions.h; sourceTree = "<group>"; };
+		B6DA212D156DDD5000DA385F /* DatesQuestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatesQuestions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6DA2099156DD86400DA385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66BEA0115E6FB0E0015AC51 /* iAd.framework in Frameworks */,
+				B6DA20A1156DD86400DA385F /* UIKit.framework in Frameworks */,
+				B6DA20A3156DD86400DA385F /* Foundation.framework in Frameworks */,
+				B6DA20A5156DD86400DA385F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DA20B9156DD86400DA385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA20BF156DD86400DA385F /* SenTestingKit.framework in Frameworks */,
+				B6DA20C0156DD86400DA385F /* UIKit.framework in Frameworks */,
+				B6DA20C1156DD86400DA385F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6DA2091156DD86400DA385F = {
+			isa = PBXGroup;
+			children = (
+				B6DA20A6156DD86400DA385F /* BrainBuilderHistory */,
+				B6DA20C4156DD86400DA385F /* BrainBuilderHistoryTests */,
+				B6DA209F156DD86400DA385F /* Frameworks */,
+				B6DA209D156DD86400DA385F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6DA209D156DD86400DA385F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA209C156DD86400DA385F /* BrainBuilderHistory.app */,
+				B6DA20BD156DD86400DA385F /* BrainBuilderHistoryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6DA209F156DD86400DA385F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B66BEA0015E6FB0E0015AC51 /* iAd.framework */,
+				B6DA20A0156DD86400DA385F /* UIKit.framework */,
+				B6DA20A2156DD86400DA385F /* Foundation.framework */,
+				B6DA20A4156DD86400DA385F /* CoreGraphics.framework */,
+				B6DA20BE156DD86400DA385F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6DA20A6156DD86400DA385F /* BrainBuilderHistory */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA20AF156DD86400DA385F /* AppDelegate.h */,
+				B6DA20B0156DD86400DA385F /* AppDelegate.m */,
+				B6DA20B2156DD86400DA385F /* ViewController.h */,
+				B6DA20B3156DD86400DA385F /* ViewController.m */,
+				B6DA20B5156DD86400DA385F /* ViewController.xib */,
+				B6DA2127156DDCE600DA385F /* QuickGame.h */,
+				B6DA2128156DDCE600DA385F /* QuickGame.m */,
+				B6DA2129156DDCE600DA385F /* QuickGame.xib */,
+				B68D83A1157EB65E00E86E9C /* CustomSetUp.h */,
+				B68D83A2157EB65E00E86E9C /* CustomSetUp.m */,
+				B68D83A3157EB65E00E86E9C /* CustomSetUp.xib */,
+				B68D83A6157EB66D00E86E9C /* CustomGame.h */,
+				B68D83A7157EB66D00E86E9C /* CustomGame.m */,
+				B68D83A8157EB66D00E86E9C /* CustomGame.xib */,
+				B699F8591597D74A00DF4830 /* HighScoreQuick.h */,
+				B699F85A1597D74A00DF4830 /* HighScoreQuick.m */,
+				B699F85B1597D74A00DF4830 /* HighScoreQuick.xib */,
+				B699F8541597D73A00DF4830 /* HighScoreCustom.h */,
+				B699F8551597D73A00DF4830 /* HighScoreCustom.m */,
+				B699F8561597D73A00DF4830 /* HighScoreCustom.xib */,
+				B699F84F1597D72B00DF4830 /* Instructions.h */,
+				B699F8501597D72B00DF4830 /* Instructions.m */,
+				B699F8511597D72B00DF4830 /* Instructions.xib */,
+				B6DA212C156DDD5000DA385F /* DatesQuestions.h */,
+				B6DA212D156DDD5000DA385F /* DatesQuestions.m */,
+				B6BE4B4A15757AA300922F16 /* PlacesQuestions.h */,
+				B6BE4B4B15757AA300922F16 /* PlacesQuestions.m */,
+				B699F8491597D1E700DF4830 /* BattlesQuestions.h */,
+				B699F84A1597D1E700DF4830 /* BattlesQuestions.m */,
+				B699F84C1597D46D00DF4830 /* PeoplesQuestions.h */,
+				B699F84D1597D46D00DF4830 /* PeoplesQuestions.m */,
+				B6DA20A7156DD86400DA385F /* Supporting Files */,
+			);
+			path = BrainBuilderHistory;
+			sourceTree = "<group>";
+		};
+		B6DA20A7156DD86400DA385F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA20A8156DD86400DA385F /* BrainBuilderHistory-Info.plist */,
+				B6DA20A9156DD86400DA385F /* InfoPlist.strings */,
+				B6DA20AC156DD86400DA385F /* main.m */,
+				B6DA20AE156DD86400DA385F /* BrainBuilderHistory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6DA20C4156DD86400DA385F /* BrainBuilderHistoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA20CA156DD86400DA385F /* BrainBuilderHistoryTests.h */,
+				B6DA20CB156DD86400DA385F /* BrainBuilderHistoryTests.m */,
+				B6DA20C5156DD86400DA385F /* Supporting Files */,
+			);
+			path = BrainBuilderHistoryTests;
+			sourceTree = "<group>";
+		};
+		B6DA20C5156DD86400DA385F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6DA20C6156DD86400DA385F /* BrainBuilderHistoryTests-Info.plist */,
+				B6DA20C7156DD86400DA385F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6DA209B156DD86400DA385F /* BrainBuilderHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DA20CF156DD86400DA385F /* Build configuration list for PBXNativeTarget "BrainBuilderHistory" */;
+			buildPhases = (
+				B6DA2098156DD86400DA385F /* Sources */,
+				B6DA2099156DD86400DA385F /* Frameworks */,
+				B6DA209A156DD86400DA385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBuilderHistory;
+			productName = BrainBuilderHistory;
+			productReference = B6DA209C156DD86400DA385F /* BrainBuilderHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6DA20BC156DD86400DA385F /* BrainBuilderHistoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DA20D2156DD86400DA385F /* Build configuration list for PBXNativeTarget "BrainBuilderHistoryTests" */;
+			buildPhases = (
+				B6DA20B8156DD86400DA385F /* Sources */,
+				B6DA20B9156DD86400DA385F /* Frameworks */,
+				B6DA20BA156DD86400DA385F /* Resources */,
+				B6DA20BB156DD86400DA385F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6DA20C3156DD86400DA385F /* PBXTargetDependency */,
+			);
+			name = BrainBuilderHistoryTests;
+			productName = BrainBuilderHistoryTests;
+			productReference = B6DA20BD156DD86400DA385F /* BrainBuilderHistoryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6DA2093156DD86400DA385F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B6DA2096156DD86400DA385F /* Build configuration list for PBXProject "BrainBuilderHistory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6DA2091156DD86400DA385F;
+			productRefGroup = B6DA209D156DD86400DA385F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DA209B156DD86400DA385F /* BrainBuilderHistory */,
+				B6DA20BC156DD86400DA385F /* BrainBuilderHistoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6DA209A156DD86400DA385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA20AB156DD86400DA385F /* InfoPlist.strings in Resources */,
+				B6DA20B7156DD86400DA385F /* ViewController.xib in Resources */,
+				B6DA212B156DDCE700DA385F /* QuickGame.xib in Resources */,
+				B68D83A5157EB65E00E86E9C /* CustomSetUp.xib in Resources */,
+				B68D83AA157EB66D00E86E9C /* CustomGame.xib in Resources */,
+				B699F8531597D72B00DF4830 /* Instructions.xib in Resources */,
+				B699F8581597D73A00DF4830 /* HighScoreCustom.xib in Resources */,
+				B699F85D1597D74A00DF4830 /* HighScoreQuick.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DA20BA156DD86400DA385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA20C9156DD86400DA385F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6DA20BB156DD86400DA385F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6DA2098156DD86400DA385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA20AD156DD86400DA385F /* main.m in Sources */,
+				B6DA20B1156DD86400DA385F /* AppDelegate.m in Sources */,
+				B6DA20B4156DD86400DA385F /* ViewController.m in Sources */,
+				B6DA212A156DDCE700DA385F /* QuickGame.m in Sources */,
+				B6DA212E156DDD5000DA385F /* DatesQuestions.m in Sources */,
+				B6BE4B4C15757AA400922F16 /* PlacesQuestions.m in Sources */,
+				B68D83A4157EB65E00E86E9C /* CustomSetUp.m in Sources */,
+				B68D83A9157EB66D00E86E9C /* CustomGame.m in Sources */,
+				B699F84B1597D1E700DF4830 /* BattlesQuestions.m in Sources */,
+				B699F84E1597D46D00DF4830 /* PeoplesQuestions.m in Sources */,
+				B699F8521597D72B00DF4830 /* Instructions.m in Sources */,
+				B699F8571597D73A00DF4830 /* HighScoreCustom.m in Sources */,
+				B699F85C1597D74A00DF4830 /* HighScoreQuick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DA20B8156DD86400DA385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DA20CC156DD86400DA385F /* BrainBuilderHistoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6DA20C3156DD86400DA385F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6DA209B156DD86400DA385F /* BrainBuilderHistory */;
+			targetProxy = B6DA20C2156DD86400DA385F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6DA20A9156DD86400DA385F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA20AA156DD86400DA385F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6DA20B5156DD86400DA385F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA20B6156DD86400DA385F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		B6DA20C7156DD86400DA385F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6DA20C8156DD86400DA385F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6DA20CD156DD86400DA385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6DA20CE156DD86400DA385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6DA20D0156DD86400DA385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderHistory/BrainBuilderHistory-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderHistory/BrainBuilderHistory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6DA20D1156DD86400DA385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderHistory/BrainBuilderHistory-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderHistory/BrainBuilderHistory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6DA20D3156DD86400DA385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderHistory.app/BrainBuilderHistory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderHistory/BrainBuilderHistory-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderHistoryTests/BrainBuilderHistoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B6DA20D4156DD86400DA385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderHistory.app/BrainBuilderHistory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderHistory/BrainBuilderHistory-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderHistoryTests/BrainBuilderHistoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6DA2096156DD86400DA385F /* Build configuration list for PBXProject "BrainBuilderHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA20CD156DD86400DA385F /* Debug */,
+				B6DA20CE156DD86400DA385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DA20CF156DD86400DA385F /* Build configuration list for PBXNativeTarget "BrainBuilderHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA20D0156DD86400DA385F /* Debug */,
+				B6DA20D1156DD86400DA385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DA20D2156DD86400DA385F /* Build configuration list for PBXNativeTarget "BrainBuilderHistoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DA20D3156DD86400DA385F /* Debug */,
+				B6DA20D4156DD86400DA385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6DA2093156DD86400DA385F /* Project object */;
+}
