@@ -1,0 +1,61 @@
+#SecondaryNav
+{
+	float:left;
+	background-color:red;
+	width:135px;
+	height: 900px;
+}
+
+#mainContent
+{
+	float: left;
+	width:745px;
+	height:900px;
+	background-color:green;
+}
+
+#verticle
+{
+	padding:5px;
+	padding-top:25px;
+	margin:0px;
+}
+
+#verticle li
+{
+	height: 35px;
+	margin-bottom: 6px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right:0px;
+	width:125px;
+	padding-bottom: 10px;
+	margin-bottom: 55px;
+}
+
+.icon
+{
+	float:left;
+	width:100px;
+	height:100px;
+	margin:5px;
+}
+
+#iconSec
+{
+	float:left;
+	width:115px;
+	height:900px;
+	background-color:blue;
+}
+
+.image
+{
+	height:300px;
+	padding:25px;
+}
+
+.current
+{
+	background-color: #fff !important;
+}

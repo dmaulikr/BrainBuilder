@@ -1,0 +1,344 @@
+<!DOCTYPE html> 
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="content-type">
+		<link rel="stylesheet" href="../css/global.css" type="text/css">
+		<link rel="stylesheet" href="../css/apps.css" type="text/css">
+  		<title> BLADE Enterprises </title>
+  		
+  		<script>
+  		
+  			//var content = document.getElementById("mainContent");
+  		
+  			function BBMem()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Memory</h1> <br>';
+  				content.innerHTML = content.innerHTML + '<img class="image" alt="App Screen shot" src="../images/BBMScreen1.png">';
+  				content.innerHTML += '<a href="http://itunes.com/apps/BrainBuilderMemory"> Look at Brain Builder Memory in itunes </a>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top" class="selected">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li >\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li>\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li>\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li>\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+					
+  			}
+  			
+  			function BBAttention()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Attention</h1>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li class="selected">\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li>\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li>\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li>\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+  			}
+  			
+  			function BBPro()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Pro</h1>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li>\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li class="selected">\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li>\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li>\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+  			}
+  			
+  			function BBMath()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Math</h1>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li>\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li>\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li class="selected">\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li>\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+  			}
+  			
+  			function BBTrig()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Trig</h1>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li>\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li>\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li>\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li class="selected">\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+  			}
+  			
+  			function BBCalc()
+  			{
+  				var content = document.getElementById("mainContent");
+  				content.innerHTML = '<h1>Brain Builder Calc</h1>';
+  				var sideNav = document.getElementById("SecondaryNav");
+  				sideNav.innerHTML = '<ul id="verticle">\
+						<div id="BBMEM">\
+							<li id="top">\
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>\
+							</li>\
+						</div>\
+						<div id="BBATT">\
+							<li>\
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>\
+							</li>\
+						</div>\
+						<div id="BBPRO">\
+							<li>\
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>\
+							</li>\
+						</div>\
+						<div id="BBMAT">\
+							<li>\
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>\
+							</li>\
+						</div>\
+						<div id="BBTRG">\
+							<li>\
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>\
+							</li>\
+						</div>\
+						<div id="BBCLC">\
+							<li id="bottom" class="selected">\
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>\
+							</li>\
+						</div>\
+					</ul>';
+  			}
+  			
+  		</script>
+  	</head>
+  	
+  	<body onload="BBMem()">
+  		<div id="content">
+			<div id="navigation">
+				<ul>
+					<li id="firstTab">
+						<a href="../index.html"> Home </a>
+					</li>
+					<li class="selected">
+						<a href="apps.html" id="selected2"> Apps </a>
+					</li>
+					<li>
+						<a href = "Contact_Us.html"> Contact Us </a>
+					</li>
+					<li>
+						<a href = "highScores.html"> High Scores </a>
+					</li>
+					<li id="lastTab">
+						<a href = "aboutUs.html"> About Us </a>
+					</li>	
+				</ul>
+			</div>
+			<div id="local">
+				<h2>	
+					BLADE ENTERPRISES
+				</h2>
+				
+				<h3>
+					Apps
+				</h3>
+				
+				<div id="iconSec">
+					<img class="icon" alt="BrainBuilderPro" src="../images/Icon1024.png">
+					<img class="icon" alt="BrainBuilderPro" src="../images/BrainBuilderAttentio1024.png">
+					<img class="icon" alt="BrainBuilderPro" src="../images/BrainBuilderPro1024.png">
+					<img class="icon" alt="BrainBuilderPro" src="../images/BrainBuilderMath1024.png">
+					<img class="icon" alt="BrainBuilderPro" src="../images/BrainBuilderTrig1024.png">
+					<img class="icon" alt="BrainBuilderPro" src="../images/BrainBuilderCalc1024_2.png">
+				</div>
+				
+				<div id="SecondaryNav">
+					<!--
+					<ul id="verticle">
+						<div id="BBMEM">
+							<li id="top">
+								<a href="#" onclick="BBMem(); return false;"> Brain Builder Memory </a>
+							</li>
+						</div>
+						<div id="BBATT">
+							<li >
+								<a href="#" onclick="BBAttention(); return false;"> Brain Builder Attention </a>
+							</li>
+						</div>
+						<div id="BBPRO">
+							<li>
+								<a href="#" onclick="BBPro(); return false;"> Brain Builder Pro </a>
+							</li>
+						</div>
+						<div id="BBMAT">
+							<li>
+								<a href="#" onclick="BBMath(); return false;"> Brain Builder Math </a>
+							</li>
+						</div>
+						<div id="BBTRG">
+							<li>
+								<a href="#" onclick="BBTrig(); return false;"> Brain Builder Trig </a>
+							</li>
+						</div>
+						<div id="BBCLC">
+							<li id="bottom">
+								<a href="#" onclick="BBCalc(); return false;"> Brain Builder Calc </a>	
+							</li>	
+						</div>
+					</ul>
+					-->
+				</div>
+				
+				<div id="mainContent">
+					
+				</div>
+			</div>
+			<div id="footer">
+				<p>
+					Terms of Use | Privacy Policy <br>
+     				TM &amp; &copy; 2014 BLADE Enterprises.  All Rights Reserved.
+     			</p>
+			</div>
+			
+			<div id="clear">
+			</div>
+		</div>
+  	</body>
+  	
+</html>
