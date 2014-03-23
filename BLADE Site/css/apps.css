@@ -1,7 +1,6 @@
 #SecondaryNav
 {
 	float:left;
-	background-color:red;
 	width:135px;
 	height: 900px;
 }
@@ -11,7 +10,6 @@
 	float: left;
 	width:745px;
 	height:900px;
-	background-color:green;
 }
 
 #verticle
@@ -46,7 +44,6 @@
 	float:left;
 	width:115px;
 	height:900px;
-	background-color:blue;
 }
 
 .image
