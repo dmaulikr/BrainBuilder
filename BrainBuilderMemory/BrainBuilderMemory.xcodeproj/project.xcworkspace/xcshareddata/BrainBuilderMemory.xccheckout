@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6AD68A3-A5B8-448B-BA70-246F099A43C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BrainBuilderMemory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C9561EBD-7870-46D9-A637-2DF05BF0061E</key>
+		<string>https://github.com/fredkneeland/BrainBuilder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BrainBuilderMemory/BrainBuilderMemory.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C9561EBD-7870-46D9-A637-2DF05BF0061E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fredkneeland/BrainBuilder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C9561EBD-7870-46D9-A637-2DF05BF0061E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C9561EBD-7870-46D9-A637-2DF05BF0061E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BrainBuilder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

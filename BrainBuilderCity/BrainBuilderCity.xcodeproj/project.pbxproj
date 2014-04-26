@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B08D8CFD190C23FD0064DDEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8CFC190C23FD0064DDEA /* Foundation.framework */; };
+		B08D8CFF190C23FE0064DDEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8CFE190C23FE0064DDEA /* CoreGraphics.framework */; };
+		B08D8D01190C23FE0064DDEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8D00190C23FE0064DDEA /* UIKit.framework */; };
+		B08D8D07190C23FE0064DDEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D05190C23FE0064DDEA /* InfoPlist.strings */; };
+		B08D8D09190C23FE0064DDEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D08190C23FE0064DDEA /* main.m */; };
+		B08D8D0D190C23FE0064DDEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D0C190C23FE0064DDEA /* AppDelegate.m */; };
+		B08D8D0F190C23FE0064DDEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D0E190C23FE0064DDEA /* Images.xcassets */; };
+		B08D8D16190C23FE0064DDEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8D15190C23FE0064DDEA /* XCTest.framework */; };
+		B08D8D17190C23FE0064DDEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8CFC190C23FD0064DDEA /* Foundation.framework */; };
+		B08D8D18190C23FE0064DDEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08D8D00190C23FE0064DDEA /* UIKit.framework */; };
+		B08D8D20190C23FE0064DDEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D1E190C23FE0064DDEA /* InfoPlist.strings */; };
+		B08D8D22190C23FE0064DDEA /* BrainBuilderCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D21190C23FE0064DDEA /* BrainBuilderCityTests.m */; };
+		B08D8D2E190C249E0064DDEA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D2C190C249E0064DDEA /* RootViewController.m */; };
+		B08D8D2F190C249E0064DDEA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D2D190C249E0064DDEA /* RootViewController.xib */; };
+		B08D8D33190C2AE90064DDEA /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D31190C2AE90064DDEA /* InstructionsViewController.m */; };
+		B08D8D34190C2AE90064DDEA /* InstructionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D32190C2AE90064DDEA /* InstructionsViewController.xib */; };
+		B08D8D38190C2AFC0064DDEA /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D36190C2AFC0064DDEA /* HighScoresViewController.m */; };
+		B08D8D39190C2AFC0064DDEA /* HighScoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D37190C2AFC0064DDEA /* HighScoresViewController.xib */; };
+		B08D8D3D190C2B0D0064DDEA /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08D8D3B190C2B0D0064DDEA /* GameViewController.m */; };
+		B08D8D3E190C2B0D0064DDEA /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B08D8D3C190C2B0D0064DDEA /* GameViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B08D8D19190C23FE0064DDEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08D8CF1190C23FD0064DDEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B08D8CF8190C23FD0064DDEA;
+			remoteInfo = BrainBuilderCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B08D8CF9190C23FD0064DDEA /* BrainBuilderCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainBuilderCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08D8CFC190C23FD0064DDEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B08D8CFE190C23FE0064DDEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B08D8D00190C23FE0064DDEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B08D8D04190C23FE0064DDEA /* BrainBuilderCity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderCity-Info.plist"; sourceTree = "<group>"; };
+		B08D8D06190C23FE0064DDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B08D8D08190C23FE0064DDEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B08D8D0A190C23FE0064DDEA /* BrainBuilderCity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrainBuilderCity-Prefix.pch"; sourceTree = "<group>"; };
+		B08D8D0B190C23FE0064DDEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B08D8D0C190C23FE0064DDEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B08D8D0E190C23FE0064DDEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B08D8D14190C23FE0064DDEA /* BrainBuilderCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainBuilderCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B08D8D15190C23FE0064DDEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B08D8D1D190C23FE0064DDEA /* BrainBuilderCityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrainBuilderCityTests-Info.plist"; sourceTree = "<group>"; };
+		B08D8D1F190C23FE0064DDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B08D8D21190C23FE0064DDEA /* BrainBuilderCityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainBuilderCityTests.m; sourceTree = "<group>"; };
+		B08D8D2B190C249E0064DDEA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B08D8D2C190C249E0064DDEA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B08D8D2D190C249E0064DDEA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B08D8D30190C2AE90064DDEA /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		B08D8D31190C2AE90064DDEA /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		B08D8D32190C2AE90064DDEA /* InstructionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsViewController.xib; sourceTree = "<group>"; };
+		B08D8D35190C2AFC0064DDEA /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		B08D8D36190C2AFC0064DDEA /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		B08D8D37190C2AFC0064DDEA /* HighScoresViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighScoresViewController.xib; sourceTree = "<group>"; };
+		B08D8D3A190C2B0D0064DDEA /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B08D8D3B190C2B0D0064DDEA /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B08D8D3C190C2B0D0064DDEA /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B08D8CF6190C23FD0064DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8CFF190C23FE0064DDEA /* CoreGraphics.framework in Frameworks */,
+				B08D8D01190C23FE0064DDEA /* UIKit.framework in Frameworks */,
+				B08D8CFD190C23FD0064DDEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08D8D11190C23FE0064DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8D16190C23FE0064DDEA /* XCTest.framework in Frameworks */,
+				B08D8D18190C23FE0064DDEA /* UIKit.framework in Frameworks */,
+				B08D8D17190C23FE0064DDEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B08D8CF0190C23FD0064DDEA = {
+			isa = PBXGroup;
+			children = (
+				B08D8D02190C23FE0064DDEA /* BrainBuilderCity */,
+				B08D8D1B190C23FE0064DDEA /* BrainBuilderCityTests */,
+				B08D8CFB190C23FD0064DDEA /* Frameworks */,
+				B08D8CFA190C23FD0064DDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B08D8CFA190C23FD0064DDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8CF9190C23FD0064DDEA /* BrainBuilderCity.app */,
+				B08D8D14190C23FE0064DDEA /* BrainBuilderCityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B08D8CFB190C23FD0064DDEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8CFC190C23FD0064DDEA /* Foundation.framework */,
+				B08D8CFE190C23FE0064DDEA /* CoreGraphics.framework */,
+				B08D8D00190C23FE0064DDEA /* UIKit.framework */,
+				B08D8D15190C23FE0064DDEA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B08D8D02190C23FE0064DDEA /* BrainBuilderCity */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8D0B190C23FE0064DDEA /* AppDelegate.h */,
+				B08D8D0C190C23FE0064DDEA /* AppDelegate.m */,
+				B08D8D0E190C23FE0064DDEA /* Images.xcassets */,
+				B08D8D03190C23FE0064DDEA /* Supporting Files */,
+				B08D8D2B190C249E0064DDEA /* RootViewController.h */,
+				B08D8D2C190C249E0064DDEA /* RootViewController.m */,
+				B08D8D2D190C249E0064DDEA /* RootViewController.xib */,
+				B08D8D30190C2AE90064DDEA /* InstructionsViewController.h */,
+				B08D8D31190C2AE90064DDEA /* InstructionsViewController.m */,
+				B08D8D32190C2AE90064DDEA /* InstructionsViewController.xib */,
+				B08D8D35190C2AFC0064DDEA /* HighScoresViewController.h */,
+				B08D8D36190C2AFC0064DDEA /* HighScoresViewController.m */,
+				B08D8D37190C2AFC0064DDEA /* HighScoresViewController.xib */,
+				B08D8D3A190C2B0D0064DDEA /* GameViewController.h */,
+				B08D8D3B190C2B0D0064DDEA /* GameViewController.m */,
+				B08D8D3C190C2B0D0064DDEA /* GameViewController.xib */,
+			);
+			path = BrainBuilderCity;
+			sourceTree = "<group>";
+		};
+		B08D8D03190C23FE0064DDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8D04190C23FE0064DDEA /* BrainBuilderCity-Info.plist */,
+				B08D8D05190C23FE0064DDEA /* InfoPlist.strings */,
+				B08D8D08190C23FE0064DDEA /* main.m */,
+				B08D8D0A190C23FE0064DDEA /* BrainBuilderCity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B08D8D1B190C23FE0064DDEA /* BrainBuilderCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8D21190C23FE0064DDEA /* BrainBuilderCityTests.m */,
+				B08D8D1C190C23FE0064DDEA /* Supporting Files */,
+			);
+			path = BrainBuilderCityTests;
+			sourceTree = "<group>";
+		};
+		B08D8D1C190C23FE0064DDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B08D8D1D190C23FE0064DDEA /* BrainBuilderCityTests-Info.plist */,
+				B08D8D1E190C23FE0064DDEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B08D8CF8190C23FD0064DDEA /* BrainBuilderCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08D8D25190C23FE0064DDEA /* Build configuration list for PBXNativeTarget "BrainBuilderCity" */;
+			buildPhases = (
+				B08D8CF5190C23FD0064DDEA /* Sources */,
+				B08D8CF6190C23FD0064DDEA /* Frameworks */,
+				B08D8CF7190C23FD0064DDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainBuilderCity;
+			productName = BrainBuilderCity;
+			productReference = B08D8CF9190C23FD0064DDEA /* BrainBuilderCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B08D8D13190C23FE0064DDEA /* BrainBuilderCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B08D8D28190C23FE0064DDEA /* Build configuration list for PBXNativeTarget "BrainBuilderCityTests" */;
+			buildPhases = (
+				B08D8D10190C23FE0064DDEA /* Sources */,
+				B08D8D11190C23FE0064DDEA /* Frameworks */,
+				B08D8D12190C23FE0064DDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08D8D1A190C23FE0064DDEA /* PBXTargetDependency */,
+			);
+			name = BrainBuilderCityTests;
+			productName = BrainBuilderCityTests;
+			productReference = B08D8D14190C23FE0064DDEA /* BrainBuilderCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B08D8CF1190C23FD0064DDEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fred Kneeland";
+				TargetAttributes = {
+					B08D8CF8190C23FD0064DDEA = {
+						DevelopmentTeam = 5G2R2EWSB2;
+					};
+					B08D8D13190C23FE0064DDEA = {
+						TestTargetID = B08D8CF8190C23FD0064DDEA;
+					};
+				};
+			};
+			buildConfigurationList = B08D8CF4190C23FD0064DDEA /* Build configuration list for PBXProject "BrainBuilderCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B08D8CF0190C23FD0064DDEA;
+			productRefGroup = B08D8CFA190C23FD0064DDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B08D8CF8190C23FD0064DDEA /* BrainBuilderCity */,
+				B08D8D13190C23FE0064DDEA /* BrainBuilderCityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B08D8CF7190C23FD0064DDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8D07190C23FE0064DDEA /* InfoPlist.strings in Resources */,
+				B08D8D0F190C23FE0064DDEA /* Images.xcassets in Resources */,
+				B08D8D3E190C2B0D0064DDEA /* GameViewController.xib in Resources */,
+				B08D8D39190C2AFC0064DDEA /* HighScoresViewController.xib in Resources */,
+				B08D8D2F190C249E0064DDEA /* RootViewController.xib in Resources */,
+				B08D8D34190C2AE90064DDEA /* InstructionsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08D8D12190C23FE0064DDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8D20190C23FE0064DDEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B08D8CF5190C23FD0064DDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8D0D190C23FE0064DDEA /* AppDelegate.m in Sources */,
+				B08D8D09190C23FE0064DDEA /* main.m in Sources */,
+				B08D8D38190C2AFC0064DDEA /* HighScoresViewController.m in Sources */,
+				B08D8D2E190C249E0064DDEA /* RootViewController.m in Sources */,
+				B08D8D3D190C2B0D0064DDEA /* GameViewController.m in Sources */,
+				B08D8D33190C2AE90064DDEA /* InstructionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B08D8D10190C23FE0064DDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08D8D22190C23FE0064DDEA /* BrainBuilderCityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08D8D1A190C23FE0064DDEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B08D8CF8190C23FD0064DDEA /* BrainBuilderCity */;
+			targetProxy = B08D8D19190C23FE0064DDEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B08D8D05190C23FE0064DDEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08D8D06190C23FE0064DDEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B08D8D1E190C23FE0064DDEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08D8D1F190C23FE0064DDEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B08D8D23190C23FE0064DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B08D8D24190C23FE0064DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B08D8D26190C23FE0064DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderCity/BrainBuilderCity-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderCity/BrainBuilderCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B08D8D27190C23FE0064DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderCity/BrainBuilderCity-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderCity/BrainBuilderCity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B08D8D29190C23FE0064DDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderCity.app/BrainBuilderCity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderCity/BrainBuilderCity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrainBuilderCityTests/BrainBuilderCityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B08D8D2A190C23FE0064DDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BrainBuilderCity.app/BrainBuilderCity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrainBuilderCity/BrainBuilderCity-Prefix.pch";
+				INFOPLIST_FILE = "BrainBuilderCityTests/BrainBuilderCityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B08D8CF4190C23FD0064DDEA /* Build configuration list for PBXProject "BrainBuilderCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08D8D23190C23FE0064DDEA /* Debug */,
+				B08D8D24190C23FE0064DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B08D8D25190C23FE0064DDEA /* Build configuration list for PBXNativeTarget "BrainBuilderCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08D8D26190C23FE0064DDEA /* Debug */,
+				B08D8D27190C23FE0064DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B08D8D28190C23FE0064DDEA /* Build configuration list for PBXNativeTarget "BrainBuilderCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08D8D29190C23FE0064DDEA /* Debug */,
+				B08D8D2A190C23FE0064DDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B08D8CF1190C23FD0064DDEA /* Project object */;
+}
