@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0E6E16E19C68F2E00F5B0EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E6E16D19C68F2E00F5B0EA /* Cocoa.framework */; };
+		B0E6E17819C68F2E00F5B0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E17619C68F2E00F5B0EA /* InfoPlist.strings */; };
+		B0E6E17A19C68F2E00F5B0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E6E17919C68F2E00F5B0EA /* main.m */; };
+		B0E6E17E19C68F2E00F5B0EA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E17C19C68F2E00F5B0EA /* Credits.rtf */; };
+		B0E6E18119C68F2E00F5B0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E6E18019C68F2E00F5B0EA /* AppDelegate.m */; };
+		B0E6E18419C68F2E00F5B0EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E18219C68F2E00F5B0EA /* MainMenu.xib */; };
+		B0E6E18619C68F2E00F5B0EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E18519C68F2E00F5B0EA /* Images.xcassets */; };
+		B0E6E18D19C68F2E00F5B0EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E6E18C19C68F2E00F5B0EA /* XCTest.framework */; };
+		B0E6E18E19C68F2E00F5B0EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E6E16D19C68F2E00F5B0EA /* Cocoa.framework */; };
+		B0E6E19619C68F2E00F5B0EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E19419C68F2E00F5B0EA /* InfoPlist.strings */; };
+		B0E6E19819C68F2E00F5B0EA /* PolarTicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E6E19719C68F2E00F5B0EA /* PolarTicTacToeTests.m */; };
+		B0E6E1A419C6903500F5B0EA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E6E1A219C6903500F5B0EA /* RootViewController.m */; };
+		B0E6E1A519C6903500F5B0EA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E1A319C6903500F5B0EA /* RootViewController.xib */; };
+		B0E6E1A719C6914B00F5B0EA /* goodPolarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B0E6E1A619C6914B00F5B0EA /* goodPolarImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0E6E18F19C68F2E00F5B0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0E6E16219C68F2D00F5B0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0E6E16919C68F2E00F5B0EA;
+			remoteInfo = PolarTicTacToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0E6E16A19C68F2E00F5B0EA /* PolarTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E6E16D19C68F2E00F5B0EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B0E6E17019C68F2E00F5B0EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B0E6E17119C68F2E00F5B0EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0E6E17219C68F2E00F5B0EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0E6E17519C68F2E00F5B0EA /* PolarTicTacToe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolarTicTacToe-Info.plist"; sourceTree = "<group>"; };
+		B0E6E17719C68F2E00F5B0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E6E17919C68F2E00F5B0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0E6E17B19C68F2E00F5B0EA /* PolarTicTacToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PolarTicTacToe-Prefix.pch"; sourceTree = "<group>"; };
+		B0E6E17D19C68F2E00F5B0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B0E6E17F19C68F2E00F5B0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0E6E18019C68F2E00F5B0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0E6E18319C68F2E00F5B0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B0E6E18519C68F2E00F5B0EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0E6E18B19C68F2E00F5B0EA /* PolarTicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolarTicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E6E18C19C68F2E00F5B0EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0E6E19319C68F2E00F5B0EA /* PolarTicTacToeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PolarTicTacToeTests-Info.plist"; sourceTree = "<group>"; };
+		B0E6E19519C68F2E00F5B0EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0E6E19719C68F2E00F5B0EA /* PolarTicTacToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolarTicTacToeTests.m; sourceTree = "<group>"; };
+		B0E6E1A119C6903500F5B0EA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B0E6E1A219C6903500F5B0EA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B0E6E1A319C6903500F5B0EA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B0E6E1A619C6914B00F5B0EA /* goodPolarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goodPolarImage.png; path = ../../../../../Documents/goodPolarImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0E6E16719C68F2E00F5B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E16E19C68F2E00F5B0EA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E6E18819C68F2E00F5B0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E18E19C68F2E00F5B0EA /* Cocoa.framework in Frameworks */,
+				B0E6E18D19C68F2E00F5B0EA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0E6E16119C68F2D00F5B0EA = {
+			isa = PBXGroup;
+			children = (
+				B0E6E17319C68F2E00F5B0EA /* PolarTicTacToe */,
+				B0E6E19119C68F2E00F5B0EA /* PolarTicTacToeTests */,
+				B0E6E16C19C68F2E00F5B0EA /* Frameworks */,
+				B0E6E16B19C68F2E00F5B0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0E6E16B19C68F2E00F5B0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E16A19C68F2E00F5B0EA /* PolarTicTacToe.app */,
+				B0E6E18B19C68F2E00F5B0EA /* PolarTicTacToeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0E6E16C19C68F2E00F5B0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E16D19C68F2E00F5B0EA /* Cocoa.framework */,
+				B0E6E18C19C68F2E00F5B0EA /* XCTest.framework */,
+				B0E6E16F19C68F2E00F5B0EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0E6E16F19C68F2E00F5B0EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E17019C68F2E00F5B0EA /* AppKit.framework */,
+				B0E6E17119C68F2E00F5B0EA /* CoreData.framework */,
+				B0E6E17219C68F2E00F5B0EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B0E6E17319C68F2E00F5B0EA /* PolarTicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E17F19C68F2E00F5B0EA /* AppDelegate.h */,
+				B0E6E18019C68F2E00F5B0EA /* AppDelegate.m */,
+				B0E6E18219C68F2E00F5B0EA /* MainMenu.xib */,
+				B0E6E1A119C6903500F5B0EA /* RootViewController.h */,
+				B0E6E1A219C6903500F5B0EA /* RootViewController.m */,
+				B0E6E1A319C6903500F5B0EA /* RootViewController.xib */,
+				B0E6E1A619C6914B00F5B0EA /* goodPolarImage.png */,
+				B0E6E18519C68F2E00F5B0EA /* Images.xcassets */,
+				B0E6E17419C68F2E00F5B0EA /* Supporting Files */,
+			);
+			path = PolarTicTacToe;
+			sourceTree = "<group>";
+		};
+		B0E6E17419C68F2E00F5B0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E17519C68F2E00F5B0EA /* PolarTicTacToe-Info.plist */,
+				B0E6E17619C68F2E00F5B0EA /* InfoPlist.strings */,
+				B0E6E17919C68F2E00F5B0EA /* main.m */,
+				B0E6E17B19C68F2E00F5B0EA /* PolarTicTacToe-Prefix.pch */,
+				B0E6E17C19C68F2E00F5B0EA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0E6E19119C68F2E00F5B0EA /* PolarTicTacToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E19719C68F2E00F5B0EA /* PolarTicTacToeTests.m */,
+				B0E6E19219C68F2E00F5B0EA /* Supporting Files */,
+			);
+			path = PolarTicTacToeTests;
+			sourceTree = "<group>";
+		};
+		B0E6E19219C68F2E00F5B0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0E6E19319C68F2E00F5B0EA /* PolarTicTacToeTests-Info.plist */,
+				B0E6E19419C68F2E00F5B0EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0E6E16919C68F2E00F5B0EA /* PolarTicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E6E19B19C68F2E00F5B0EA /* Build configuration list for PBXNativeTarget "PolarTicTacToe" */;
+			buildPhases = (
+				B0E6E16619C68F2E00F5B0EA /* Sources */,
+				B0E6E16719C68F2E00F5B0EA /* Frameworks */,
+				B0E6E16819C68F2E00F5B0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarTicTacToe;
+			productName = PolarTicTacToe;
+			productReference = B0E6E16A19C68F2E00F5B0EA /* PolarTicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0E6E18A19C68F2E00F5B0EA /* PolarTicTacToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0E6E19E19C68F2E00F5B0EA /* Build configuration list for PBXNativeTarget "PolarTicTacToeTests" */;
+			buildPhases = (
+				B0E6E18719C68F2E00F5B0EA /* Sources */,
+				B0E6E18819C68F2E00F5B0EA /* Frameworks */,
+				B0E6E18919C68F2E00F5B0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0E6E19019C68F2E00F5B0EA /* PBXTargetDependency */,
+			);
+			name = PolarTicTacToeTests;
+			productName = PolarTicTacToeTests;
+			productReference = B0E6E18B19C68F2E00F5B0EA /* PolarTicTacToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0E6E16219C68F2D00F5B0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fred Kneeland";
+				TargetAttributes = {
+					B0E6E18A19C68F2E00F5B0EA = {
+						TestTargetID = B0E6E16919C68F2E00F5B0EA;
+					};
+				};
+			};
+			buildConfigurationList = B0E6E16519C68F2D00F5B0EA /* Build configuration list for PBXProject "PolarTicTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0E6E16119C68F2D00F5B0EA;
+			productRefGroup = B0E6E16B19C68F2E00F5B0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0E6E16919C68F2E00F5B0EA /* PolarTicTacToe */,
+				B0E6E18A19C68F2E00F5B0EA /* PolarTicTacToeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0E6E16819C68F2E00F5B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E17819C68F2E00F5B0EA /* InfoPlist.strings in Resources */,
+				B0E6E1A719C6914B00F5B0EA /* goodPolarImage.png in Resources */,
+				B0E6E18619C68F2E00F5B0EA /* Images.xcassets in Resources */,
+				B0E6E1A519C6903500F5B0EA /* RootViewController.xib in Resources */,
+				B0E6E17E19C68F2E00F5B0EA /* Credits.rtf in Resources */,
+				B0E6E18419C68F2E00F5B0EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E6E18919C68F2E00F5B0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E19619C68F2E00F5B0EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0E6E16619C68F2E00F5B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E18119C68F2E00F5B0EA /* AppDelegate.m in Sources */,
+				B0E6E17A19C68F2E00F5B0EA /* main.m in Sources */,
+				B0E6E1A419C6903500F5B0EA /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E6E18719C68F2E00F5B0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E6E19819C68F2E00F5B0EA /* PolarTicTacToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0E6E19019C68F2E00F5B0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0E6E16919C68F2E00F5B0EA /* PolarTicTacToe */;
+			targetProxy = B0E6E18F19C68F2E00F5B0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0E6E17619C68F2E00F5B0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E6E17719C68F2E00F5B0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0E6E17C19C68F2E00F5B0EA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E6E17D19C68F2E00F5B0EA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B0E6E18219C68F2E00F5B0EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E6E18319C68F2E00F5B0EA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B0E6E19419C68F2E00F5B0EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0E6E19519C68F2E00F5B0EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0E6E19919C68F2E00F5B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B0E6E19A19C68F2E00F5B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B0E6E19C19C68F2E00F5B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolarTicTacToe/PolarTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PolarTicTacToe/PolarTicTacToe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0E6E19D19C68F2E00F5B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolarTicTacToe/PolarTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PolarTicTacToe/PolarTicTacToe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0E6E19F19C68F2E00F5B0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PolarTicTacToe.app/Contents/MacOS/PolarTicTacToe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolarTicTacToe/PolarTicTacToe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PolarTicTacToeTests/PolarTicTacToeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0E6E1A019C68F2E00F5B0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PolarTicTacToe.app/Contents/MacOS/PolarTicTacToe";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolarTicTacToe/PolarTicTacToe-Prefix.pch";
+				INFOPLIST_FILE = "PolarTicTacToeTests/PolarTicTacToeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0E6E16519C68F2D00F5B0EA /* Build configuration list for PBXProject "PolarTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E6E19919C68F2E00F5B0EA /* Debug */,
+				B0E6E19A19C68F2E00F5B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0E6E19B19C68F2E00F5B0EA /* Build configuration list for PBXNativeTarget "PolarTicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E6E19C19C68F2E00F5B0EA /* Debug */,
+				B0E6E19D19C68F2E00F5B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0E6E19E19C68F2E00F5B0EA /* Build configuration list for PBXNativeTarget "PolarTicTacToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0E6E19F19C68F2E00F5B0EA /* Debug */,
+				B0E6E1A019C68F2E00F5B0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0E6E16219C68F2D00F5B0EA /* Project object */;
+}

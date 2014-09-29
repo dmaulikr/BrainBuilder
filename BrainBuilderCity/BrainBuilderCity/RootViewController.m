@@ -37,6 +37,7 @@
 {
     HighScoresViewController *highScoresViewController = [[HighScoresViewController alloc] init];
     self.navigationItem.title = @"Back";
+    [highScoresViewController alertOff];
     [self.navigationController pushViewController:highScoresViewController animated:YES];
 }
 
@@ -49,9 +50,13 @@
 
 - (void)viewDidLoad
 {
-    self.navigationItem.title = @"Brain Builder City";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
+    self.navigationItem.title = @"Brain Builder City";
 }
 
 - (void)didReceiveMemoryWarning

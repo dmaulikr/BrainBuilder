@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0EE12EA19BFFC6B00408ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE12E919BFFC6B00408ABC /* Foundation.framework */; };
+		B0EE12EC19BFFC6B00408ABC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE12EB19BFFC6B00408ABC /* CoreGraphics.framework */; };
+		B0EE12EE19BFFC6B00408ABC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE12ED19BFFC6B00408ABC /* UIKit.framework */; };
+		B0EE12F419BFFC6B00408ABC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0EE12F219BFFC6B00408ABC /* InfoPlist.strings */; };
+		B0EE12F619BFFC6B00408ABC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE12F519BFFC6B00408ABC /* main.m */; };
+		B0EE12FA19BFFC6B00408ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE12F919BFFC6B00408ABC /* AppDelegate.m */; };
+		B0EE12FC19BFFC6B00408ABC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EE12FB19BFFC6B00408ABC /* Images.xcassets */; };
+		B0EE130319BFFC6B00408ABC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE130219BFFC6B00408ABC /* XCTest.framework */; };
+		B0EE130419BFFC6B00408ABC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE12E919BFFC6B00408ABC /* Foundation.framework */; };
+		B0EE130519BFFC6B00408ABC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EE12ED19BFFC6B00408ABC /* UIKit.framework */; };
+		B0EE130D19BFFC6B00408ABC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0EE130B19BFFC6B00408ABC /* InfoPlist.strings */; };
+		B0EE130F19BFFC6B00408ABC /* CascadeEffect_ScorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE130E19BFFC6B00408ABC /* CascadeEffect_ScorerTests.m */; };
+		B0EE131A19C001B900408ABC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE131919C001B900408ABC /* RootViewController.m */; };
+		B0EE131D19C001EC00408ABC /* AppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE131C19C001EC00408ABC /* AppSettings.m */; };
+		B0EE132019C0030400408ABC /* AutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE131F19C0030400408ABC /* AutoViewController.m */; };
+		B0EE132319C0031000408ABC /* TelopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE132219C0031000408ABC /* TelopViewController.m */; };
+		B0EE132619C0031B00408ABC /* PenaltyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EE132519C0031B00408ABC /* PenaltyViewController.m */; };
+		B0EE132819C0036700408ABC /* RootView35.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE132719C0036700408ABC /* RootView35.xib */; };
+		B0EE132A19C0037500408ABC /* RootView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE132919C0037500408ABC /* RootView4.xib */; };
+		B0EE132C19C0081900408ABC /* AutoView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE132B19C0081900408ABC /* AutoView4.xib */; };
+		B0EE132E19C0082700408ABC /* AutoView35.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE132D19C0082700408ABC /* AutoView35.xib */; };
+		B0EE133019C0083400408ABC /* TelopView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE132F19C0083400408ABC /* TelopView4.xib */; };
+		B0EE133219C0084000408ABC /* TelopView35.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE133119C0084000408ABC /* TelopView35.xib */; };
+		B0EE133419C0084C00408ABC /* PenaltyView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE133319C0084C00408ABC /* PenaltyView4.xib */; };
+		B0EE133619C0085700408ABC /* PenaltyView35.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EE133519C0085700408ABC /* PenaltyView35.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0EE130619BFFC6B00408ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0EE12DE19BFFC6B00408ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0EE12E519BFFC6B00408ABC;
+			remoteInfo = "CascadeEffect Scorer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0EE12E619BFFC6B00408ABC /* CascadeEffect Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CascadeEffect Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EE12E919BFFC6B00408ABC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0EE12EB19BFFC6B00408ABC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0EE12ED19BFFC6B00408ABC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0EE12F119BFFC6B00408ABC /* CascadeEffect Scorer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CascadeEffect Scorer-Info.plist"; sourceTree = "<group>"; };
+		B0EE12F319BFFC6B00408ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0EE12F519BFFC6B00408ABC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0EE12F719BFFC6B00408ABC /* CascadeEffect Scorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CascadeEffect Scorer-Prefix.pch"; sourceTree = "<group>"; };
+		B0EE12F819BFFC6B00408ABC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0EE12F919BFFC6B00408ABC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0EE12FB19BFFC6B00408ABC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B0EE130119BFFC6B00408ABC /* CascadeEffect ScorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CascadeEffect ScorerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EE130219BFFC6B00408ABC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B0EE130A19BFFC6B00408ABC /* CascadeEffect ScorerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CascadeEffect ScorerTests-Info.plist"; sourceTree = "<group>"; };
+		B0EE130C19BFFC6B00408ABC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0EE130E19BFFC6B00408ABC /* CascadeEffect_ScorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CascadeEffect_ScorerTests.m; sourceTree = "<group>"; };
+		B0EE131819C001B900408ABC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B0EE131919C001B900408ABC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B0EE131B19C001EC00408ABC /* AppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSettings.h; sourceTree = "<group>"; };
+		B0EE131C19C001EC00408ABC /* AppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSettings.m; sourceTree = "<group>"; };
+		B0EE131E19C0030400408ABC /* AutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoViewController.h; sourceTree = "<group>"; };
+		B0EE131F19C0030400408ABC /* AutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoViewController.m; sourceTree = "<group>"; };
+		B0EE132119C0031000408ABC /* TelopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelopViewController.h; sourceTree = "<group>"; };
+		B0EE132219C0031000408ABC /* TelopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelopViewController.m; sourceTree = "<group>"; };
+		B0EE132419C0031B00408ABC /* PenaltyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenaltyViewController.h; sourceTree = "<group>"; };
+		B0EE132519C0031B00408ABC /* PenaltyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenaltyViewController.m; sourceTree = "<group>"; };
+		B0EE132719C0036700408ABC /* RootView35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView35.xib; sourceTree = "<group>"; };
+		B0EE132919C0037500408ABC /* RootView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView4.xib; sourceTree = "<group>"; };
+		B0EE132B19C0081900408ABC /* AutoView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoView4.xib; sourceTree = "<group>"; };
+		B0EE132D19C0082700408ABC /* AutoView35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoView35.xib; sourceTree = "<group>"; };
+		B0EE132F19C0083400408ABC /* TelopView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelopView4.xib; sourceTree = "<group>"; };
+		B0EE133119C0084000408ABC /* TelopView35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelopView35.xib; sourceTree = "<group>"; };
+		B0EE133319C0084C00408ABC /* PenaltyView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenaltyView4.xib; sourceTree = "<group>"; };
+		B0EE133519C0085700408ABC /* PenaltyView35.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PenaltyView35.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0EE12E319BFFC6B00408ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE12EC19BFFC6B00408ABC /* CoreGraphics.framework in Frameworks */,
+				B0EE12EE19BFFC6B00408ABC /* UIKit.framework in Frameworks */,
+				B0EE12EA19BFFC6B00408ABC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE12FE19BFFC6B00408ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE130319BFFC6B00408ABC /* XCTest.framework in Frameworks */,
+				B0EE130519BFFC6B00408ABC /* UIKit.framework in Frameworks */,
+				B0EE130419BFFC6B00408ABC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0EE12DD19BFFC6B00408ABC = {
+			isa = PBXGroup;
+			children = (
+				B0EE12EF19BFFC6B00408ABC /* CascadeEffect Scorer */,
+				B0EE130819BFFC6B00408ABC /* CascadeEffect ScorerTests */,
+				B0EE12E819BFFC6B00408ABC /* Frameworks */,
+				B0EE12E719BFFC6B00408ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0EE12E719BFFC6B00408ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE12E619BFFC6B00408ABC /* CascadeEffect Scorer.app */,
+				B0EE130119BFFC6B00408ABC /* CascadeEffect ScorerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0EE12E819BFFC6B00408ABC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE12E919BFFC6B00408ABC /* Foundation.framework */,
+				B0EE12EB19BFFC6B00408ABC /* CoreGraphics.framework */,
+				B0EE12ED19BFFC6B00408ABC /* UIKit.framework */,
+				B0EE130219BFFC6B00408ABC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0EE12EF19BFFC6B00408ABC /* CascadeEffect Scorer */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE12F819BFFC6B00408ABC /* AppDelegate.h */,
+				B0EE12F919BFFC6B00408ABC /* AppDelegate.m */,
+				B0EE131819C001B900408ABC /* RootViewController.h */,
+				B0EE131919C001B900408ABC /* RootViewController.m */,
+				B0EE132719C0036700408ABC /* RootView35.xib */,
+				B0EE132919C0037500408ABC /* RootView4.xib */,
+				B0EE131B19C001EC00408ABC /* AppSettings.h */,
+				B0EE131C19C001EC00408ABC /* AppSettings.m */,
+				B0EE131E19C0030400408ABC /* AutoViewController.h */,
+				B0EE131F19C0030400408ABC /* AutoViewController.m */,
+				B0EE132D19C0082700408ABC /* AutoView35.xib */,
+				B0EE132B19C0081900408ABC /* AutoView4.xib */,
+				B0EE132119C0031000408ABC /* TelopViewController.h */,
+				B0EE132219C0031000408ABC /* TelopViewController.m */,
+				B0EE133119C0084000408ABC /* TelopView35.xib */,
+				B0EE132F19C0083400408ABC /* TelopView4.xib */,
+				B0EE132419C0031B00408ABC /* PenaltyViewController.h */,
+				B0EE132519C0031B00408ABC /* PenaltyViewController.m */,
+				B0EE133519C0085700408ABC /* PenaltyView35.xib */,
+				B0EE133319C0084C00408ABC /* PenaltyView4.xib */,
+				B0EE12FB19BFFC6B00408ABC /* Images.xcassets */,
+				B0EE12F019BFFC6B00408ABC /* Supporting Files */,
+			);
+			path = "CascadeEffect Scorer";
+			sourceTree = "<group>";
+		};
+		B0EE12F019BFFC6B00408ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE12F119BFFC6B00408ABC /* CascadeEffect Scorer-Info.plist */,
+				B0EE12F219BFFC6B00408ABC /* InfoPlist.strings */,
+				B0EE12F519BFFC6B00408ABC /* main.m */,
+				B0EE12F719BFFC6B00408ABC /* CascadeEffect Scorer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EE130819BFFC6B00408ABC /* CascadeEffect ScorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE130E19BFFC6B00408ABC /* CascadeEffect_ScorerTests.m */,
+				B0EE130919BFFC6B00408ABC /* Supporting Files */,
+			);
+			path = "CascadeEffect ScorerTests";
+			sourceTree = "<group>";
+		};
+		B0EE130919BFFC6B00408ABC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0EE130A19BFFC6B00408ABC /* CascadeEffect ScorerTests-Info.plist */,
+				B0EE130B19BFFC6B00408ABC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0EE12E519BFFC6B00408ABC /* CascadeEffect Scorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EE131219BFFC6B00408ABC /* Build configuration list for PBXNativeTarget "CascadeEffect Scorer" */;
+			buildPhases = (
+				B0EE12E219BFFC6B00408ABC /* Sources */,
+				B0EE12E319BFFC6B00408ABC /* Frameworks */,
+				B0EE12E419BFFC6B00408ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CascadeEffect Scorer";
+			productName = "CascadeEffect Scorer";
+			productReference = B0EE12E619BFFC6B00408ABC /* CascadeEffect Scorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0EE130019BFFC6B00408ABC /* CascadeEffect ScorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0EE131519BFFC6B00408ABC /* Build configuration list for PBXNativeTarget "CascadeEffect ScorerTests" */;
+			buildPhases = (
+				B0EE12FD19BFFC6B00408ABC /* Sources */,
+				B0EE12FE19BFFC6B00408ABC /* Frameworks */,
+				B0EE12FF19BFFC6B00408ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0EE130719BFFC6B00408ABC /* PBXTargetDependency */,
+			);
+			name = "CascadeEffect ScorerTests";
+			productName = "CascadeEffect ScorerTests";
+			productReference = B0EE130119BFFC6B00408ABC /* CascadeEffect ScorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0EE12DE19BFFC6B00408ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fred Kneeland";
+				TargetAttributes = {
+					B0EE130019BFFC6B00408ABC = {
+						TestTargetID = B0EE12E519BFFC6B00408ABC;
+					};
+				};
+			};
+			buildConfigurationList = B0EE12E119BFFC6B00408ABC /* Build configuration list for PBXProject "CascadeEffect Scorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0EE12DD19BFFC6B00408ABC;
+			productRefGroup = B0EE12E719BFFC6B00408ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0EE12E519BFFC6B00408ABC /* CascadeEffect Scorer */,
+				B0EE130019BFFC6B00408ABC /* CascadeEffect ScorerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0EE12E419BFFC6B00408ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE12F419BFFC6B00408ABC /* InfoPlist.strings in Resources */,
+				B0EE133019C0083400408ABC /* TelopView4.xib in Resources */,
+				B0EE132A19C0037500408ABC /* RootView4.xib in Resources */,
+				B0EE133419C0084C00408ABC /* PenaltyView4.xib in Resources */,
+				B0EE12FC19BFFC6B00408ABC /* Images.xcassets in Resources */,
+				B0EE132E19C0082700408ABC /* AutoView35.xib in Resources */,
+				B0EE132819C0036700408ABC /* RootView35.xib in Resources */,
+				B0EE132C19C0081900408ABC /* AutoView4.xib in Resources */,
+				B0EE133619C0085700408ABC /* PenaltyView35.xib in Resources */,
+				B0EE133219C0084000408ABC /* TelopView35.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE12FF19BFFC6B00408ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE130D19BFFC6B00408ABC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0EE12E219BFFC6B00408ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE12FA19BFFC6B00408ABC /* AppDelegate.m in Sources */,
+				B0EE12F619BFFC6B00408ABC /* main.m in Sources */,
+				B0EE131D19C001EC00408ABC /* AppSettings.m in Sources */,
+				B0EE132019C0030400408ABC /* AutoViewController.m in Sources */,
+				B0EE131A19C001B900408ABC /* RootViewController.m in Sources */,
+				B0EE132319C0031000408ABC /* TelopViewController.m in Sources */,
+				B0EE132619C0031B00408ABC /* PenaltyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0EE12FD19BFFC6B00408ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EE130F19BFFC6B00408ABC /* CascadeEffect_ScorerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0EE130719BFFC6B00408ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0EE12E519BFFC6B00408ABC /* CascadeEffect Scorer */;
+			targetProxy = B0EE130619BFFC6B00408ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0EE12F219BFFC6B00408ABC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EE12F319BFFC6B00408ABC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0EE130B19BFFC6B00408ABC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0EE130C19BFFC6B00408ABC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0EE131019BFFC6B00408ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0EE131119BFFC6B00408ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0EE131319BFFC6B00408ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CascadeEffect Scorer/CascadeEffect Scorer-Prefix.pch";
+				INFOPLIST_FILE = "CascadeEffect Scorer/CascadeEffect Scorer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0EE131419BFFC6B00408ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CascadeEffect Scorer/CascadeEffect Scorer-Prefix.pch";
+				INFOPLIST_FILE = "CascadeEffect Scorer/CascadeEffect Scorer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B0EE131619BFFC6B00408ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CascadeEffect Scorer.app/CascadeEffect Scorer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CascadeEffect Scorer/CascadeEffect Scorer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CascadeEffect ScorerTests/CascadeEffect ScorerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B0EE131719BFFC6B00408ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CascadeEffect Scorer.app/CascadeEffect Scorer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CascadeEffect Scorer/CascadeEffect Scorer-Prefix.pch";
+				INFOPLIST_FILE = "CascadeEffect ScorerTests/CascadeEffect ScorerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0EE12E119BFFC6B00408ABC /* Build configuration list for PBXProject "CascadeEffect Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE131019BFFC6B00408ABC /* Debug */,
+				B0EE131119BFFC6B00408ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EE131219BFFC6B00408ABC /* Build configuration list for PBXNativeTarget "CascadeEffect Scorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE131319BFFC6B00408ABC /* Debug */,
+				B0EE131419BFFC6B00408ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0EE131519BFFC6B00408ABC /* Build configuration list for PBXNativeTarget "CascadeEffect ScorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0EE131619BFFC6B00408ABC /* Debug */,
+				B0EE131719BFFC6B00408ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0EE12DE19BFFC6B00408ABC /* Project object */;
+}

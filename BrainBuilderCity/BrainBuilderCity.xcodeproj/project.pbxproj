@@ -492,6 +492,7 @@
 				B08D8D27190C23FE0064DDEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B08D8D28190C23FE0064DDEA /* Build configuration list for PBXNativeTarget "BrainBuilderCityTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				B08D8D2A190C23FE0064DDEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
